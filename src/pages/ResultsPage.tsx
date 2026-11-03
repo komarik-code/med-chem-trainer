@@ -7,6 +7,9 @@ import { MODES, categoryLabel, computeResult, startSession } from '../lib/sessio
 import { formatDuration, percent } from '../lib/stats'
 import { OptionList } from '../components/OptionList'
 import { Button, Card, ProgressRing, Rich, SectionTitle, StatTile } from '../components/ui'
+import { Flame } from 'lucide-react'
+import { daysWord } from '../components/Streak'
+import type { StreakOutcome } from '../lib/types'
 
 export function ResultsPage() {
   const result = useStore(lastResultStore)
@@ -41,6 +44,8 @@ export function ResultsPage() {
         </p>
         <h1 className="mt-1 text-2xl font-extrabold tracking-tight">{message}</h1>
       </header>
+
+      {result.streak && <StreakBanner streak={result.streak} />}
 
       <Card className="p-5">
         <div className="flex flex-col items-center">
@@ -128,6 +133,31 @@ export function ResultsPage() {
           </div>
         </>
       )}
+    </div>
+  )
+}
+
+function StreakBanner({ streak }: { streak: StreakOutcome }) {
+  if (!streak.full) {
+    return (
+      <div className="mb-4 flex items-start gap-3 rounded-2xl bg-surface-2 p-4 text-sm text-ink-2 animate-in">
+        <Flame className="mt-0.5 size-5 shrink-0 text-ink-3" />
+        <span>Тест завершено не повністю, тож для щоденної серії він не зараховується. Потрібно відповісти на всі питання.</span>
+      </div>
+    )
+  }
+  return (
+    <div className="mb-4 flex items-center gap-3 rounded-2xl bg-warn-soft p-4 animate-pop">
+      <div className="grid size-11 shrink-0 place-items-center rounded-2xl bg-warn text-white">
+        <Flame className="size-6 fill-current" />
+      </div>
+      <div className="min-w-0">
+        <div className="font-bold text-warn">{streak.newDay ? 'День зараховано!' : 'Сьогодні вже зараховано'}</div>
+        <div className="text-sm text-ink-2">
+          Серія: <b className="text-ink">{streak.current} {daysWord(streak.current)}</b>
+          {streak.newDay && streak.current > 1 && ' — продовжуй завтра 🔥'}
+        </div>
+      </div>
     </div>
   )
 }

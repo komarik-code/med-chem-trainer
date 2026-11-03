@@ -68,10 +68,28 @@ export interface SessionSummary {
   durationMs: number
 }
 
+/** Активність за календарний день (Europe/Kyiv) */
+export interface DayLog {
+  /** завершених тестів, у яких відповіли на всі питання */
+  fullTests: number
+}
+
 export interface ProgressData {
-  version: 1
+  /** v1 — статистика; v2 — + журнал днів для щоденної серії */
+  version: 2
   questions: Record<string, QuestionStat>
   sessions: SessionSummary[]
+  /** ключ — "YYYY-MM-DD" за Києвом */
+  days: Record<string, DayLog>
+}
+
+/** Як завершення тесту вплинуло на серію */
+export interface StreakOutcome {
+  /** тест пройдено повністю (усі питання з відповіддю) */
+  full: boolean
+  /** це перший повний тест сьогодні — день щойно зараховано */
+  newDay: boolean
+  current: number
 }
 
 export interface SessionConfig {
@@ -95,10 +113,16 @@ export interface ActiveSession {
   index: number
   startedAt: number
   finishedAt: number | null
+  /** заповнюється при завершенні */
+  streak?: StreakOutcome
 }
 
 export type ThemePref = 'system' | 'light' | 'dark'
 
 export interface Settings {
   theme: ThemePref
+  /** коли востаннє скачано JSON з прогресом */
+  lastBackupAt?: number
+  /** коли натиснули «Пізніше» на нагадуванні */
+  backupSnoozedAt?: number
 }

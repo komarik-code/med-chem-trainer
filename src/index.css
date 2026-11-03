@@ -117,3 +117,24 @@ body {
 .pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0px); }
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { scrollbar-width: none; }
+
+/* пасхалка */
+.egg-confetti {
+  position: absolute;
+  top: -20px;
+  width: 9px;
+  height: 14px;
+  border-radius: 2px;
+  opacity: 0.85;
+  animation-name: egg-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes egg-fall {
+  to { transform: translateY(110vh) rotate(720deg); }
+}
+.egg-bounce { animation: egg-bounce 1.6s ease-in-out infinite; }
+@keyframes egg-bounce {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50% { transform: translateY(-12px) rotate(4deg); }
+}

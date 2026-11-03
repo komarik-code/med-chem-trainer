@@ -1,11 +1,14 @@
 import { createPersistentStore } from './store'
+import { computeStreak, kyivDateKey } from './streak'
 import type {
   ActiveSession,
+  DayLog,
   Mode,
   ProgressData,
   QuestionStat,
   SessionSummary,
   Settings,
+  StreakOutcome,
 } from './types'
 
 /** Скільки правильних відповідей поспіль потрібно, щоб питання вийшло зі списку помилок. */
@@ -40,8 +43,15 @@ function normalizeStat(raw: unknown): QuestionStat | null {
   }
 }
 
+const DAY_KEY_RE = /^\d{4}-\d{2}-\d{2}$/
+
+/**
+ * Перевірка й міграція збережених даних.
+ * v1 → v2: додається порожній журнал днів (минулі повні тести відновити неможливо —
+ * у v1 не зберігалось, чи тест пройдено повністю).
+ */
 export function validateProgress(raw: unknown): ProgressData | null {
-  if (!isObj(raw) || raw.version !== 1 || !isObj(raw.questions)) return null
+  if (!isObj(raw) || (raw.version !== 1 && raw.version !== 2) || !isObj(raw.questions)) return null
   const questions: Record<string, QuestionStat> = {}
   for (const [id, s] of Object.entries(raw.questions)) {
     const st = normalizeStat(s)
@@ -50,17 +60,30 @@ export function validateProgress(raw: unknown): ProgressData | null {
   const sessions: SessionSummary[] = Array.isArray(raw.sessions)
     ? (raw.sessions.filter(isObj) as unknown as SessionSummary[]).slice(-SESSIONS_LIMIT)
     : []
-  return { version: 1, questions, sessions }
+  const days: Record<string, DayLog> = {}
+  if (raw.version === 2 && isObj(raw.days)) {
+    for (const [k, d] of Object.entries(raw.days)) {
+      if (DAY_KEY_RE.test(k) && isObj(d) && num(d.fullTests) > 0) days[k] = { fullTests: Math.floor(num(d.fullTests)) }
+    }
+  }
+  return { version: 2, questions, sessions, days }
 }
 
-const emptyProgress = (): ProgressData => ({ version: 1, questions: {}, sessions: [] })
+const emptyProgress = (): ProgressData => ({ version: 2, questions: {}, sessions: [], days: {} })
 
 export const progressStore = createPersistentStore<ProgressData>(`${PREFIX}:progress:v1`, emptyProgress, validateProgress)
 
 export const settingsStore = createPersistentStore<Settings>(
   `${PREFIX}:settings`,
   () => ({ theme: 'system' }),
-  (raw) => (isObj(raw) && ['system', 'light', 'dark'].includes(raw.theme as string) ? (raw as unknown as Settings) : null),
+  (raw) =>
+    isObj(raw) && ['system', 'light', 'dark'].includes(raw.theme as string)
+      ? {
+          theme: raw.theme as Settings['theme'],
+          lastBackupAt: typeof raw.lastBackupAt === 'number' ? raw.lastBackupAt : undefined,
+          backupSnoozedAt: typeof raw.backupSnoozedAt === 'number' ? raw.backupSnoozedAt : undefined,
+        }
+      : null,
 )
 
 function validateSession(raw: unknown): ActiveSession | null {
@@ -112,6 +135,17 @@ export function recordAnswers(items: { id: string; ok: boolean }[], mode: Mode) 
 
 export function addSessionSummary(summary: SessionSummary) {
   progressStore.update((p) => ({ ...p, sessions: [...p.sessions, summary].slice(-SESSIONS_LIMIT) }))
+}
+
+/**
+ * Зарахувати повністю завершений тест у журнал днів.
+ * День визначається моментом завершення за Києвом, тож «заднім числом» його не зарахувати.
+ */
+export function recordFullTest(now = Date.now()): StreakOutcome {
+  const key = kyivDateKey(now)
+  const prev = progressStore.get().days[key]?.fullTests ?? 0
+  progressStore.update((p) => ({ ...p, days: { ...p.days, [key]: { fullTests: prev + 1 } } }))
+  return { full: true, newDay: prev === 0, current: computeStreak(progressStore.get().days, now).current }
 }
 
 export function resetProgress() {

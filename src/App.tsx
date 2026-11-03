@@ -5,6 +5,7 @@ import { DataProvider } from './lib/data'
 import { useStore } from './lib/store'
 import { settingsStore } from './lib/progress'
 import { Layout } from './components/Layout'
+import { BirthdayEgg } from './components/BirthdayEgg'
 import { Button } from './components/ui'
 import { HomePage } from './pages/HomePage'
 import { CategoryPage } from './pages/CategoryPage'
@@ -66,6 +67,7 @@ export default function App() {
     <DataProvider fallback={<Splash />} error={(m, retry) => <LoadError message={m} retry={retry} />}>
       <HashRouter>
         <ScrollToTop />
+        <BirthdayEgg />
         <Routes>
           <Route element={<Layout />}>
             <Route index element={<HomePage />} />

@@ -1,5 +1,5 @@
 import type { QuizData } from './data'
-import { addSessionSummary, lastResultStore, progressStore, recordAnswers, sessionStore } from './progress'
+import { addSessionSummary, lastResultStore, progressStore, recordAnswers, recordFullTest, sessionStore } from './progress'
 import { weaknessScore } from './stats'
 import type { ActiveSession, Mode, Question, SessionConfig } from './types'
 
@@ -186,6 +186,8 @@ export function finishSession(data: QuizData): ActiveSession | null {
     recordAnswers(items, s.config.mode)
   }
   const r = computeResult(finished, data)
+  // щоденна серія: зараховується лише тест, у якому відповіли на всі питання
+  finished.streak = r.total > 0 && r.unanswered === 0 ? recordFullTest(finished.finishedAt!) : { full: false, newDay: false, current: 0 }
   if (r.answered > 0) {
     addSessionSummary({
       id: s.id,

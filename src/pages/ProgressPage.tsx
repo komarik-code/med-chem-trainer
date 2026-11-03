@@ -2,12 +2,15 @@ import { useRef, useState } from 'react'
 import { Download, Monitor, Moon, Sun, Trash2, Upload } from 'lucide-react'
 import { useQuizData } from '../lib/data'
 import { useStore } from '../lib/store'
-import { exportProgressJson, importProgress, parseImport, progressStore, resetProgress, settingsStore } from '../lib/progress'
+import { importProgress, parseImport, progressStore, resetProgress, settingsStore } from '../lib/progress'
 import { MODES, categoryLabel } from '../lib/session'
 import { aggregate, formatDate, formatDuration, percent, plural } from '../lib/stats'
 import { splitTitle } from '../lib/titles'
 import type { ProgressData, ThemePref } from '../lib/types'
 import { ModeIcon, MODE_TONE } from '../components/ModeIcon'
+import { StreakCard } from '../components/Streak'
+import { BackupDisclaimer } from '../components/BackupReminder'
+import { downloadBackup } from '../lib/backup'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { Button, Card, PageHeader, ProgressBar, SectionTitle, StatTile, cx } from '../components/ui'
 
@@ -26,15 +29,7 @@ export function ProgressPage() {
   const totalTime = progress.sessions.reduce((s, x) => s + x.durationMs, 0)
 
   const onExport = () => {
-    const blob = new Blob([exportProgressJson()], { type: 'application/json' })
-    const url = URL.createObjectURL(blob)
-    const link = document.createElement('a')
-    link.href = url
-    link.download = `himtrenazher-progress-${new Date().toISOString().slice(0, 10)}.json`
-    document.body.appendChild(link)
-    link.click()
-    link.remove()
-    setTimeout(() => URL.revokeObjectURL(url), 1000)
+    downloadBackup()
     setNotice({ ok: true, text: 'Файл з прогресом збережено. Його можна імпортувати на іншому пристрої.' })
   }
 
@@ -65,6 +60,10 @@ export function ProgressPage() {
   return (
     <div className="animate-in">
       <PageHeader title="Прогрес" />
+
+      <StreakCard />
+
+      <SectionTitle>Статистика</SectionTitle>
 
       <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
         <StatTile label="Відповідей" value={a.attempts} />
@@ -161,8 +160,10 @@ export function ProgressPage() {
       <SectionTitle>Дані</SectionTitle>
       <Card className="p-4">
         <p className="text-sm text-ink-2">
-          Прогрес зберігається лише в цьому браузері. Щоб перенести його на інший пристрій або не втратити після очищення браузера — експортуйте файл і потім імпортуйте його.
+          Прогрес зберігається лише в цьому браузері*. Щоб перенести його на інший пристрій або не втратити після очищення браузера — експортуйте файл і потім імпортуйте його.
+          {settings.lastBackupAt ? <> Останній експорт: <b>{formatDate(settings.lastBackupAt)}</b>.</> : <> Експорту ще не було.</>}
         </p>
+        <BackupDisclaimer className="mt-2" />
         {notice && (
           <p role="status" className={cx('mt-3 rounded-xl px-3 py-2 text-sm font-medium', notice.ok ? 'bg-ok-soft text-ok' : 'bg-bad-soft text-bad')}>
             {notice.text}

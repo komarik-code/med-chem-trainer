@@ -9,6 +9,8 @@ import { MODES, MODE_ORDER, abandonSession, categoryLabel } from '../lib/session
 import { CategoryCard } from '../components/CategoryCard'
 import { ModeIcon, MODE_TONE } from '../components/ModeIcon'
 import { ConfirmDialog } from '../components/ConfirmDialog'
+import { StreakChip } from '../components/Streak'
+import { BackupReminder } from '../components/BackupReminder'
 import { Card, ProgressRing, SectionTitle, StatTile, cx } from '../components/ui'
 
 export function HomePage() {
@@ -22,10 +24,15 @@ export function HomePage() {
 
   return (
     <div className="animate-in">
-      <header className="pt-6 pb-5">
-        <p className="text-sm font-medium text-ink-3">Тренажер тестів</p>
-        <h1 className="text-[28px] leading-tight font-extrabold tracking-tight">ХімТренажер</h1>
+      <header className="flex items-end justify-between gap-3 pt-6 pb-5">
+        <div>
+          <p className="text-sm font-medium text-ink-3">Тренажер тестів</p>
+          <h1 className="text-[28px] leading-tight font-extrabold tracking-tight">ХімТренажер</h1>
+        </div>
+        <StreakChip />
       </header>
+
+      <BackupReminder />
 
       {active && (
         <Card className="mb-4 flex items-center gap-3 border-accent/40 p-4">

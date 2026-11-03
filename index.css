@@ -1,0 +1,140 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+
+  --radius-card: 1.25rem;
+  --shadow-card: 0 1px 2px rgb(15 18 30 / 0.04), 0 4px 16px rgb(15 18 30 / 0.05);
+
+  --animate-in: fade-up 0.24s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-pop: pop 0.22s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-shake: shake 0.32s ease both;
+}
+
+:root {
+  --bg: #f5f6fb;
+  --surface: #ffffff;
+  --surface-2: #eef0f7;
+  --line: #e3e6ef;
+  --ink: #161827;
+  --ink-2: #4b5068;
+  --ink-3: #8a8fa6;
+  --accent: #5b5bd6;
+  --accent-ink: #ffffff;
+  --accent-soft: #ecebfd;
+  --ok: #16a34a;
+  --ok-soft: #e6f7ec;
+  --bad: #e5484d;
+  --bad-soft: #fdecec;
+  --warn: #d97706;
+  --warn-soft: #fdf3e2;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0e1016;
+  --surface: #171a23;
+  --surface-2: #20242f;
+  --line: #2a2f3c;
+  --ink: #eef0f6;
+  --ink-2: #b2b7c8;
+  --ink-3: #7b8196;
+  --accent: #8b8cf7;
+  --accent-ink: #0e1016;
+  --accent-soft: #24264a;
+  --ok: #3ccf74;
+  --ok-soft: #133022;
+  --bad: #ff6b6f;
+  --bad-soft: #3a1b1e;
+  --warn: #f5a524;
+  --warn-soft: #362812;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.3);
+  color-scheme: dark;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes pop {
+  0% { transform: scale(0.97); }
+  60% { transform: scale(1.015); }
+  100% { transform: scale(1); }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+}
+#root { min-height: 100dvh; }
+
+/* текст з бази: індекси, картинки-формули, довгі формули */
+.rich { overflow-wrap: break-word; word-break: normal; hyphens: manual; }
+.rich sub, .rich sup { font-size: 0.72em; line-height: 0; }
+.rich img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  background: #fff;
+  border-radius: 6px;
+  padding: 3px;
+  margin: 2px 0;
+}
+
+.pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0px); }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+/* пасхалка */
+.egg-confetti {
+  position: absolute;
+  top: -20px;
+  width: 9px;
+  height: 14px;
+  border-radius: 2px;
+  opacity: 0.85;
+  animation-name: egg-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes egg-fall {
+  to { transform: translateY(110vh) rotate(720deg); }
+}
+.egg-bounce { animation: egg-bounce 1.6s ease-in-out infinite; }
+@keyframes egg-bounce {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50% { transform: translateY(-12px) rotate(4deg); }
+}

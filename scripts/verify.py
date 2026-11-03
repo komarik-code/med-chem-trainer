@@ -16,6 +16,9 @@ import sys
 import tempfile
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from convert import fix_font_charsets  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "public" / "data"
 
@@ -49,7 +52,9 @@ def main() -> int:
     errors, total_src, total_json = [], 0, 0
     with tempfile.TemporaryDirectory() as td:
         for cat in index["categories"]:
-            rtf = ROOT / "sources" / f"{cat['id']}.rtf"
+            # те саме виправлення кодування шрифтів, що й у convert.py
+            rtf = Path(td) / f"{cat['id']}.rtf"
+            rtf.write_bytes(fix_font_charsets((ROOT / "sources" / f"{cat['id']}.rtf").read_bytes()))
             subprocess.run(["soffice", "--headless", "--convert-to", "txt:Text", "--outdir", td, str(rtf)],
                            check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             src = parse_txt(Path(td) / f"{cat['id']}.txt")
@@ -96,6 +101,10 @@ def main() -> int:
                     errors.append(f"[{cat['id']}] №{n}: немає правильної відповіді")
             print(f"[{cat['id']}] {cat['title']}: у джерелі {len(src)}, у JSON {len(qs)}")
     print(f"РАЗОМ: у джерелах {total_src}, у JSON {total_json}")
+    for cat in index["categories"]:
+        raw = (ROOT / "public" / cat["file"]).read_text(encoding="utf-8")
+        if "\ufffd" in raw:
+            errors.append(f"[{cat['id']}] у JSON є биті символи (�)")
     if errors:
         print("\nПОМИЛКИ:")
         print("\n".join(errors))

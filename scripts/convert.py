@@ -133,9 +133,69 @@ def plain(s: str) -> str:
 # --------------------------------------------------------------------------
 # Обробка одного файлу
 # --------------------------------------------------------------------------
+# Таблиця кодування шрифту Symbol → Unicode (Adobe Symbol encoding, найуживаніші символи)
+SYMBOL_MAP = {
+    **dict(zip("ABGDEZHQIKLMNXOPRSTUFCYW", "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ")),
+    **dict(zip("abgdezhqiklmnxoprstufcyw", "αβγδεζηθικλμνξοπρστυφχψω")),
+    "J": "ϑ", "j": "φ", "v": "ϖ", "V": "ς",
+    0xA3: "≤", 0xA5: "∞", 0xAB: "↔", 0xAC: "←", 0xAD: "↑", 0xAE: "→", 0xAF: "↓",
+    0xB0: "°", 0xB1: "±", 0xB3: "≥", 0xB4: "×", 0xB5: "∝", 0xB6: "∂", 0xB7: "•", 0xB8: "÷",
+    0xB9: "≠", 0xBA: "≡", 0xBB: "≈", 0xBC: "…", 0xD6: "√", 0xD7: "⋅", 0xD5: "∏", 0xE5: "∑",
+    0xDB: "⇔", 0xDC: "⇐", 0xDD: "⇑", 0xDE: "⇒", 0xDF: "⇓", 0xF2: "∫",
+}
+_RTF_TOKEN = re.compile(rb"\\'[0-9a-fA-F]{2}|\\[a-zA-Z]+-?\d* ?|\\.|[{}]|[^\\{}]", re.S)
+
+
+def _u(ch: str) -> bytes:
+    return f"\\u{ord(ch)}?".encode()
+
+
+def _symbol_runs_to_unicode(raw: bytes) -> bytes:
+    """Текст, набраний шрифтом Symbol (\\fcharset2), LibreOffice відкидає. Переводимо його в \\uNNNN."""
+    fonts = re.findall(rb"\{\\f(\d+)\\fcharset2 Symbol\}", raw)
+    if not fonts:
+        return raw
+    sym = {f"\\f{n.decode()}".encode() for n in fonts}
+    # таблицю шрифтів не чіпаємо — обробляємо лише текст після неї
+    i = raw.find(b"{\\fonttbl")
+    head_end = raw.find(b"}}", i) + 2 if i >= 0 else 0
+    head, body = raw[:head_end], raw[head_end:]
+    out, in_sym = [head], False
+    for m in _RTF_TOKEN.finditer(body):
+        tok = m.group(0)
+        word = re.match(rb"\\f\d+", tok)
+        if word and re.fullmatch(rb"\\f\d+ ?", tok):
+            in_sym = word.group(0) in sym
+            out.append(tok)
+        elif tok in (b"{", b"}"):
+            in_sym = False
+            out.append(tok)
+        elif in_sym and tok.startswith(b"\\'"):
+            ch = SYMBOL_MAP.get(int(tok[2:], 16))
+            out.append(_u(ch) if ch else tok)
+        elif in_sym and len(tok) == 1 and chr(tok[0]) in SYMBOL_MAP:
+            out.append(_u(SYMBOL_MAP[chr(tok[0])]))
+        else:
+            out.append(tok)
+    return b"".join(out)
+
+
+def fix_font_charsets(raw: bytes) -> bytes:
+    """
+    Виправлення шрифтів у RTF перед конвертацією (оригінальний файл не змінюється):
+    1) «Cambria Math» оголошено з \\fcharset1, хоча байти під ним — кирилиця cp1251
+       («каталізатор», «(г)») — LibreOffice декодує їх як сміття (�). Ставимо кодування 204.
+    2) Символи шрифту Symbol (⇔, →, Δ, υ…) LibreOffice відкидає — переводимо їх у Unicode.
+    """
+    raw = re.sub(rb"(\\f\d+)\\fcharset1( Cambria Math)", rb"\1\\fcharset204\2", raw)
+    return _symbol_runs_to_unicode(raw)
+
+
 def rtf_to_html(rtf: Path, tmp: Path) -> Path:
+    patched = tmp / rtf.name
+    patched.write_bytes(fix_font_charsets(rtf.read_bytes()))
     subprocess.run(
-        ["soffice", "--headless", "--convert-to", "html", "--outdir", str(tmp), str(rtf)],
+        ["soffice", "--headless", "--convert-to", "html", "--outdir", str(tmp), str(patched)],
         check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
     )
     out = tmp / (rtf.stem + ".html")
@@ -252,6 +312,9 @@ def process(rtf: Path, tmp: Path, report: list[str]) -> dict:
             "multiple": n_correct > 1,
         })
 
+    broken = [q["number"] for q in questions if "\ufffd" in q["text"] or any("\ufffd" in o["html"] for o in q["options"])]
+    if broken:
+        raise RuntimeError(f"[{cat_id}] биті символи (�) у питаннях №{broken} — перевірте кодування шрифтів у RTF")
     multi = sum(q["multiple"] for q in questions)
     report.append(f"  збережено питань: {len(questions)}; пропущено: {len(skipped)}; "
                   f"з кількома правильними: {multi}; картинок: {len(images_map)}")

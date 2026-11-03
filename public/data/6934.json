@@ -8498,13 +8498,13 @@
    "multiple": false
   },
   {
-   "id": "6934-9a37a0ca51",
+   "id": "6934-4dac829d25",
    "number": 275,
    "text": "Із наведених рівнянь реакцій оберіть те, що відповідає гідролізу крохмалю:",
    "options": [
     {
      "id": "A",
-     "html": "С<sub>6</sub>Н<sub>12</sub>О<sub>6</sub> + 6О<sub>2</sub> → 6��<sub>2</sub>+6�<sub>2</sub>�"
+     "html": "С<sub>6</sub>Н<sub>12</sub>О<sub>6</sub> + 6О<sub>2</sub> → 6СО<sub>2</sub>+6Н<sub>2</sub>О"
     },
     {
      "id": "B",
@@ -11474,7 +11474,7 @@
    "multiple": false
   },
   {
-   "id": "6934-c2438b1c02",
+   "id": "6934-c846171280",
    "number": 371,
    "text": "В якому випадку має місце гомогенний каталіз?",
    "options": [
@@ -11496,7 +11496,7 @@
     },
     {
      "id": "E",
-     "html": "2SO<sub>2</sub> + O<sub>2</sub>→2SO<sub>3 </sub>(���������� NO)"
+     "html": "2SO<sub>2</sub> + O<sub>2</sub>→2SO<sub>3 </sub>(каталізатор NO)"
     }
    ],
    "correct": [
@@ -11567,7 +11567,7 @@
    "multiple": false
   },
   {
-   "id": "6934-d474ee7fa9",
+   "id": "6934-5005798504",
    "number": 374,
    "text": "Реакція, в якій підвищення тиску не змінює вихід продукту (продуктів), - це:",
    "options": [
@@ -11577,7 +11577,7 @@
     },
     {
      "id": "B",
-     "html": "CS<sub>2( г)</sub> + 3O<sub>2 (г)</sub> → CO<sub>2(�)</sub> + 2SO<sub>2(�)</sub>."
+     "html": "CS<sub>2( г)</sub> + 3O<sub>2 (г)</sub> → CO<sub>2(г)</sub> + 2SO<sub>2(г)</sub>."
     },
     {
      "id": "C",
@@ -12032,9 +12032,9 @@
    "multiple": false
   },
   {
-   "id": "6934-6c39c8aaa4",
+   "id": "6934-d463b0eb45",
    "number": 389,
-   "text": "При яких умовах рівновага оборотної реакції 2SO<sub>2</sub> + O<sub>2</sub>  2SO<sub>3</sub> H=+193 кДж/моль зміститься праворуч:",
+   "text": "При яких умовах рівновага оборотної реакції 2SO<sub>2</sub> + O<sub>2</sub> ⇔ 2SO<sub>3</sub> ΔH=+193 кДж/моль зміститься праворуч:",
    "options": [
     {
      "id": "A",
@@ -12063,9 +12063,9 @@
    "multiple": false
   },
   {
-   "id": "6934-69b4ce6720",
+   "id": "6934-89ffb03365",
    "number": 390,
-   "text": "Запис реакції 2H<sub>2(г.)</sub> + O<sub>2(г.) </sub> 2H<sub>2</sub>O + 571 кДж/моль означає, що:",
+   "text": "Запис реакції 2H<sub>2(г.)</sub> + O<sub>2(г.) </sub>↔ 2H<sub>2</sub>O + 571 кДж/моль означає, що:",
    "options": [
     {
      "id": "A",
@@ -12342,9 +12342,9 @@
    "multiple": false
   },
   {
-   "id": "6934-18b4d5c2a7",
+   "id": "6934-b90d564dee",
    "number": 399,
-   "text": "Під час реакції H<sub>2(г)</sub> + Cl<sub>2(г)</sub> + h  2HCl<sub>(г)</sub> ; ΔH&lt;O",
+   "text": "Під час реакції H<sub>2(г)</sub> + Cl<sub>2(г)</sub> + hυ → 2HCl<sub>(г)</sub> ; ΔH&lt;O",
    "options": [
     {
      "id": "A",

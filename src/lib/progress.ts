@@ -46,6 +46,20 @@ function normalizeStat(raw: unknown): QuestionStat | null {
 const DAY_KEY_RE = /^\d{4}-\d{2}-\d{2}$/
 
 /**
+ * Питання, текст яких виправлено в базі (биті символи після конвертації RTF),
+ * отримали нові ID. Переносимо збережену статистику зі старих ID на нові.
+ */
+const ID_ALIASES: Record<string, string> = {
+  '6934-9a37a0ca51': '6934-4dac829d25', // №275: 6СО2 + 6Н2О
+  '6934-c2438b1c02': '6934-c846171280', // №371: (каталізатор NO)
+  '6934-d474ee7fa9': '6934-5005798504', // №374: (г)
+  '6934-6c39c8aaa4': '6934-d463b0eb45', // №389: ⇔, ΔH
+  '6934-69b4ce6720': '6934-89ffb03365', // №390: ↔
+  '6934-18b4d5c2a7': '6934-b90d564dee', // №399: hυ →
+}
+export const resolveQuestionId = (id: string) => ID_ALIASES[id] ?? id
+
+/**
  * Перевірка й міграція збережених даних.
  * v1 → v2: додається порожній журнал днів (минулі повні тести відновити неможливо —
  * у v1 не зберігалось, чи тест пройдено повністю).
@@ -53,9 +67,11 @@ const DAY_KEY_RE = /^\d{4}-\d{2}-\d{2}$/
 export function validateProgress(raw: unknown): ProgressData | null {
   if (!isObj(raw) || (raw.version !== 1 && raw.version !== 2) || !isObj(raw.questions)) return null
   const questions: Record<string, QuestionStat> = {}
-  for (const [id, s] of Object.entries(raw.questions)) {
+  for (const [rawId, s] of Object.entries(raw.questions)) {
     const st = normalizeStat(s)
-    if (st) questions[id] = st
+    const id = resolveQuestionId(rawId)
+    // якщо є і старий, і новий запис — лишаємо той, де більше спроб
+    if (st && (!questions[id] || questions[id].attempts < st.attempts)) questions[id] = st
   }
   const sessions: SessionSummary[] = Array.isArray(raw.sessions)
     ? (raw.sessions.filter(isObj) as unknown as SessionSummary[]).slice(-SESSIONS_LIMIT)
@@ -88,7 +104,15 @@ export const settingsStore = createPersistentStore<Settings>(
 
 function validateSession(raw: unknown): ActiveSession | null {
   if (!isObj(raw) || !Array.isArray(raw.questionIds) || !isObj(raw.config) || !isObj(raw.answers)) return null
-  return raw as unknown as ActiveSession
+  const s = raw as unknown as ActiveSession
+  const remap = <T,>(rec: Record<string, T>) => Object.fromEntries(Object.entries(rec ?? {}).map(([k, v]) => [resolveQuestionId(k), v]))
+  return {
+    ...s,
+    questionIds: s.questionIds.map(resolveQuestionId),
+    answers: remap(s.answers),
+    checked: remap(s.checked),
+    config: s.config.fixedIds ? { ...s.config, fixedIds: s.config.fixedIds.map(resolveQuestionId) } : s.config,
+  }
 }
 
 /** Поточна (незавершена) сесія — переживає перезавантаження сторінки. */

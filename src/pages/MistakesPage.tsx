@@ -75,6 +75,7 @@ export function MistakesPage() {
           return (
             <Card key={c.id} className="flex items-center gap-3 p-3.5 pl-4">
               <div className="min-w-0 flex-1">
+                <div className="text-xs font-medium text-ink-3">{splitTitle(c.title).subject}</div>
                 <div className="font-semibold">{splitTitle(c.title).main}</div>
                 <div className="text-sm text-ink-3">
                   <span className={ca.review ? 'text-bad' : ''}>{ca.review} на повторенні</span> · {ca.repaired} повторено

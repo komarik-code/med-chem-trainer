@@ -7,6 +7,7 @@ import { progressStore, sessionStore } from '../lib/progress'
 import { aggregate, percent, plural } from '../lib/stats'
 import { MODES, MODE_ORDER, abandonSession, categoryLabel } from '../lib/session'
 import { CategoryCard } from '../components/CategoryCard'
+import { groupBySubject } from '../lib/titles'
 import { ModeIcon, MODE_TONE } from '../components/ModeIcon'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { StreakChip } from '../components/Streak'
@@ -105,12 +106,16 @@ export function HomePage() {
         })}
       </div>
 
-      <SectionTitle>Теми</SectionTitle>
-      <div className="flex flex-col gap-3">
-        {data.categories.map((c, i) => (
-          <CategoryCard key={c.id} category={c} progress={progress} index={i} />
-        ))}
-      </div>
+      {groupBySubject(data.categories).map((g) => (
+        <section key={g.subject}>
+          <SectionTitle>{g.subject || 'Теми'}</SectionTitle>
+          <div className="flex flex-col gap-3">
+            {g.items.map((c) => (
+              <CategoryCard key={c.id} category={c} progress={progress} index={data.categories.indexOf(c)} />
+            ))}
+          </div>
+        </section>
+      ))}
 
       <ConfirmDialog
         open={confirmDiscard}

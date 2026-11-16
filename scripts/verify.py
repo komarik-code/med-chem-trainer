@@ -52,6 +52,8 @@ def main() -> int:
     errors, total_src, total_json = [], 0, 0
     with tempfile.TemporaryDirectory() as td:
         for cat in index["categories"]:
+            if cat["id"].startswith("bio-"):  # біологія — scripts/convert_bio.py, інше джерело
+                continue
             # те саме виправлення кодування шрифтів, що й у convert.py
             rtf = Path(td) / f"{cat['id']}.rtf"
             rtf.write_bytes(fix_font_charsets((ROOT / "sources" / f"{cat['id']}.rtf").read_bytes()))

@@ -1,0 +1,1408 @@
+ЗВІТ КОНВЕРТАЦІЇ ТЕСТІВ З МЕДИЧНОЇ БІОЛОГІЇ
+Джерело: /home/andrii/Стільниця/фігня/тані/2026-11-16/Тести з біології (Крок)
+
+[книжка] → bio-tnmu-book
+  розібрано: 797; додано: 797; дублів (уже є вище): 0; не розібрано: 0
+  ! заняття 1, №75: другий «D.» прочитано як E
+  ! заняття 11, №16: лише 4 варіанти (E у книжці відсутній) — додано
+
+[пре-крок ТНМУ] → bio-tnmu-book
+  розібрано: 1073; додано: 363; дублів (уже є вище): 710; не розібрано: 9
+  ≠ блок 199: «Protein synthesis occurs in several stages. During one of th…» — тут «Terminator», у книжка (заняття 3, №37) «Transcription» — пропущено як дубль
+  ≠ блок 236: «На протязі доби у фазу синтезу ДНК мітотичного циклу ввійшло…» — тут «Залишилися в пресинтетичному періоді, аб…», у книжка (заняття 4, №9) «Залишилися в пресинтетичному періоді, аб…» — пропущено як дубль
+  ≠ блок 343: «До медико-генетичної консультації звернулася жінка з приводу…» — тут «відсутній», у книжка (заняття 7, №4) «Ризик відсутній» — пропущено як дубль
+  ≠ блок 597: «A girl with multiple abnormalities of development was born. …» — тут «Cytogenic», у книжка (заняття 10, №119) «Cytogenetic» — пропущено як дубль
+  ≠ блок 645: «У пацієнта діагностовано захворювання, яке успадковується за…» — тут «Алькаптонурія», у книжка (заняття 11, №36) «Алкаптонурія» — пропущено як дубль
+  ≠ блок 832: «При бактеріоскопічному обстеженні мазків спинномозкової ріди…» — тут «Токсоплазмозу», у пре-крок ТНМУ (блок 820) «Токсоплазмоз» — пропущено як дубль
+  ≠ блок 995: «При обстеженні хворого встановлено діагноз – тайговий енцефа…» — тут «Через укус тайгового кліща», у пре-крок ТНМУ (блок 992) «Через укус селищного кліща» — пропущено як дубль
+  ! блок 738: виправлено: «A. C.» → C — «Після проведеної біопсії слизової оболонки сліпої кишки вияв…»
+  ! блок 738: виправлено: «B. D.» → D — «Після проведеної біопсії слизової оболонки сліпої кишки вияв…»
+  ! блок 738: виправлено: «C. E.» → E — «Після проведеної біопсії слизової оболонки сліпої кишки вияв…»
+  ! блок 841: виправлено: «A. Е.» → E — «A lymph node punctate of a patient with suspected protozoan …»
+  ! блок 866: виправлено: «A. Е.» → E — «При ідентифікації паразита, представника класу Плоскі черви …»
+
+[Центр тестування ТНМУ] → bio-tnmu-ct
+  розібрано: 647; додано: 36; дублів (уже є вище): 611; не розібрано: 2
+  ≠ блок 199: «До медико-генетичної консультації звернулася жінка з приводу…» — тут «відсутній», у книжка (заняття 7, №4) «Ризик відсутній» — пропущено як дубль
+  ≠ блок 399: «У пацієнта діагностовано захворювання, яке успадковується за…» — тут «Алькаптонурія», у книжка (заняття 11, №36) «Алкаптонурія» — пропущено як дубль
+  ≠ блок 435: «В ходi копрологiчного дослiдження у працiвникiв кав’ярнi лiк…» — тут «Амеба дизентерiйна», у пре-крок ТНМУ (блок 734) «Дизентерiйна амеба» — пропущено як дубль
+  ≠ блок 461: «Під час дослідження вмісту дванадцятипалої кишки чоловіка ви…» — тут «Лямблію», у пре-крок ТНМУ (блок 776) «Трипаносому» — пропущено як дубль
+  ≠ блок 471: «При бактеріоскопічному обстеженні мазків спинномозкової ріди…» — тут «Токсоплазмозу», у пре-крок ТНМУ (блок 820) «Токсоплазмоз» — пропущено як дубль
+  ≠ блок 578: «При обстеженні хворого встановлено діагноз – тайговий енцефа…» — тут «Через укус тайгового кліща», у пре-крок ТНМУ (блок 992) «Через укус селищного кліща» — пропущено як дубль
+
+[проф. спрямування ТНМУ] → bio-tnmu-prof
+  розібрано: 423; додано: 30; дублів (уже є вище): 393; не розібрано: 0
+  ≠ блок 218: «Mother of a 2-year-old child with delayed physical and menta…» — тут «Cytological», у книжка (заняття 10, №105) «Cytogenetical» — пропущено як дубль
+  ≠ блок 233: «A girl with multiple abnormalities of development was born. …» — тут «Cytogenic», у книжка (заняття 10, №119) «Cytogenetic» — пропущено як дубль
+  ≠ блок 373: «During their expedition to the Middle East, the students fou…» — тут «Scorpiones», у пре-крок ТНМУ (блок 1006) «Scorpions» — пропущено як дубль
+  ≠ блок 412: «During human development in period of the first two weeks’ e…» — тут «Cleavage», у проф. спрямування ТНМУ (блок 407) «Gastrulation» — пропущено як дубль
+  ≠ блок 419: «On autopsy of a still-born infant some abnormalities have be…» — тут «Reptiles», у пре-крок ТНМУ (блок 1066) «Amphibian» — пропущено як дубль
+
+[ХНМУ укр] → bio-knmu-uk
+  розібрано: 388; додано: 132; дублів (уже є вище): 255; не розібрано: 4
+  ≠ №18: «Цитохімічне дослідження виявило у цитоплазмі високий вміст г…» — тут «Лізосоми», у книжка (заняття 1, №50) «Лізосом» — пропущено (розходиться з ТНМУ)
+  ≠ №27: «У культурі тканин ядерним опроміненням пошкоджені ядерця яде…» — тут «Рибосоми», у книжка (заняття 1, №3) «Рибосом» — пропущено (розходиться з ТНМУ)
+  ≠ №38: «У лабораторії група дослідників експериментально отримала бе…» — тут «Рибосомна РНК», у книжка (заняття 2, №30) «Рибосомних РНК» — пропущено (розходиться з ТНМУ)
+  ≠ №45: «Проводиться вивчення максимально спіралізованих хромосом кар…» — тут «Метафаза», у книжка (заняття 4, №13) «Метафази» — пропущено (розходиться з ТНМУ)
+  ≠ №68: «Під час пресинтетичного періоду мітотичного циклу у клітині …» — тут «Порушення реплікації ДНК», у книжка (заняття 4, №26) «Порушення формування веретена поділу» — пропущено (розходиться з ТНМУ)
+  ≠ №87: «У клітині в гранулярній ЕПС відбувається етап трансляції, пр…» — тут «Кодонів іРНК», у книжка (заняття 3, №16) «Кодонів і-РНК» — пропущено (розходиться з ТНМУ)
+  ≠ №188: «У дитини 6 місяців спостерігається різке відставання в психо…» — тут «Фенілпірувату», у книжка (заняття 11, №30) «Фенілпіруват» — пропущено (розходиться з ТНМУ)
+  ≠ №189: «Альбіноси погано переносять вплив сонця — засмага не розвива…» — тут «Фенілаланін (вірніше, тирозину, але так …», у книжка (заняття 11, №19) «Фенілаланін» — пропущено (розходиться з ТНМУ)
+  ≠ №214: «У хлопчика із синдромом Дауна спостерігаються аномалії лицев…» — тут «47, XY, +21», у книжка (заняття 10, №58) «47,XY,21+» — пропущено (розходиться з ТНМУ)
+  ≠ №264: «Метод визначення Х-хроматину в соматичних клітинах використо…» — тут «49, XXXXY», у книжка (заняття 10, №30) «47,XXY» — пропущено (розходиться з ТНМУ)
+  ≠ №265: «При дослідженні амніотичної рідини, одержаної під час амніоц…» — тут «Розвиток нормального плода жіночої статі», у книжка (заняття 10, №70) «Розвиток плода жіночої статі» — пропущено (розходиться з ТНМУ)
+  ≠ №270: «Внаслідок аномалії розвитку у новонародженого виявлено поруш…» — тут «Ектодерма», у Центр тестування ТНМУ (блок 625) «Ектодерми» — пропущено (розходиться з ТНМУ)
+  ≠ №272: «У новонародженої дитини виявлено вроджені вади розвитку трав…» — тут «Ентодерма», у Центр тестування ТНМУ (блок 633) «Ендодерма» — пропущено (розходиться з ТНМУ)
+  ≠ №296: «При дослідженні вмісту дванадцятипалої кишки людини знайдені…» — тут «Лямблія», у пре-крок ТНМУ (блок 776) «Трипаносому» — пропущено (розходиться з ТНМУ)
+  ≠ №308: «Через два тижні після переливання крові у реципієнта виникла…» — тут «Малярія», у пре-крок ТНМУ (блок 834) «Малярію» — пропущено (розходиться з ТНМУ)
+  ≠ №311: «У хворого спостерігається типова для нападу малярії клінічна…» — тут «Мерозоїт», у пре-крок ТНМУ (блок 821) «Трофозоїт» — пропущено (розходиться з ТНМУ)
+  ≠ №333: «На ринку батько купив свинину. Якою хворобою можуть заразити…» — тут «Теніоз», у пре-крок ТНМУ (блок 904) «Теніозом» — пропущено (розходиться з ТНМУ)
+  ≠ №337: «При деяких гельмінтозах людина може сама виявити гельмінта, …» — тут «Теніарінхоз», у пре-крок ТНМУ (блок 899) «Тенiаринхозу» — пропущено (розходиться з ТНМУ)
+  ≠ №344: «Провідником наукової експедиції по Індії був місцевий житель…» — тут «Ехінококоз», у пре-крок ТНМУ (блок 903) «Ехінококозом» — пропущено (розходиться з ТНМУ)
+  ≠ №351: «При мікроскопії мазка фекалій школяра виявлені жовто-коричне…» — тут «Аскарида», у пре-крок ТНМУ (блок 935) «Аскариді людській» — пропущено (розходиться з ТНМУ)
+  ≠ №353: «У хворого виявлена короткочасна пневмонія. Міграція личинок …» — тут «Аскарида», у пре-крок ТНМУ (блок 943) «Аскариди людської» — пропущено (розходиться з ТНМУ)
+  ≠ №355: «У червоподібному відростку виявлено гельмінта білого кольору…» — тут «Волосоголовець», у пре-крок ТНМУ (блок 941) «Волосоголовець людський» — пропущено (розходиться з ТНМУ)
+  ≠ №363: «Через кілька днів після споживання копченої свинини у хворог…» — тут «Трихінела», у пре-крок ТНМУ (блок 968) «Трихінелою» — пропущено (розходиться з ТНМУ)
+  ≠ №378: «До лікарні потрапив хворий з високою температурою, маренням,…» — тут «Педикульоз», у пре-крок ТНМУ (блок 1032) «Педикульозу» — пропущено (розходиться з ТНМУ)
+  ≠ №387: «Під час розтину тіла мертвонародженої дитини виявлено аномал…» — тут «Амфібії», у пре-крок ТНМУ (блок 1056) «Амфібій» — пропущено (розходиться з ТНМУ)
+  ✗ №143: ключ «Genocopy/генокопія» (за змістом — фенокопія) — «У дитини з нормальним каріотипом діагностовано: розщеплення верхньої г…»
+
+[ХНМУ англ] → bio-knmu-en
+  розібрано: 294; додано: 79; дублів (уже є вище): 214; не розібрано: 3
+  ≠ №9: «In course of practical training students studied a stained b…» — тут «Lisosomes», у книжка (заняття 1, №68) «Lysosomes» — пропущено (розходиться з ТНМУ)
+  ≠ №12: «A cell with vitamin E deficit had been affected by ionizing …» — тут «Lysosomes», у книжка (заняття 1, №60) «Lysosome» — пропущено (розходиться з ТНМУ)
+  ≠ №20: «Testosterone and its analogs increase the mass of skeletal m…» — тут «Nuclear receptors», у книжка (заняття 3, №47) «Proteins-activators of transcription» — пропущено (розходиться з ТНМУ)
+  ≠ №22: «Low level of albumins and fibrinogen was detected in the pat…» — тут «Granular endoplasmatic reticulum», у книжка (заняття 1, №69) «Rough endoplasmic reticulum» — пропущено (розходиться з ТНМУ)
+  ≠ №49: «Patients with xeroderma pigmentosum have anomalously high se…» — тут «DNA repair», у ХНМУ англ (№48) «DNA reparation» — пропущено як дубль
+  ≠ №53: «In evolution, molecular mechanism for correction of damaged …» — тут «Repair», у книжка (заняття 2, №51) «Reparation» — пропущено (розходиться з ТНМУ)
+  ≠ №68: «One of the protein synthesis stages is recognition. The firs…» — тут «AUG», у книжка (заняття 2, №50) «AUA» — пропущено (розходиться з ТНМУ)
+  ≠ №83: «One of the parents is suspected of having phenylketonuria re…» — тут «0%», у книжка (заняття 5, №31) «25%» — пропущено (розходиться з ТНМУ)
+  ≠ №104: «Continuous taking of some drugs foregoing the pregnancy incr…» — тут «Mutagenic effect», у книжка (заняття 8, №43) «Teratogenic effect» — пропущено (розходиться з ТНМУ)
+  ≠ №142: «Albinos can’t stand sun impact – they don’t aquire sun-tan b…» — тут «Phenilalanine», у книжка (заняття 11, №77) «Tyrosine» — пропущено (розходиться з ТНМУ)
+  ≠ №147: «Nappies of a newborn have dark spots that witness of formati…» — тут «Thyrosine», у книжка (заняття 11, №87) «Tyrosine» — пропущено (розходиться з ТНМУ)
+  ≠ №170: «Healthy parents with unremarkable family history have the ch…» — тут «Abnormal gametogenesis», у книжка (заняття 10, №124) «Chromosomal mutation» — пропущено (розходиться з ТНМУ)
+  ≠ №184: «Sex chromosomes of a woman didn’t separate and move to the o…» — тут «Turner’s syndrome», у книжка (заняття 10, №89) «Klinefelter's syndrome» — пропущено (розходиться з ТНМУ)
+  ≠ №202: «A newborn child has microcephalia. Doctors believe that it i…» — тут «Ectoderma», у проф. спрямування ТНМУ (блок 399) «Ectoderm» — пропущено (розходиться з ТНМУ)
+  ≠ №216: «Patients with similar complaints applied to the doctor: weak…» — тут «Dysenteric amoeba», у пре-крок ТНМУ (блок 758) «Entamoeba histolytica» — пропущено (розходиться з ТНМУ)
+  ≠ №224: «A duodenal content smear of a patient with indigestion conta…» — тут «Lamblia», у пре-крок ТНМУ (блок 796) «Lamblia intestinalis» — пропущено (розходиться з ТНМУ)
+  ≠ №232: «Microscopical examination of discharges from the gums of a p…» — тут «Trichomonads», у пре-крок ТНМУ (блок 800) «Trichomonas» — пропущено (розходиться з ТНМУ)
+  ≠ №239: «A lymph node punctate of a patient with suspected protozoal …» — тут «Toxoplasms», у пре-крок ТНМУ (блок 841) «Toxoplasma gondii» — пропущено (розходиться з ТНМУ)
+  ≠ №245: «Slime, blood and protozoa 30-200 microns of length have been…» — тут «Balantidium», у пре-крок ТНМУ (блок 760) «Balantidium coli» — пропущено (розходиться з ТНМУ)
+  ≠ №257: «Father bought some pork at the market.What disease may catch…» — тут «Pork tapeworm infection», у пре-крок ТНМУ (блок 917) «Teniosis» — пропущено (розходиться з ТНМУ)
+  ≠ №266: «Helminthological examination of patient’s feces revealed ova…» — тут «Ascarid», у пре-крок ТНМУ (блок 952) «Ascaris» — пропущено (розходиться з ТНМУ)
+  ≠ №277: «Two days after consumption of smoked pork a patient got face…» — тут «Trichina», у пре-крок ТНМУ (блок 975) «Trichinella spiralis» — пропущено (розходиться з ТНМУ)
+  ≠ №280: «A man has worked in an African country for 3 years. A month …» — тут «Filariasis», у проф. спрямування ТНМУ (блок 369) «Filiariasis» — пропущено (розходиться з ТНМУ)
+  ≠ №283: «While on holiday in the countryside a boy found a spider wit…» — тут «Steppe spider (Latrodectus tredecimgutta…», у пре-крок ТНМУ (блок 1007) «Karakurt spider» — пропущено (розходиться з ТНМУ)
+  ≠ №286: «A patient has acne on his face. Microspcopic examination of …» — тут «Demodicosis», у пре-крок ТНМУ (блок 1003) «Demodecosis» — пропущено (розходиться з ТНМУ)
+  ✗ №183: Тернер: «45 пар аутосом» (правильно 22) — «A woman has been diagnosed with Turner’s syndrome (karyotype 45, XO). …»
+
+[ОНМедУ] → bio-onmedu
+  розібрано: 642; додано: 486; дублів (уже є вище): 156; не розібрано: 12
+  ≠ №24: «Для вивчення локалізації біосинтезу білка в клітині мишам ув…» — тут «Рибосом», у книжка (заняття 3, №19) «Рибосоми» — пропущено (розходиться з ТНМУ)
+  ≠ №29: «У гепатоцитах здорової жінки активно синтезуються білки та г…» — тут «ЕПС», у ХНМУ укр (№14) «Гранулярна та агранулярна ЕПС» — пропущено як дубль
+  ≠ №32: «Тривалий вплив на організм токсичних речовин призвів до знач…» — тут «Гранулярна ЕПС», у ХНМУ укр (№13) «Гранулярна ендоплазматична сітка» — пропущено як дубль
+  ≠ №37: «Клітину лабораторної тварини піддали надмірному рентгенівськ…» — тут «Лізосома», у книжка (заняття 1, №4) «Лізосоми» — пропущено (розходиться з ТНМУ)
+  ≠ №39: «При вивченні під електронним мікроскопом клітин підшлункової…» — тут «Комплекс Гольджі», у книжка (заняття 1, №56) «Ендоплазматична сітка» — пропущено (розходиться з ТНМУ)
+  ≠ №40: «При деяких захворюваннях у клітинах виникають зміни, що супр…» — тут «Автоліз», у книжка (заняття 1, №10) «Відбудеться аутоліз» — пропущено (розходиться з ТНМУ)
+  ≠ №47: «У гепатоцитах здорової жінки активно синтезуються білки та г…» — тут «ЕПС», у ХНМУ укр (№14) «Гранулярна та агранулярна ЕПС» — пропущено як дубль
+  ≠ №50: «Тривалий вплив на організм токсичних речовин призвів до знач…» — тут «Гранулярна ЕПС», у ХНМУ укр (№13) «Гранулярна ендоплазматична сітка» — пропущено як дубль
+  ≠ №33: «Однією з реакцій матричного синтезу є трансляція. Яка молеку…» — тут «Поліпептид», у ОНМедУ розд. 1 (№14) «ДНК» — пропущено як дубль
+  ≠ №12: «При вивченні фаз мітотичного циклу в корінці цибулі було зна…» — тут «Метафази», у книжка (заняття 4, №11) «Метафаза» — пропущено (розходиться з ТНМУ)
+  ≠ №11: «Чотири групи крові людини за системою антигенів АВ0 кодуютьс…» — тут «1», у ОНМедУ розд. 2 (№10) «3» — пропущено як дубль
+  ≠ №1: «У новонародженого виявлено вивих кришталика, довгі та дуже т…» — тут «Марфана», у книжка (заняття 11, №57) «Синдрому Марфана» — пропущено (розходиться з ТНМУ)
+  ≠ №3: «У Х-хромосомі людини локалізований домінантний ген, який бер…» — тут «Комплементарна взаємодія», у ХНМУ укр (№123) «Комплементарність» — пропущено як дубль
+  ≠ №2: «До медико-генетичного центру звернулася жінка з приводу оцін…» — тут «0», у книжка (заняття 7, №4) «Ризик відсутній» — пропущено (розходиться з ТНМУ)
+  ≠ №5: «Темна емаль зубів зумовлена домінантним геном, локалізованим…» — тут «Дочок», у книжка (заняття 9, №21) «Тільки у дочок» — пропущено (розходиться з ТНМУ)
+  ≠ №15: «Мати під час вагітності приймала синтетичні гормони. В новон…» — тут «Фенокопія», у ХНМУ укр (№141) «Фенокопії» — пропущено як дубль
+  ≠ №18: «Жінці 23-х років у комплексному лікуванні ксерофтальмії ліка…» — тут «Тератогенний», у ХНМУ укр (№277) «Тератогенна» — пропущено як дубль
+  ≠ №17: «Що характерно для дизиготних близнюків?» — тут «Розвиток із двох яйцеклітин», у ОНМедУ розд. 2 (№16) «Розвиток із однієї яйцеклітини» — пропущено як дубль
+  ≠ №7: «Відомі трисомна, транслокаційна та мозаїчна форми синдрому Д…» — тут «Каріотипування», у книжка (заняття 10, №54) «Цитогенетичний» — пропущено (розходиться з ТНМУ)
+  ≠ №14: «У медико-генетичну консультацію звернулася хвора дівчина з п…» — тут «Цитогенетичний», у книжка (заняття 10, №57) «Визначення статевого хроматину» — пропущено (розходиться з ТНМУ)
+  ≠ №15: «У жінки при обстеженні клітин слизової оболонки щоки не вияв…» — тут «Синдром ШерешевськогоТернера», у ОНМедУ розд. 2 (№2) «Хвороба Шерешевського-Тернера» — пропущено як дубль
+  ≠ №17: «У дитини зі спадково обумовленими вадами зразу ж після народ…» — тут «Делеція короткого плеча 5-ї хромосоми», у книжка (заняття 10, №5) «Делецію короткого плеча 5-ї хромосоми» — пропущено (розходиться з ТНМУ)
+  ≠ №20: «При обстеженні 7-річної дівчинки виявлено такі ознаки: низьк…» — тут «Трисомія 21-ї хромосоми», у книжка (заняття 10, №136) «Трисомія 21-ої хромосоми» — пропущено (розходиться з ТНМУ)
+  ≠ №28: «У медико-генетичну консультацію звернулася хвора дівчина з п…» — тут «Цитогенетичний», у книжка (заняття 10, №57) «Визначення статевого хроматину» — пропущено (розходиться з ТНМУ)
+  ≠ №38: «При обстеженні дівчини 18 років виявлено ознаки: недорозвине…» — тут «Моносомія-Х», у книжка (заняття 10, №61) «Моносомія Х» — пропущено (розходиться з ТНМУ)
+  ≠ №42: «У новонародженої дитини виявлено наступну патологію: аномалі…» — тут «Короткого плеча 5-ї хромосоми», у книжка (заняття 10, №71) «Короткого плеча 5-ої хромосоми» — пропущено (розходиться з ТНМУ)
+  ≠ №1: «У хворого спостерігається типова для приступу малярії клініч…» — тут «Мерозоїт», у пре-крок ТНМУ (блок 821) «Трофозоїт» — пропущено (розходиться з ТНМУ)
+  ≠ №4: «Хворий скаржиться на головний біль, збільшення лімфатичних в…» — тут «Збудник триденної малярії», у пре-крок ТНМУ (блок 828) «Збудник 3-денної малярії» — пропущено (розходиться з ТНМУ)
+  ≠ №8: «У жіночій консультації обстежено жінку, в якої було декілька…» — тут «Серологічні реакції», у пре-крок ТНМУ (блок 823) «Серологічні реакції і молекулярно-генети…» — пропущено (розходиться з ТНМУ)
+  ≠ №15: «Мисливець літом, утамовуючи спрагу, напився сирої води зі ст…» — тут «Фасціольоз», у пре-крок ТНМУ (блок 877) «Фасціольозом» — пропущено (розходиться з ТНМУ)
+  ≠ №4: «Дитина 10-ти років скаржиться на слабкість, нудоту, дратівли…» — тут «Гострик», у пре-крок ТНМУ (блок 931) «Гострик дитячий» — пропущено (розходиться з ТНМУ)
+  ≠ №8: «До лікаря звернувся юнак 16-ти років зі скаргами на сильне н…» — тут «Sarcoptes scabiei s. Acarus siro», у пре-крок ТНМУ (блок 991) «Sarcoptes scabiei» — пропущено (розходиться з ТНМУ)
+  ≠ №2: «Гризуни є резервуарними хазяями збудників лейшманіозів – при…» — тут «Москіти», у ОНМедУ розд. 3 (№12) «Москітів» — пропущено як дубль
+  ≠ №27: «Під час розтину мертвонародженої дитини виявлено таку природ…» — тут «Земноводних», у пре-крок ТНМУ (блок 1056) «Амфібій» — пропущено (розходиться з ТНМУ)
+  ≠ №9: «Чоловік тривалий час проживав в умовах високогір’я. Які змін…» — тут «Збільшення концентрації гемоглобіну», у ОНМедУ розд. 2 (№11) «Збільшення рівня гемоглобіну» — пропущено як дубль
+  ≠ №27: «Про тваринне походження людини свідчить наявність у неї руди…» — тут «Куприкові хребці», у ОНМедУ розд. 3 (№26) «Третя повіка» — пропущено як дубль
+  ≠ №28: «Про тваринне походження людини свідчить наявність у неї атав…» — тут «Багатососковість», у ОНМедУ розд. 3 (№26) «Третя повіка» — пропущено як дубль
+  ≠ №29: «Про тваринне походження людини свідчить наявність у неї атав…» — тут «Незрощення боталової протоки», у ОНМедУ розд. 3 (№26) «Третя повіка» — пропущено як дубль
+
+[СумДУ англ] → bio-sumdu-en
+  розібрано: 430; додано: 376; дублів (уже є вище): 54; не розібрано: 1172
+  ≠ №191: «Microscopic analysis of human heart cells revealed some oval…» — тут «Mitochondria», у книжка (заняття 1, №74) «Mitochondrions» — пропущено (розходиться з ТНМУ)
+  ≠ №201: «The organisms to be identified have a nucleus surrounded by …» — тут «cukaryotes», у книжка (заняття 4, №43) «Eukaryotes» — пропущено (розходиться з ТНМУ)
+  ≠ №15: «A married couple consulted a specialist at the genetic consu…» — тут «half'of sons», у книжка (заняття 7, №18) «Half of sons» — пропущено (розходиться з ТНМУ)
+  ≠ №70: «It is known that the gene responsible for development of blo…» — тут «combinative», у пре-крок ТНМУ (блок 408) «Combinative» — пропущено (розходиться з ТНМУ)
+  ≠ №8: «It was proved that a molecule of immature mRNA (precursor mR…» — тут «s processing», у книжка (заняття 3, №41) «Processing» — пропущено (розходиться з ТНМУ)
+  ≠ №146: «Solution of thymine (T) with radioactive label is introduced…» — тут «Nucleus», у СумДУ англ (№73) «mitochondria» — пропущено як дубль
+  ≠ №201: «Treatment of a patient with hereditary form of immunodeficie…» — тут «Umversality», у ХНМУ англ (№75) «Universality» — пропущено як дубль
+  ≠ №232: «A man suffering from hereditary discase married a healthy wo…» — тут «Dominant, X-linked», у книжка (заняття 9, №45) «X-linked dominant» — пропущено (розходиться з ТНМУ)
+  ≠ №157: «In Western Europe, nearly half of all congenital malformatio…» — тут «teratogenic», у ХНМУ англ (№197) «Teratogenic» — пропущено як дубль
+  ≠ №123: «During regular examination of schoolchildren, it was reveale…» — тут «Enterobiosis», у пре-крок ТНМУ (блок 951) «Enterobiasis» — пропущено (розходиться з ТНМУ)
+  ≠ №153: «A man has worked in an African country for 3 years. A month …» — тут «Filariasis», у проф. спрямування ТНМУ (блок 369) «Filiariasis» — пропущено (розходиться з ТНМУ)
+  ≠ №197: «During dehelmintization of a patient, long fragments of helm…» — тут «Unarmed tapeworm», у пре-крок ТНМУ (блок 919) «Hookless tapeworm» — пропущено (розходиться з ТНМУ)
+  ≠ №230: «A shepherd, who tended to the flock of sheep with his dogs, …» — тут «Echinococcus», у пре-крок ТНМУ (блок 926) «Echinococcus granulosus» — пропущено (розходиться з ТНМУ)
+
+OCR СумДУ: автоматично виправлено c↔e у 112 словах (лише однозначні збіги зі словником інших баз):
+  №10: cndoplasmic→endoplasmic; №29: mincral→mineral; №75: acrobic→aerobic; №79: secrction→secretion; №98: Tclophase→Telophase; №100: gamctogenesis→gametogenesis
+  №107: metaphasc→metaphase; №122: clectronic→electronic; №129: Pcroxisomes→Peroxisomes; №143: phasc→phase; №146: clectromagnetic→electromagnetic; №180: Microbodics→Microbodies
+  №191: cristac→cristae; №200: planc→plane; №201: identificd→identified; №15: hacmophilia→haemophilia; №52: cpistasis→epistasis; №75: consequenccs→consequences
+  №79: cvolve→evolve; №79: Gamctopathy→Gametopathy; №105: Ontogenctic→Ontogenetic; №124: eritical→critical; №35: Molccules→Molecules; №35: dcliver→deliver
+  №75: Scmiconservative→Semiconservative; №103: opcrator→operator; №104: transeribed→transcribed; №113: subjeet→subject; №130: molceular→molecular; №135: Opcrators→Operators
+  №149: lymphoeyte→lymphocyte; №156: cxperiment→experiment; №156: Primasc→Primase; №162: propertics→properties; №163: Sensc→Sense; №180: nucleie→nucleic
+  №181: Streptomyein→Streptomycin; №199: mcans→means; №201: Collincarity→Collinearity; №229: scrine→serine; №15: casily→easily; №28: Hepatocercbral→Hepatocerebral
+  №73: construetion→construction; №78: hetcrozygotes→heterozygotes; №95: cpicanthus→epicanthus; №95: gencalogical→genealogical; №96: checkbones→cheekbones; №104: gencalogical→genealogical
+  №148: cstimation→estimation; №166: frequeney→frequency; №169: FeCl→FeEl; №176: studicd→studied; №250: dietotherapy→dictotherapy; №250: Corrclative→Correlative
+  №256: mcthod→method; №275: cstablishment→establishment; №282: cpicanthus→epicanthus; №283: cxogenous→exogenous; №293: Nicmann→Niemann; №335: clevated→elevated
+  №343: gcnocopy→genocopy; №12: correet→correct; №24: clementary→elementary; №4: clasticity→elasticity; №6: increasc→increase; №35: conscquence→consequence
+  №36: degencration→degeneration; №75: ccological→ecological; №129: arisc→arise; №129: Skcleton→Skeleton; №131: Xcnotransplantation→Xenotransplantation; №4: Antclopes→Antelopes
+  №4: measurcs→measures; №10: carlier→earlier; №72: defccation→defecation; №85: cffective→effective; №90: cnd→end; №94: uleers→ulcers
+  №105: causcd→caused; №137: gynaccologist→gynaecologist; №143: structurc→structure; №7: preseribed→prescribed; №7: dictary→dietary; №9: diagnoscd→diagnosed
+  №15: urinc→urine; №38: immunc→immune; №47: cpileptic→epileptic; №91: fecling→feeling; №108: Entcrobiasis→Enterobiasis; №115: penctrate→penetrate
+  №142: picce→piece; №142: scgments→segments; №153: Underncath→Underneath; №153: clongated→elongated; №160: cxpectancy→expectancy; №197: utcrus→uterus
+  №200: Employces→Employees; №217: cosinophilic→eosinophilic; №219: Scatworm→Seatworm; №9: cycball→eyeball; №9: scasonal→seasonal; №9: climination→elimination
+  №19: houscfly→housefly; №40: houscfly→housefly; №40: Enccphalitis→Encephalitis; №48: cpidemic→epidemic; №48: Houscflics→Houseflies; №3: marricd→married
+  №3: applicd→applied; №3: ete→etc; №3: pregnaney→pregnancy; №14: uleer→ulcer
+
+НЕ РОЗІБРАНО (не додано в базу):
+[пре-крок ТНМУ] — 9
+  ✗ блок 115: варіант «C.» не на своєму місці (очікувався D); варіантів: 4 — «На клітину, що знаходиться на стадії інтерфази подіяли ультрафіолетовим проміння…»
+  ✗ блок 183: варіант «C.» не на своєму місці (очікувався D); варіантів: 4 — «Під час реплікації фрагмента ДНК: АТТ-ГГЦ-ГЦТ-ТАЦ синтезувався дочірній ланцюг Т…»
+  ✗ блок 186: варіант «A.» не на своєму місці (очікувався E); варіантів: 4 — «Вірус імунодефіциту людини може використовувати генетичну систему лімфоцита, пар…»
+  ✗ блок 223: однакові варіанти — «Transcription of the following sequence of the tryptophan operon occurs in the d…»
+  ✗ блок 284: однакові варіанти — «У клінічно здорових людей в умовах високогір’я виявляються ознаки анемії. При ан…»
+  ✗ блок 385: варіант «A.» не на своєму місці (очікувався E); варіантів: 4 — «У ділянці хромосоми гени розташовані у такій послідовності: abcdef. Після перебу…»
+  ✗ блок 461: варіант «B.» не на своєму місці (очікувався E); варіантів: 4 — «After the genealogy analysis a geneticist came to the conclusion: a feature is m…»
+  ✗ блок 654: варіант «A.» не на своєму місці (очікувався E); варіантів: 4 — «Відомо, що у більшості випадків уроджені порушення обміну речовин у дітей клініч…»
+  ✗ блок 658: варіант «A.» не на своєму місці (очікувався E); варіантів: 4 — «При огляді новонародженої дитини лікар виявив наступну клінічну картину: судоми,…»
+
+[Центр тестування ТНМУ] — 2
+  ✗ блок 170: однакові варіанти — «У клінічно здорових людей в умовах високогір’я виявляються ознаки анемії. При ан…»
+  ✗ блок 604: варіантів: 0 — «В організмі самки комара роду Anopheles, малярійний плазмодій розмножується копу…»
+
+[ХНМУ укр] — 4
+  ✗ №108: варіант «A.» не на своєму місці (очікувався D); варіантів: 4 — «У клінічно здорових батьків народилася дитина, хвора на фенілкетонурію (аутосомн…»
+  ✗ №237: позначених правильних: 0 — «Мати і батько здорові. Методом амніоцентезу визначено каріотип плоду: 45, Х0. На…»
+  ✗ №267: позначених правильних: 0 — «У новонародженого хлопчика виявили гідроцефалію. Лікарі вважають, що це пов’язан…»
+  ✗ №324: варіант «A.» не на своєму місці (очікувався C); варіантів: 4 — «Рибалка наловив риби із річки, трошки підсмажив її на вогнищі і з’їв напівсирою.…»
+
+[ХНМУ англ] — 3
+  ✗ №28: зайвий варіант «A.»; зайвий варіант «B.»; зайвий варіант «C.»; зайвий варіант «D.»; зайвий варіант «E.» — «Life cycle of a cell includes the process of DNA autoreduplication. As a result …»
+  ✗ №119: зайвий варіант «A.»; зайвий варіант «B.»; зайвий варіант «C.»; зайвий варіант «D.»; зайвий варіант «E.» — «A child with a normal karyotype is diagnosed with cleft lip and hard palate, def…»
+  ✗ №130: зайвий варіант «A.»; зайвий варіант «B.»; зайвий варіант «C.»; зайвий варіант «D.»; зайвий варіант «E.» — «A 16 y.o. girl consulted a dentist about dark colour of tooth enamel. Analysis o…»
+
+[ОНМедУ розд. 1] — 9
+  ✗ №6: варіант «А.» не на своєму місці (очікувався E); варіант «В.» не на своєму місці (очікувався E); варіант «С.» не на своєму місці (очікувався E); зайвий варіант «Е.» — «Деякі хромосоми людини мають супутники. Які ці хромосоми за формою?»
+  ✗ №8: варіант «А.» не на своєму місці (очікувався E); варіант «В.» не на своєму місці (очікувався E); варіант «С.» не на своєму місці (очікувався E); позначених правильних: 2 — «На мікрофотографії екваторіальної пластинки виявлено хромосоми різних форм. Які …»
+  ✗ №12: варіант «A.» не на своєму місці (очікувався E); варіант «B.» не на своєму місці (очікувався E); варіант «C.» не на своєму місці (очікувався E); зайвий варіант «E.» — «У каріотипі чоловіка та жінки більша частина хромосом не відрізняється за формам…»
+  ✗ №21: варіант «А.» не на своєму місці (очікувався E); варіант «В.» не на своєму місці (очікувався E); варіант «С.» не на своєму місці (очікувався E); зайвий варіант «Е.» — «Деякі хромосоми людини мають супутники. Які ці хромосоми за формою?»
+  ✗ №31: варіант «А.» не на своєму місці (очікувався E); варіант «В.» не на своєму місці (очікувався E); варіант «С.» не на своєму місці (очікувався E); зайвий варіант «Е.» — «У мітозі виділяють кілька фаз. В якій із них клітина людини містить 92 однохрома…»
+  ✗ №6: варіант «А.» не на своєму місці (очікувався E); варіант «В.» не на своєму місці (очікувався E); варіант «С.» не на своєму місці (очікувався E) — «На зрізі яєчника ембріона кішки видно доволі великі клітини, в котрих гомологічн…»
+  ✗ №8: варіант «А.» не на своєму місці (очікувався D); варіант «В.» не на своєму місці (очікувався D); варіант «С.» не на своєму місці (очікувався D); позначених правильних: 2 — «На зрізі яєчника дорослої кішки виявлено фолікули з овоцитами, в котрих накопичи…»
+  ✗ №10: варіант «А.» не на своєму місці (очікувався E); варіант «В.» не на своєму місці (очікувався E); варіант «С.» не на своєму місці (очікувався E); позначених правильних: 2 — «На зрізі сім’яника статевозрілого щура видно зону, в котрій клітини поділилися м…»
+  ✗ №6: варіант «A.» не на своєму місці (очікувався E); варіант «B.» не на своєму місці (очікувався E); варіант «C.» не на своєму місці (очікувався E); зайвий варіант «E.»; позначених правильних: 2 — «При вмиранні у чоловіка 75-ти років, який переніс гострий інфаркт міокарда, прип…»
+
+[ОНМедУ розд. 2] — 1
+  ✗ №5: варіант «D.» не на своєму місці (очікувався C); варіант «A.» не на своєму місці (очікувався C); варіант «B.» не на своєму місці (очікувався C); варіантів: 4 — «Жінка з І (0) Rh- групою крові ви йшла заміж за чоловіка з IV (АВ) Rh+ групою кр…»
+
+[ОНМедУ розд. 3] — 2
+  ✗ №12: варіант «A.» не на своєму місці (очікувався D); варіант «B.» не на своєму місці (очікувався D); варіант «C.» не на своєму місці (очікувався D) — «Надзвичайно рідко, але все ж таки трапляється зараження людини малярійними плазм…»
+  ✗ №9: порожній варіант — «У тридцятирічної жінки внаслідок закупорки лімфатичних судин порушився відтік лі…»
+
+[СумДУ англ] — 1172
+  ✗ №1: варіантів: 6 — «Cells of red marrow were taken for laboratory researches. They belong to cellula…»
+  ✗ №2: варіантів: 6 — «Onc can sce under a microscope that the nucleus envelope in a cell is destroyed,…»
+  ✗ №3: OCR-сміття: micromanipulator — «Golgi complex is removed from a cell by means of the micromanipulator, How it wi…»
+  ✗ №4: відповідь «Amitosis 12—» не збігається рівно з одним варіантом — «The scraping of mucous of a mouth of a man was made by means of the spatula, Ova…»
+  ✗ №5: варіантів: 6 — «Chromosomal analysis of a 33-year-old woman showed that a part of a short arm of…»
+  ✗ №6: варіантів: 4 — «A single fragment, which came off a fong arm of a chromosome of the group C, was…»
+  ✗ №9: варіантів: 6 — «Strong linkage between two X chromosomes was formed in oocytes under the influen…»
+  ✗ №11: варіантів: 6 — «During chromosome disjunction at a stage of maturing of spermatogenesis, the X c…»
+  ✗ №12: відповідь «Metaphase» не збігається рівно з одним варіантом — «In order to analyse a karyotype, a cell culture was influenced by colchicine, wh…»
+  ✗ №14: OCR-сміття: autoradiographic, символи: ~ — «Thymine with radioactive label was added 10 a nutrient medium with cells capable…»
+  ✗ №16: OCR-сміття: Specifv, lamellar, nove, organclies — «After mitosis, some organclles in daughter cells are formed de nove, others are …»
+  ✗ №18: варіантів: 4 — «Culture of tumor cells was influenced by colchicine that blocks synthesis of pro…»
+  ✗ №19: варіантів: 6 — «In a cell, enzymes arc located in organelles in such a way that they provide per…»
+  ✗ №20: OCR-сміття: biopolymers — «Abnormal biopolymers were revealed in cells of an organism of a 7-year-old child…»
+  ✗ №21: OCR-сміття: Cyclin, Desmin, Vimentin — «Throughout life (from division to death), a cell is on different phases of cell …»
+  ✗ №22: OCR-сміття: nzymes, символи: ¢ — «Cytochemical investigation revealed high content of hydrolytic ¢nzymes in cytopl…»
+  ✗ №23: OCR-сміття: Perinuclear, символи: @ — «Cortisone, which stimulates protein synthesis, was prescribed to @ patient. What…»
+  ✗ №24: варіантів: 6 — «On diffraction patterns of liver cells of a rat, two-membrane structures of an o…»
+  ✗ №25: відповідь «Moetaphase Note. In the book “Collection» не збігається рівно з одним варіантом — «A specimen of an onion rootlet includes a cell in which the fully condensed chro…»
+  ✗ №26: відповідь «Muiosis SRS» не збігається рівно з одним варіантом — «According to the rule of constancy of chromosomes number, cach animal species ca…»
+  ✗ №30: варіантів: 6 — «A somatic diploid cell entered mitosis, and then normal process of mitosis was i…»
+  ✗ №31: OCR-сміття: символи: « — «A cell organclle has its own protein synthesizing system. Name it»
+  ✗ №33: OCR-сміття: wradiation — «Nucleoli of nuclei m tissue culture have been damaged by nuclear wradiation. Res…»
+  ✗ №34: варіантів: 4 — «During mitotic cell division, a scientist can see the phase when the nuclear env…»
+  ✗ №36: відповідь «44 -T6 =» не збігається рівно з одним варіантом — «In a cytogenetic laboratory, a karyotype of a healthy man was studied. 46 chromo…»
+  ✗ №37: варіантів: 6 — «It is established that human Karyotype is presented by 46 chromosomes, cach cons…»
+  ✗ №39: варіантів: 6 — «46 chromosomes were revealed on karyotype examination of a S-year-old girl, One …»
+  ✗ №40: OCR-сміття: hematoxylin, символи: ¢ — «In the histologic preparation stained by iron hematoxylin, a cell resembling dum…»
+  ✗ №43: OCR-сміття: pucleolus — «Specific cellular proteins are continuously synthesized in growing tissues of hu…»
+  ✗ №44: OCR-сміття: символи: ~ — «A ccll of an ovary is in the S period of interphase, At this time such event occ…»
+  ✗ №45: OCR-сміття: gonia, polocyles — «Oogenesis is divided into three periods: reproduction, growth and maturing. Cell…»
+  ✗ №47: OCR-сміття: mfluenced, символи: ~ — «To diagnose human chromosomal disorders in order to analyse the karyotype, a cel…»
+  ✗ №48: відповідь «¢ Equal distribution of chromosomes be-» не збігається рівно з одним варіантом — «Mitosis is the basic mechanism of a cell that provides the development of organi…»
+  ✗ №49: варіантів: 6 — «Transcription in a cell occurs in cuchromatin sites. What changes in cytoplasm o…»
+  ✗ №50: OCR-сміття: Centnioles — «A patient has an acute pancreatitis which can develop into pancreas autolysis, D…»
+  ✗ №52: відповідь «Metaphase» не збігається рівно з одним варіантом — «Studying highly condensed chromosomes of the dividing cell is camied out, At wha…»
+  ✗ №53: відповідь «anaphase =110~» не збігається рівно з одним варіантом — «During cell cyele, chromosomes can be both one-chromatid and two-chromatid. In t…»
+  ✗ №54: варіантів: 6 — «Human cell is studied under a microscope during anaphase of mitosis. At this sta…»
+  ✗ №56: відповідь «¢ chromosome's separation Note. Another » не збігається рівно з одним варіантом — «During the postsynthetic period of mitotic cycle, synthesis of proteins — tubuli…»
+  ✗ №58: варіантів: 6 — «Scraping of mucous of a mouth was taken by u spatuls for laboratory investigatio…»
+  ✗ №59: відповідь «Submetacentric Note. The term "subacroce» не збігається рівно з одним варіантом — «The study of female karyogram shows that a centromere of the X chromosome 1s pla…»
+  ✗ №60: варіантів: 6 — «Indicator of intensity of mutational process in human is the sister chromatid in…»
+  ✗ №61: OCR-сміття: chromauds, tetrads — «Onc of characteristics of a cell for anaphase of mitosis is 4n 4c. It 15 caused …»
+  ✗ №62: OCR-сміття: Diplotene, Featre, Leptotene, Pachytene, Zygotene, символи: *« — «Featre of meiosis in oogenesis is eXistence of a specific stage, which is absent…»
+  ✗ №65: OCR-сміття: Lamcltar, anabolic, phagoceytosis, protcoglycans — «High-molecular compounds — proteins and carbohydrates — enter a cell by phagocey…»
+  ✗ №66: OCR-сміття: aresult — «Remember value of processes of mitosis and meiosis in life cycles of organisms r…»
+  ✗ №67: OCR-сміття: imert, invisible, polytene — «In the first half of the XX century, many authors described more intensively pai…»
+  ✗ №68: відповідь «Lysosome Note. In the book “Collection o» не збігається рівно з одним варіантом — «During examination of a cell structure, a globular monomembranous organelle, whi…»
+  ✗ №69: варіантів: 1 — «Chromosomes of cukaryotic cells consist generally of chromatin — a complex of do…»
+  ✗ №70: OCR-сміття: lodine — «Human Karyotype is studied when a cell is at metaphase. What do we call the subs…»
+  ✗ №73: OCR-сміття: Postmitotic, protecins — «Microfilaments and microtubules are known to include tubulin proteins, which tak…»
+  ✗ №76: OCR-сміття: символи: ¢ — «Nuclei of cells were affected by a substance which destroyed the histone structu…»
+  ✗ №77: відповідь «+« Colchicime -~ |58 - —_— Kvokd7e Medic» не збігається рівно з одним варіантом — «During an experiment, a culture of cells divided by mitosis was influenced by su…»
+  ✗ №78: варіантів: 4 — «Itis known that the growing old cpithclial cells die, What cell organoids provid…»
+  ✗ №80: OCR-сміття: cybrids — «During preparation to the final round of the Ukrainian competition in biology, m…»
+  ✗ №82: варіантів: 4 — «What process in a cell provides constancy of chromosome number?»
+  ✗ №84: OCR-сміття: Chromonemata, Microfibrils, Myofibrils, Neurofibrilla, polytene — «Number of what structures is increased in polytene chromosomes?»
+  ✗ №86: відповідь «Telophase |» не збігається рівно з одним варіантом — «In one of meiosis phases in a man, nuclei containing 23 chromosomes with diploid…»
+  ✗ №87: OCR-сміття: peniod, символи: « — «It is known that ccll cycle consists of several consecutive transformations i a …»
+  ✗ №88: варіантів: 6 — «Organoids are constant differentiated cytoplasm regions, which have certain stru…»
+  ✗ №89: OCR-сміття: kinetochore, nucleolar — «Cytogenetic investigations showed that cach chromosome is differentiated on two …»
+  ✗ №90: OCR-сміття: onemembrane — «Mitochondria are two-membrane organoids: lysosomes and Golgi complex are onememb…»
+  ✗ №92: відповідь «Neurons ~ |88 -» не збігається рівно з одним варіантом — «During the whole life of a human, in some adult cells mitosis is not observed, a…»
+  ✗ №93: OCR-сміття: Interchromosomal, Intrachromosomal — «Under the influence of gamma-radiation a fragment of 4 chromosome was lost, What…»
+  ✗ №94: відповідь «Inanucicolus» не збігається рівно з одним варіантом — «Protein and ribosomal RNA (RNP, ribonucleoprotein) are a part of ribosomes. Wher…»
+  ✗ №95: OCR-сміття: Mycoplasma — «Prokaryotes are anucleate organisms, which have no typical nucleus and nuclear m…»
+  ✗ №96: немає відповіді — «In the presynthesis period (Gy) of a cell cycle, DNA synthesis doesn't occur, th…»
+  ✗ №97: OCR-сміття: organclies, proteolytic — «A cell includes hall-shaped mono-membranous organelles that include proteolytic …»
+  ✗ №99: OCR-сміття: Microfibnils, rbosome — «In a nucleus, there are non-constant structures that disappear at the beginning …»
+  ✗ №101: OCR-сміття: Idiogram — «Chromosomes are pair structures in all species. Such set of chromosomes is calle…»
+  ✗ №102: відповідь «s Interphase Note. During exam in 2017, » не збігається рівно з одним варіантом — «During a cell cycle, regular changes in the amount of genetic material oceurs. H…»
+  ✗ №103: OCR-сміття: cosin, hematoxylin — «On the preparation painted by hematoxylin and cosin, dark blue grains and clots …»
+  ✗ №104: варіантів: 4 — «During anaphase, chromosomes (cach containing one chromatid) are placed on the p…»
+  ✗ №105: варіантів: 4 — «In intensively functioning cells (for example, of liver), the increase in chromo…»
+  ✗ №106: OCR-сміття: organclic — «There is an organclle in human cells. Functions of this organclle are the format…»
+  ✗ №108: OCR-сміття: glycoprotein, mucin — «Sceretion of glycoprotein mucin that forms mucus s reduced in a patient. Disturb…»
+  ✗ №109: варіантів: 6 — «Among microorganisms, prokaryotes and cukaryotes differ in features of cellular …»
+  ✗ №111: відповідь «idcogram» не збігається рівно з одним варіантом — «In a medical genctic center, a doctor applied a method of differential painting …»
+  ✗ №112: відповідь «Anaphasc» не збігається рівно з одним варіантом — «Moving of daughter chromatids to the poles of a cell is observed in the mitotica…»
+  ✗ №113: OCR-сміття: Lamellar — «Different cellular organelles are characterized by an unequal set of enzymes tha…»
+  ✗ №115: OCR-сміття: wo, символи: *« — «Three new mutant genes appeared in an oocyte I Name the maximum number of zygote…»
+  ✗ №116: OCR-сміття: символи: *» — «A patient with poisoning got to a clinic. It is established that detoxication me…»
+  ✗ №118: відповідь «Anaphasc» не збігається рівно з одним варіантом — «Four phases are distinguished in mitosis. In what phase human cell has 92 chromo…»
+  ✗ №119: варіантів: 6 — «The number of cells, which entered a phase of DNA synthesis of a mitotic cycle w…»
+  ✗ №121: OCR-сміття: символи: *« — «Glycogen and proteins are actively synthesized in cells of healthy liver. What t…»
+  ✗ №123: відповідь «Endomitosis =250 -» не збігається рівно з одним варіантом — «Somatic cells of a man are diploid (2n chromosomes). Nevertheless, polyploid cel…»
+  ✗ №124: варіантів: 6 — «There are cellular and noncellular forms of life, What of the forms, which are l…»
+  ✗ №125: відповідь «Anaphasc» не збігається рівно з одним варіантом — «Colchicine, which blocks "assembling” of proteins of achromatinic spindle, influ…»
+  ✗ №126: OCR-сміття: albumine — «Decrease in level of albumine and fibrinogen was revealed in the patient’s blood…»
+  ✗ №130: OCR-сміття: Kkaryotype, Meracentric, символи: | — «During studying a Kkaryotype of an aborted embryo, it was revealed that one of t…»
+  ✗ №131: OCR-сміття: Monomolecular — «When students studied structures of a cell, there was such question: "What are b…»
+  ✗ №134: OCR-сміття: multipolar, wmor — «The wmor of a uterus was removed in a 60-year-old woman. At investigation of tum…»
+  ✗ №135: OCR-сміття: Endosmosis, cytogeneties, hypotonic — «During preparation of a metaphase plate, a doctor who is cytogeneties treated th…»
+  ✗ №137: OCR-сміття: nucleocapsid — «The mature viral part consists of fibrous envelope and nucleocapsid i which gene…»
+  ✗ №138: OCR-сміття: ofien — «Discases, which are associated with accumulation of carbohydrates, lipids etc. c…»
+  ✗ №139: варіантів: 6 — «Amitosis is a direct nuclear fission of a cell at which the interphase condition…»
+  ✗ №141: OCR-сміття: Interchromosomal, Intrachromosomal — «Under the influence of gamma-radiation a fragment of a chromosome has tumed by 1…»
+  ✗ №142: OCR-сміття: Actin, Myofibrils, ameboid — «Animal cells are capable to active movements, for example, to the ameboid moveme…»
+  ✗ №144: варіантів: 6 — «Examination ol a patient with hepatolenticular degeneration revealed that synthe…»
+  ✗ №145: OCR-сміття: Longarm, Shortarm, символи: ™ — «In a medical genetic center when studying the metaphase plate of a sick child, a…»
+  ✗ №148: варіантів: 1 — «Malarial plasmodium has a set of chromosomes 1= 12, its cells propagate in human…»
+  ✗ №150: OCR-сміття: Colchicum — «Colchicine (the substance isolated from the plant Colchicum L.) stops process of…»
+  ✗ №151: OCR-сміття: rbosomes — «A tissue sample of benign tumor was studied under the electron microscope. A lot…»
+  ✗ №152: OCR-сміття: Karyokincsis — «A culture of tumor cells shows fast cellular division by direct cleavage of a nu…»
+  ✗ №153: OCR-сміття: phagocylosis, pinocviosis, staphylococet — «At the laboratory experiment, a leukocyte culture was mixed with staphylococet. …»
+  ✗ №154: варіантів: 6 — «Granular endoplasmic reticulum and Golgi apparatus are well developed in some ce…»
+  ✗ №155: OCR-сміття: символи: ¢ — «Golgi complex exports substances from a cell due to the fusion of the membrane s…»
+  ✗ №156: варіантів: 2 — «Life cycle of a cell includes the process of DNA autoreduplication. As a result …»
+  ✗ №157: OCR-сміття: Chromatd — «On an clectron micrograph a scientist has identified a structure formed by cight…»
+  ✗ №158: відповідь «mectaphase Note. In the book “Collection» не збігається рівно з одним варіантом — «While studying maximally spiralized chromosomes of human karyotype, the process …»
+  ✗ №159: варіантів: 6 — «A cell at the stage of mitotic anaphase was treated by colchicine that inhibits …»
+  ✗ №160: варіантів: 1 — «Normal actively dividing cclls of human red bone marrow are analyzed. What numbe…»
+  ✗ №162: варіантів: 3 — «Human Kkaryotype is studied at metaphase stage of mitosis. At this stage it is p…»
+  ✗ №163: OCR-сміття: micromanipulator — «One of two centrioles of a centrosome (cell center) was withdrawn from hepatocyt…»
+  ✗ №164: варіантів: 4 — «In the electronic microphoto of a cell, a scientist revealed supramolecular stru…»
+  ✗ №165: OCR-сміття: Proteolysis, mportant — «Eukaryotic cells contain membrane organelles, which are formed n Golgi complex a…»
+  ✗ №166: варіантів: 6 — «Signal molecules — protein receptors — are located on plasmatic membranes of cel…»
+  ✗ №168: OCR-сміття: maimntains — «Each species of organisms has certain constant number of chromosomes, The mechan…»
+  ✗ №169: OCR-сміття: символи: *« — «It is possible to see bacteria and leukocytes in the eytoplasm of mouth amocba a…»
+  ✗ №170: відповідь «. mitosis» не збігається рівно з одним варіантом — «During formation of teeth, cell fission of a nipple of human epidermis occurs, T…»
+  ✗ №171: варіантів: 6 — «How fibers of intestines absorb amino acids as products of proteolysis?»
+  ✗ №173: OCR-сміття: depend, neeessary, символи: ¢« — «The system of intracellular tubules and tanks, which is divided on rough and smo…»
+  ✗ №174: варіантів: 1 — «In what sequence the following process- ¢s happen during mitosis in animals and …»
+  ✗ №176: OCR-сміття: Cyanobactenia, Mycoplasmas, constst — «For studying heredity at the molecular level, parasitic forms, which can invade …»
+  ✗ №177: OCR-сміття: achromatinic — «During investigation of culture of tissue of malignant tumor, cell fission that …»
+  ✗ №178: відповідь «*« CxXOCYtosis» не збігається рівно з одним варіантом — «Substances are excreted from a cell as a result of connection of membrane struct…»
+  ✗ №179: OCR-сміття: Postmitotic, protems — «Experimental studying a new medical preparation revealed its blocking effect on …»
+  ✗ №181: відповідь «Zygonema» не збігається рівно з одним варіантом — «Mutual attraction of chromosomes is called "conjugation” or "synapsis", Conjugat…»
+  ✗ №183: варіантів: 4 — «Example of what type of transport through a membrane 1s the H pump, which extort…»
+  ✗ №185: варіантів: 4 — «During ocogamy, one ovum ripens, grows, then the follicle bursts and the ovum (a…»
+  ✗ №186: OCR-сміття: Triploidy, karyological — «A mutagen influenced a cell and partially destroyed a spindle of division, The k…»
+  ✗ №187: OCR-сміття: Inacell, Incytoplasm, Innucleoli, nbosomal, символи: ¢ — «The important role in the process of protein biosynthesis belongs to the ribosom…»
+  ✗ №188: варіантів: 4 — «Three periods are distinguished in interphase of cellular cycle. During S phase …»
+  ✗ №189: варіантів: 6 — «In experiment, a preparation destroying a spindle influenced on culture of mitot…»
+  ✗ №192: OCR-сміття: liguidators — «Cells with 44 and 48 chromosomes were found in culture of leukocytes of peripher…»
+  ✗ №194: OCR-сміття: Ascomyceles, Fukaryotes — «It was established that cells of organisms luck membrane organclles and their he…»
+  ✗ №195: OCR-сміття: Ata, Sexcells — «Ata meeting of student scientific circle, first-year students decided to investi…»
+  ✗ №196: OCR-сміття: tuken — «Buccal swab of the mucous of man's mouth was tuken by u spatula for laboratory i…»
+  ✗ №197: OCR-сміття: cvtokinesis, mfluenced — «During mitotic division of diploid somatic cell, it was mfluenced by colchicine.…»
+  ✗ №199: OCR-сміття: Microfibrils — «When carrying out scientific experiment, a researcher destroyed structure of one…»
+  ✗ №202: OCR-сміття: toxicants — «Long influence of toxicants on an organism led to considerable decrease in prote…»
+  ✗ №203: OCR-сміття: oxidarion — «Analysis of an electron diffraction pattern of a cell revealed mitochondrion des…»
+  ✗ №204: OCR-сміття: melacentric — «Cytogenetic analysis established that a patient had the 47, XYY karyotype. An ex…»
+  ✗ №205: OCR-сміття: Diploncma, Leptonema, Pachynema, Zygonema — «Recombination of genetic material is achieved via several mechanisms one of whic…»
+  ✗ №206: варіантів: 6 — «During the period of presynthesis of mitotic cycle, synthesis of the enzyme DNA-…»
+  ✗ №207: відповідь «e« Metacentric Note. The term "subacroce» не збігається рівно з одним варіантом — «A chromosome, which has p and ¢ arms with equal length, was revealed in female s…»
+  ✗ №208: відповідь «Bacteria Note. The answer "viruses” is b» не збігається рівно з одним варіантом — «What group of organisms has the ring and lincar molecules of DNA creating chromo…»
+  ✗ №210: OCR-сміття: radiosensitizing, radiotoxic — «Under the influence of radioactive radiation in a dose of 5 Grey, red marrow was…»
+  ✗ №211: відповідь «Metaphase» не збігається рівно з одним варіантом — «In a tissue specimen of the endometrium, scparate epithelial cells are visible i…»
+  ✗ №212: OCR-сміття: символи: *«, символи: ¢ — «Molccular-level-process of spontancous passive transport of water-soluble molecu…»
+  ✗ №215: OCR-сміття: nucicar — «In which of the following nucicar structures is DNA actively transcribed to rRNA…»
+  ✗ №216: OCR-сміття: exocy — «Beginning with protein synthesis in membranc-bound ribosomes, hepatocytes secret…»
+  ✗ №1: відповідь «III(B)Rh» не збігається рівно з одним варіантом — «A woman with [ {(O) rh™ blood type married a man with IV (AB) Rh™ blood type. Wh…»
+  ✗ №2: OCR-сміття: Pleiotropic, genotypreal — «Phenotypically identical anomalies can be caused by genotypreal as well us envir…»
+  ✗ №3: варіантів: 4 — «In what of marriages rhesus incompatibility of mother and a fetus is possible?»
+  ✗ №4: відповідь «s genocopics» не збігається рівно з одним варіантом — «A blind girl, whose parents, brothers and sisters were blind too, married a blin…»
+  ✗ №6: відповідь «Pleiotropy» не збігається рівно з одним варіантом — «Development of any traits in a man is result of complex interactions between gen…»
+  ✗ №7: OCR-сміття: sctiled — «A group of Caucasians men sctiled in South Africa, and marriages happened only b…»
+  ✗ №9: OCR-сміття: Transgenation — «These mutations are not transferred to descendants at sexual reproduction, never…»
+  ✗ №10: варіантів: 4 — «A wifc is blind owing 1o anomaly of a crystalline lens, and her husband is blind…»
+  ✗ №11: OCR-сміття: hypercholesterolemia, xanthomas — «Familial hypercholesterolemia is inherited on autosomal recessive type, In heter…»
+  ✗ №12: варіантів: 4 — «A child who is sick with phenylketonuria (autosomal recessive hereditary discase…»
+  ✗ №14: OCR-сміття: Inhentance, символи: ¢ — «Inhentance of blood types is defined by a type of gene interaction. Parents have…»
+  ✗ №16: варіантів: 4 — «Genes 4 and B are linked incompletely. What recombinant gametes are formed by Dr…»
+  ✗ №17: OCR-сміття: AahiX, XEX, aaii, символи: { — «A female albino (trait is inherited on autosomal recessive type), who has normal…»
+  ✗ №18: OCR-сміття: символи: ¢ — «Some erythrocytes of a man has crescent shape; he did not know about it before c…»
+  ✗ №19: варіантів: 4 — «At parents with what genotypes children with all blood types of ABO system can b…»
+  ✗ №20: відповідь «1:] m genotype» не збігається рівно з одним варіантом — «Brown cyes of man is dominant trait, blue eyes is recessive trait, A blue-cyed m…»
+  ✗ №21: варіантів: 6 — «Significant role in human pathology belongs to so-called phenocopies, which rese…»
+  ✗ №22: варіантів: 4 — «The phenomenon of interaction of polymeric genes, as one of kinds of interaction…»
+  ✗ №24: відповідь «5%» не збігається рівно з одним варіантом — «Albinism is inherited as autosomal recessive trait. Albino child was born in a f…»
+  ✗ №25: відповідь «. PPxPP — 486 ~» не збігається рівно з одним варіантом — «Two boys were mixed in maternity hospital. Parents of one of them had 1 and IV b…»
+  ✗ №26: відповідь «AaxAa — 488 - —_— Kvok 7 Medical Blology» не збігається рівно з одним варіантом — «Red hairs is recessive trait, black hairs is dominant trait, At what marriages c…»
+  ✗ №27: варіантів: 1 — «Normal pigmentation of human skin (C) dominates over albinism (¢); existence of …»
+  ✗ №28: варіантів: 3 — «X-linked recessive lethal gene causes resorption of human embryo at early stages…»
+  ✗ №29: OCR-сміття: Discontinuity, Gence — «Inclination to diabetes mellitus is provoked by the asutosomal recessive gene, T…»
+  ✗ №30: варіантів: 4 — «Healthy young spouses have a son with hemophilia, The grandfather on the mother'…»
+  ✗ №33: відповідь «Modificative vanability Naote. There is » не збігається рівно з одним варіантом — «Healthy parents have a son with phenylketonuria, but owing to a special diet he …»
+  ✗ №34: варіантів: 1 — «A father suffers from migraine (dominant trait), and a mother is healthy. Father…»
+  ✗ №35: відповідь «Vegetative» не збігається рівно з одним варіантом — «A bud appeared from a plant cell in which a mutation occurred, and then shoot wi…»
+  ✗ №37: варіантів: 4 — «In a large family, there are four sons and three daughters who differ phenotypic…»
+  ✗ №38: варіантів: 2 — «What is the probability of the birth of a boy in a family, where mother is the c…»
+  ✗ №39: відповідь «Modification Note: Another variant of in» не збігається рівно з одним варіантом — «As a result of jodine deficiency in foodstuff, Transcarpathian people often have…»
+  ✗ №41: відповідь «Nonc» не збігається рівно з одним варіантом — «Deafness can be caused by different recessive alleles "a" and "b", which are loc…»
+  ✗ №42: OCR-сміття: analbino, axaxaas, aya — «Pigmentation of human skin s controlled by several pairs of genes, which are not…»
+  ✗ №43: OCR-сміття: sicklecell — «A young man from the Central Africa arrived to Ukraine to get the higher medical…»
+  ✗ №44: OCR-сміття: Dihybnd, Polyhybrid — «Two organisms are crossed. One of them is heterozygous for a dominant gene, and …»
+  ✗ №45: OCR-сміття: символи: *¢ — «Four blood types of ABO system in human ur¢ defined by interaction of three gene…»
+  ✗ №46: відповідь «s penctrance» не збігається рівно з одним варіантом — «In human population of the city N, among all people who has dominant gene of sch…»
+  ✗ №47: відповідь «hybnd» не збігається рівно з одним варіантом — «In numerous experiments, homozygous or heterozygous organisms are crossed betwee…»
+  ✗ №48: варіантів: 4 — «There is a unicellular organism, which is characterized by a set of chromosomes …»
+  ✗ №49: OCR-сміття: antibodices — «IV blood type was revealed in a donor. Phenotypically it is characterized by exi…»
+  ✗ №53: OCR-сміття: alieles — «Blood types of Rh system in man are defined by interaction of two alieles of one…»
+  ✗ №56: відповідь «AaxAa Note. In the book “Colfection of t» не збігається рівно з одним варіантом — «A family of healthy students who have arrived from Africa gave birth to a child …»
+  ✗ №57: відповідь «The law of dominance Note. In the book “» не збігається рівно з одним варіантом — «A husband is a homozygote by a dominant gene which causes polydactyly. His wife …»
+  ✗ №58: OCR-сміття: bluecyed — «A husband is brown-cyed and homozygous for a dominant gene, und a wife is bluecy…»
+  ✗ №59: варіантів: 4 — «Human skin color is controfled by several pairs of genes, which are not linked a…»
+  ✗ №61: OCR-сміття: wething — «Spouses gave birth to a child with bright blue eyes, In some months, color of an…»
+  ✗ №62: OCR-сміття: nonallelic — «Intensity of human skin pigmentation is controlled by a few pairs of nonallelic …»
+  ✗ №63: відповідь «Gene expression Note. The answer "gene e» не збігається рівно з одним варіантом — «The same genotype in a human can cause the development of a feature with differe…»
+  ✗ №64: OCR-сміття: Wifeis, Witeis, символи: |, символи: ™ — «At what blood types of parents on Rhesus factor system, Rhesus factor incompatib…»
+  ✗ №65: OCR-сміття: Gameles — «Chromosome aberrations and changes of chromosome number can arise at different s…»
+  ✗ №66: відповідь «Complementarity Note. Another variant of» не збігається рівно з одним варіантом — «Decaf-mute parents with genotypes DDee and ddEE gave birth to children with norm…»
+  ✗ №67: варіантів: 1 — «Some clinically healthy people can fecl anemia symptoms in the conditions of hig…»
+  ✗ №69: варіантів: 4 — «Onc of the parents is suspected of having phenylketonuria recessive gene, What i…»
+  ✗ №71: відповідь «50%» не збігається рівно з одним варіантом — «Spouses, where a wife has normal structure of u hand and » husband has polydacty…»
+  ✗ №72: OCR-сміття: agglutinin — «Rhesus incompatibility occurs during transfusion to the recipient of Rh-positive…»
+  ✗ №73: OCR-сміття: hacmophiliz, ofboys, символи: « — «Woman applied to a medical genetic consulting centre for information about the r…»
+  ✗ №74: OCR-сміття: Cistrons, vanants — «Changes of chemical structure of a gene can appear in its different sites, If su…»
+  ✗ №76: OCR-сміття: acridines, nonheritable — «Mutagenic factors can have specific form of influence, For example, acridines in…»
+  ✗ №77: варіантів: 3 — «There are two children in a family, A daughter has O blood type, a son has AB bl…»
+  ✗ №78: OCR-сміття: genetice — «A woman with O (I) blood group has bom a child with AB blood group, Woman's husb…»
+  ✗ №83: варіантів: 4 — «A father has alkaptonuria, a mother is homozygous for the normal gene. The proba…»
+  ✗ №86: відповідь «Aaand Aa» не збігається рівно з одним варіантом — «Phenylketonuria is inherited on autosomal recessive type. At what genotypes of p…»
+  ✗ №87: варіантів: 4 — «Violation of formation of collagenic fibers is the cornerstone of a number of he…»
+  ✗ №88: варіантів: 3 — «A woman with Rh-ncgative blood of IT1 group gave birth to a child with IV blood …»
+  ✗ №90: відповідь «Miand 1%» не збігається рівно з одним варіантом — «A family has a child with blood type O (I). What are possible genotypes of paren…»
+  ✗ №91: варіантів: 0 — «There are two healthy children in a family, and the third was borm with phenylke…»
+  ✗ №92: OCR-сміття: Celiac, celiac, diseasc, gliadin — «Celiac diseasc s inherited on autosomal recessive type. Treatment consists in wi…»
+  ✗ №93: варіантів: 6 — «Violation of chromosome disjunction or change of their structure during cleavage…»
+  ✗ №94: OCR-сміття: tvpe — «Hemoglobin molecule consists of two a chains and two fi chains, Genes coding bot…»
+  ✗ №96: варіантів: 1 — «A husband has IV (AB) blood type, and a wife has Il (B) blood type. The wife's f…»
+  ✗ №97: відповідь «Pleiotropy Naote. During exam in 2009 (a» не збігається рівно з одним варіантом — «Hartnup discase is caused by point mutation of only one gene, which results in d…»
+  ✗ №98: відповідь «1) and 1 (PF)» не збігається рівно з одним варіантом — «A boy has I (/') blood group and his sister has IV (7*7") blood group, What bloo…»
+  ✗ №99: OCR-сміття: Cystinuna, unine — «Cystinuna in humans manifests itself as cystine stones in kidneys (homozygous in…»
+  ✗ №100: варіантів: 4 — «Features of inheritance of blood types in man in the case of "Bombay phenomenon™…»
+  ✗ №101: OCR-сміття: nisk — «Five married couples addressed to clinic for women. They want to know, whether t…»
+  ✗ №102: OCR-сміття: ancemia — «A child, who is sick with sickle-cell anemia, has some pathological signs: ancem…»
+  ✗ №103: варіантів: 3 — «In the case when one of parents has blood type O, and the other has AB, their ch…»
+  ✗ №108: OCR-сміття: символи: ~ — «Hypoplasia of cnamel is inherited as the dominant X-linked trait. In a family, a…»
+  ✗ №109: відповідь «I (B), Rh-positive» не збігається рівно з одним варіантом — «A woman with Rh-negative blood of 11 group gave birth to a child with IV group f…»
+  ✗ №110: OCR-сміття: Plaiotropy — «There are two dominant genes in human X chromosome, which take part in blood clo…»
+  ✗ №111: варіантів: 3 — «Symptoms of anemia were observed in clinically healthy thirty-year-old woman whe…»
+  ✗ №113: відповідь «I[(A),Rh' Note. Other variants of incorr» не збігається рівно з одним варіантом — «A woman with 111 (B) Rk blood group gave birth to a child with 11 (A) blood grou…»
+  ✗ №114: відповідь «Crossing-over — 664 -» не збігається рівно з одним варіантом — «In the process of cell division, the approaching of homological chromosomes happ…»
+  ✗ №115: OCR-сміття: Onlyin, Rhpositive, achild — «A father is Rh-negative. A mother is Rhpositive, She gave birth to the Rh-positi…»
+  ✗ №118: варіантів: 2 — «What type of regulation of sex by means of sex chromosomes is charactenistic for…»
+  ✗ №119: OCR-сміття: символи: { — «Rh-negative woman with IV (AB) blood type and Rh-negative man with 1 {O) blood t…»
+  ✗ №120: відповідь «Codominance Another variant of incorrect» не збігається рівно з одним варіантом — «Four blood types of ABO system are determined by inheritance of three alleles of…»
+  ✗ №121: відповідь «HI(B)h» не збігається рівно з одним варіантом — «During a surgery, there was a need of massive blood transfusion. Blood type of i…»
+  ✗ №122: OCR-сміття: символи: ~ — «Let us assume that one pair of alleles controls development of crystalline lens,…»
+  ✗ №123: відповідь «Rh recipient will receive Rh' blood» не збігається рівно з одним варіантом — «In what of the given cases, danger for a patient can arise during blood transfus…»
+  ✗ №125: однакові варіанти — «A child was bom in heterozygous parents with [T (A) and I (B) blood types accord…»
+  ✗ №127: варіантів: 3 — «Sccretion of breast milk at women is caused by polymeric genes, and the amount o…»
+  ✗ №128: відповідь «Aaand Aa Note. In the book “Collection o» не збігається рівно з одним варіантом — «Alcaptonuria is inherited as an autosomal recessive feature. Parents with a norm…»
+  ✗ №130: варіантів: 4 — «Parents with a normal phenotype gave birth 10 an albino child (the feature that …»
+  ✗ №131: OCR-сміття: diheterozygote, hetween, triheterozygote — «A boy has large fissure hetween cutters. It is known that the gene that is respo…»
+  ✗ №134: OCR-сміття: interteron, polygencs, символи: ¢ — «Formation in human cells of interferon, which is a protein produced for protecti…»
+  ✗ №135: відповідь «¢ mutation Note. Genes for MN blood syst» не збігається рівно з одним варіантом — «It is known that the gene responsible for the development of the MN blood groups…»
+  ✗ №137: варіантів: 4 — «Examination of newborns in one of the Ukrainian cities revealed a baby with phen…»
+  ✗ №138: відповідь «modification variability Note. Another p» не збігається рівно з одним варіантом — «A woman was infected with rubella virus during pregnancy. A child was born with …»
+  ✗ №139: варіантів: 4 — «An underage patient has signs of achondroplasta (dwarfism). It is known that thi…»
+  ✗ №140: відповідь «Codominance Note. Incomplete dominance i» не збігається рівно з одним варіантом — «The antigen A, which is controlled by /* allele, and the antigen B, which is a p…»
+  ✗ №143: OCR-сміття: символи: * — «Primary microcephaly, which is a monogenic autosomal recessive disease, is diagn…»
+  ✗ №144: варіантів: 4 — «Parents have normal hearing, their two daughters and son have congenital deafnes…»
+  ✗ №145: відповідь «Deletion Note. This question was used du» не збігається рівно з одним варіантом — «In a chromosome region, genes are Jocated in such sequence: ABCDEFG. As a result…»
+  ✗ №1: OCR-сміття: difTers, recetved — «During biochemical analysis of human cells, DNA that difTers in its structure fr…»
+  ✗ №3: відповідь «Degencracy Naote. Collinearity and colin» не збігається рівно з одним варіантом — «Under the influence of mutagen, the composition of some triplets in a gene was c…»
+  ✗ №4: OCR-сміття: activization — «Spiralization of chromosomes has great biological value, as;»
+  ✗ №5: варіантів: 4 — «Part of the DNA chain turned 180 degrees as a result of gamma radiation. What ty…»
+  ✗ №6: відповідь «Repair Note. In the book “Collection of » не збігається рівно з одним варіантом — «Human cells were influenced by ultraviolet radiation, and DNA molecules had been…»
+  ✗ №7: OCR-сміття: Formyimethionine — «Process of translation has a direet bearing on mechanisms of implementation of h…»
+  ✗ №9: OCR-сміття: aspartic, bemoglobin, nonpolar, символи: ~ — «Sickle-cell anemia 1s caused by mutation of the gene that is responsible for syn…»
+  ✗ №10: варіантів: 4 — «Chargafls rule indicates an equal ratio of purine and pyrimidine nitrogenous bas…»
+  ✗ №12: відповідь «Deletion Note. During exam in 2018, anot» не збігається рівно з одним варіантом — «As a result of radiation influence on sequence of nucleotides in DNA, two nucleo…»
+  ✗ №13: відповідь «Nucleotide-excision repair of thymine di» не збігається рівно з одним варіантом — «Hereditary discase — Xeroderma pigmentosum — was revealed in a patient. Malignan…»
+  ✗ №14: варіантів: 3 — «What structural and chemical components take part in translation? ¢ Ribosomes, m…»
+  ✗ №15: OCR-сміття: Deoxyribonucleic, mononucleotdes — «Deoxyribonucleic acid (DNA) is the carrier of genetic information; its structura…»
+  ✗ №16: OCR-сміття: polvmerase — «A 22-year-old girl has an open form of tuberculosis, Antibiotic rifampicin, whic…»
+  ✗ №18: варіантів: 1 — «Polypeptide which has been synthesized on a ribosome includes 54 amino acids. Ho…»
+  ✗ №19: OCR-сміття: athalassemia — «Transversion has occurred in the mRNA molecule that codes for synthesis of p cha…»
+  ✗ №20: OCR-сміття: Hybndization — «In genetic engineering, different mechanisms of introduction of an artificial ge…»
+  ✗ №21: OCR-сміття: polymetase — «Specify, what molecular mechanism of mutations is induced by nitrous acid:»
+  ✗ №22: варіантів: 6 — «Labelled amino acids alanine and tryptophune were injected to @ mouse in order t…»
+  ✗ №23: відповідь «DNA rcpair» не збігається рівно з одним варіантом — «A substance blocking work of DNA polymerases was added into a nutrient medium fo…»
+  ✗ №25: варіантів: 6 — «A fragment of diphtheria toxin is an cnzyme that catalyzes reaction of nibosylat…»
+  ✗ №28: OCR-сміття: antitubercular, posttranshational, rifampicn — «Antibiotic rifampicin is used in clinical practice as antitubercular drug. The m…»
+  ✗ №31: OCR-сміття: disulfide, molecnle — «A molecnle of insulin consists of two polypeptide chains that are connected by d…»
+  ✗ №32: OCR-сміття: fength, nueleondes — «What is the fength of DNA carrying information about synthesis of peptide, which…»
+  ✗ №34: OCR-сміття: Leukosis, символи: & — «Rescarches showed that glutamic acid in the sixth position of hemoglobin of & pa…»
+  ✗ №36: OCR-сміття: hexose, pentose, tetrose, triose — «Choose the substances which are the part of one nucleotide:»
+  ✗ №38: OCR-сміття: Collineanty — «It is known that information about the amino acid sequence in a protein molecule…»
+  ✗ №39: варіантів: 6 — «Blood of a child and putative father was referred to forensic medical exammation…»
+  ✗ №40: OCR-сміття: Ftoratur, Untwisting, deoxyribonucleotides, fluorodeoxyuridine, fluorouracil, polvimerases — «Structural analogs of pyrimidines (fluorouracil, fluorodeoxyuridine, Ftoratur) i…»
+  ✗ №41: відповідь «one gene» не збігається рівно з одним варіантом — «Atall forms of reproduction (sexual and asexual reproduction), elementary disere…»
+  ✗ №42: варіантів: 4 — «Reverse transcriptases (revertases, or RNA-dependent DNA polymerases) catalyze: …»
+  ✗ №43: OCR-сміття: Zonme, acceptor, geceptor, xon — «In a general view, the genctic apparatus of cukaryotes is such: acceptor zone—ex…»
+  ✗ №44: OCR-сміття: Inactivate, Radioprotectors, Stmulate, radioprotectors — «Radioprotectors, which increase resistance of an organism to action of mutagenic…»
+  ✗ №45: варіантів: 4 — «Enzyme DNA ligase that takes part in the process of excision repair of DNA, was …»
+  ✗ №46: варіантів: 4 — «Protcin-repressor has been found in a cell. What gene codifies the amino acid se…»
+  ✗ №47: OCR-сміття: karyoplasm, prednisolone — «Hydrocortisone and prednisolone, which stimulate transcription and therefore pro…»
+  ✗ №48: відповідь «Gene mutation —823 -» не збігається рівно з одним варіантом — «Sickle-sell anemia, when erythrocytes are in the form of a sickle, is widespread…»
+  ✗ №49: OCR-сміття: символи: ¢ — «The health officer suspended work of chemical plant as a large number of differe…»
+  ✗ №50: відповідь «Terminator —827 -» не збігається рівно з одним варіантом — «Transcription is taking place in human cells, RNA polymerase enzyme moving along…»
+  ✗ №51: OCR-сміття: redouble — «During the synthesis period (S) of the cell cycle, the redouble of DNA quantity …»
+  ✗ №52: варіантів: 6 — «A promoter is known to be responsible for joining the RNA polymerase enzyme and …»
+  ✗ №53: відповідь «Sequence of nucleotides of the appropria» не збігається рівно з одним варіантом — «Scicntists established amino acid sequence in the molecule of ribonuclease enzym…»
+  ✗ №54: OCR-сміття: decompose, символи: ¢ — «According to the hypothesis of lactose operon (Jacob, Monod, 1961), lactose, whi…»
+  ✗ №56: OCR-сміття: HbA, tetramer, символи: § — «Hemoglobin of adult man (HbA) is the tetramer protein consisting of two a chains…»
+  ✗ №57: відповідь «inhibits RNA polymerase at initiation st» не збігається рівно з одним варіантом — «Antibiotic rifamycin, which is used for treatment of tuberculosis, influences ce…»
+  ✗ №59: варіантів: 4 — «Chemical substance, which blocks work of enzymes that take part in despiralizati…»
+  ✗ №60: варіантів: 6 — «Onc of DNA chains consists of nucleotides: ATC-ACC-GAC-GTT... What sequence of n…»
+  ✗ №61: OCR-сміття: Bac, Str, xon, символи: ¢, символи: ™ — «During conjugation of bacteria of two strains A and B, it was established that g…»
+  ✗ №62: OCR-сміття: Phagosome, Polysome — «During translation, a few ribosomes, placed along the mRNA molecule at a certain…»
+  ✗ №64: варіантів: 6 — «Such rescarch with bacteria from different strains was conducted. U-shaped tube …»
+  ✗ №66: OCR-сміття: Gly, Lys, Ser, символи: » — «A number of hemoglobinopathies are characterized by amino acid replacements in a…»
+  ✗ №67: OCR-сміття: DNAsc, Nucleotidase, polynucleotide, символи: £ — «During investigation of the process of replication of £ coli genome, small fragm…»
+  ✗ №68: відповідь «sex filaments for transfer of genetic in» не збігається рівно з одним варіантом — «F plasmids encode synthesis of:»
+  ✗ №69: варіантів: 6 — «Process, in which DNA released during lysis of one bacterium penetrates into ano…»
+  ✗ №70: варіантів: 6 — «Mutations among bacteria arise due to action of:»
+  ✗ №71: OCR-сміття: haem, porphyrins, символи: ~ — «Erythrocytes of a patient with heavy form of hemolytic anemia have sickle form. …»
+  ✗ №72: OCR-сміття: Integrase, Protease, assoctated, wvirus — «What enzyme of HIV (human immunodeficiency wvirus) is assoctated with the mechan…»
+  ✗ №74: OCR-сміття: Alkylation — «What is main mechanism of action of antincoplastic antibiotics?»
+  ✗ №76: OCR-сміття: Rous, oncogenic, replicase — «Lesion by Rous sarcoma becomes possible only if information about the structure …»
+  ✗ №77: OCR-сміття: mfluence — «Pigmentation of human skin intensifies under the mfluence of ultraviolet radiati…»
+  ✗ №78: відповідь «reverse transcription Note. The term "co» не збігається рівно з одним варіантом — «RNA of the AIDS virus penetrated into a leucocyte and forced a cell to synthetiz…»
+  ✗ №79: варіантів: 6 — «Chemical composition of human DNA molecules us carriers of genetic information i…»
+  ✗ №81: відповідь «Collincarity Naote. Terms collinearity a» не збігається рівно з одним варіантом — «It was determined that the sequence of mRNA triplets totally corresponds to the …»
+  ✗ №82: OCR-сміття: Oncogenic, Translocase — «Oncogenic RNA viruses were introduced into an organism of experimental animal. B…»
+  ✗ №84: OCR-сміття: aminoacy, peptidyltransferase — «Antibiotics, which inhibit biosynthesis of nucleic acids and proteins, are used …»
+  ✗ №86: OCR-сміття: Firstor — «It is known that the genetic code is degenerate and has triplet nature, What nuc…»
+  ✗ №87: OCR-сміття: enzymics, replicons — «Life cycle of a cell is divided into periods. In the S period of an interphase, …»
+  ✗ №88: OCR-сміття: Translocase, символи: *« — «RNA viruses of measles were revealed in an organism of a patient. By means of wh…»
+  ✗ №89: варіантів: 4 — «A scquence of amino acid residues in a polypeptide molecule was established. Thi…»
+  ✗ №90: відповідь «Deletion Note. Another variant of incorr» не збігається рівно з одним варіантом — «A mutation has occurred in a cell in the first exon of a structural gene, The nu…»
+  ✗ №91: OCR-сміття: Initation — «A patient with skin cancer was treated with antincoplastic antibiotic actinomyci…»
+  ✗ №92: варіантів: 4 — «mRNA is synthesized in a cell nucleus on one chain of DNA, How this process is c…»
+  ✗ №93: OCR-сміття: cham — «For determination of molecular mass of a gene, one can use average value of mole…»
+  ✗ №95: OCR-сміття: Vanability — «Four nitrogenous bases in a combination of three in triplets give 4°=64 differen…»
+  ✗ №96: OCR-сміття: Transcriptons — «In the process of maturing of information RNA, special enzymes cut off introns a…»
+  ✗ №97: відповідь «splicing -92] - —_— Kok 0" Medical Blolo» не збігається рівно з одним варіантом — «In cukaryotcs, as a result of transcription, pro-RNAs containing sites, which ar…»
+  ✗ №98: відповідь «¢ DNA on the matrix of virus mRNA Note. » не збігається рівно з одним варіантом — «It was revealed that T lymphocytes were affected by HIV, Virus enzyme — reverse …»
+  ✗ №99: відповідь «translation Note. During cxam in 2017, i» не збігається рівно з одним варіантом — «A patient has decreased concentration of magnesium ions that are necessary for a…»
+  ✗ №101: OCR-сміття: Collineanty, Termmation — «Gene expression consists of a number of stages, During one of them, synthesis of…»
+  ✗ №102: відповідь «Recombination of genes -~ 93] - —_— Kook» не збігається рівно з одним варіантом — «Human genetic apparatus consists of approximately 30 thousand genes, while the n…»
+  ✗ №105: варіантів: 4 — «An influenza virus penetrated into a cell. The mechanism of protein biosynthesis…»
+  ✗ №106: варіантів: 4 — «Different physical and chemical factors can destroy the structure of DNA. What d…»
+  ✗ №107: OCR-сміття: Jong — «It was considered for the Jong time that relationship of virus and bacterial cel…»
+  ✗ №108: OCR-сміття: reccombination — «Children, who are homozygous for recessive autosomal mutation "Xeroderma pigment…»
+  ✗ №110: OCR-сміття: символи: « — «One of the main characteristics of a living being is ability to reproduction, On…»
+  ✗ №111: OCR-сміття: chaing, символи: § — «P thalassemia is a discase which is characterized by insufficient production of …»
+  ✗ №112: немає відповіді — «During analysis of a DNA fragment synthesized in the process of polymerase chain…»
+  ✗ №114: OCR-сміття: Nl, Subilization, Untwisting, символи: _, символи: ~ — «DNA replication is carried out by means of a complex of enzymes. What process is…»
+  ✗ №117: відповідь «Exon-intron-cxon Note. In cxam booklet, » не збігається рівно з одним варіантом — «Genetic structure of cukaryotic genes is "exon-intron—exon”, Such structure-func…»
+  ✗ №121: відповідь «tRNA» не збігається рівно з одним варіантом — «On one of stages of protein biosynthesis, reading of genctic mformation from mRN…»
+  ✗ №122: OCR-сміття: ntrons — «DNA of a man and all cukaryotes contains exons (informative sites) and ntrons (f…»
+  ✗ №123: OCR-сміття: quartemary — «By means of rescarches, which were performed by F. Sanger, it was found that the…»
+  ✗ №124: варіантів: 3 — «Duration of addition of one¢ amino acid to & polypeptide chain in bacterial cell…»
+  ✗ №125: OCR-сміття: peptidyl — «(RNA molecules have two active centers, An amino acid molecule is attached to on…»
+  ✗ №126: відповідь «DNA rcpair» не збігається рівно з одним варіантом — «Skin of patients with xeroderma pigmentosum 15 extremely sensitive to sunlight, …»
+  ✗ №127: варіантів: 6 — «Quinolones — inhibitors of enzyme DNA gyrase — are used for treatment of urogeni…»
+  ✗ №128: варіантів: 4 — «All types of RNA take part in a process of gene expression. Determine RNA and it…»
+  ✗ №129: відповідь «Recon ~ O8RS - —_— Kook 07 Medical Blolo» не збігається рівно з одним варіантом — «Such gene mutations as inserts and losses of nucleotide pairs in DNA molecule oc…»
+  ✗ №131: варіантів: 6 — «There are different levels of regulation of gene expression in cukaryotic cell. …»
+  ✗ №133: відповідь «DNA rcpair» не збігається рівно з одним варіантом — «An increase in quantity of new growths was revealed on skin of a woman after sta…»
+  ✗ №134: OCR-сміття: immunoglobuling, recovering, символи: *« — «An increase in formation of immunoglobuling owing to the increase in synthesis o…»
+  ✗ №136: варіантів: 6 — «A patient with sickle-cell anemia has crescent shape of erythrocytes due to repl…»
+  ✗ №138: відповідь «4cxons» не збігається рівно з одним варіантом — «A gene, which cncodes a polypeptide chain, consists of 4 exons and 3 introns. Wh…»
+  ✗ №140: OCR-сміття: deamination, inosine, nitrosamines — «In an organism, nitrogenous acid, which causes oxidizing deamination of nitrogen…»
+  ✗ №142: OCR-сміття: fluorodeoxyuridine — «A 58-ycar-old man underwent an operation concerning prostate cancer. The course …»
+  ✗ №143: варіантів: 4 — «What is nccessary for formation of transport form of amino acids for protein syn…»
+  ✗ №150: варіантів: 4 — «What of the following statements about genetic code is wrong? ¢ A codon contains…»
+  ✗ №151: немає відповіді — «It is known that there are 64 codons. How many codons have no mformation about a…»
+  ✗ №152: OCR-сміття: nbonucleic, ribonucleic — «What answer from listed is the most competent? Transcription is:»
+  ✗ №153: OCR-сміття: MacLeod — «The structure of DNA twisted into a double spiral was proposed on the basis of d…»
+  ✗ №154: OCR-сміття: hydroxylic, символи: ~ — «What from listed is correet about bonds in DNA?»
+  ✗ №155: варіантів: 4 — «What of these postulates corresponds to the modern level of genetic knowledge? ¢…»
+  ✗ №157: варіантів: 6 — «Overdose of such antibiotics as kanamycin and chloramphenicol (Levomycetin) is d…»
+  ✗ №159: OCR-сміття: Mutons — «It is known that a structural part of genes of cukaryotes is characterized by al…»
+  ✗ №164: OCR-сміття: proflavin — «It is known that some chemical compounds (bromine preparations, proflavin and ot…»
+  ✗ №165: OCR-сміття: drifi, interpopulation, intrapopulation — «Genetic polymorphism serves as basis for interpopulation and intrapopulation var…»
+  ✗ №167: OCR-сміття: mitiation — «Synthesis of protein on a ribosome begins with formation of mitiation complex th…»
+  ✗ №168: OCR-сміття: Mutons — «It is known that the structural part of genes of cukaryotes is characterized by …»
+  ✗ №169: OCR-сміття: символи: ¢ — «The lincar structure of protein, which does not have metabolic activity, was for…»
+  ✗ №170: варіантів: 4 — «Process of conjugation was cstablished in bacteria; during this process, the cyt…»
+  ✗ №172: OCR-сміття: Photorepair — «Ultraviolet rays break integrity of DNA molecules and lead to formation of pyrim…»
+  ✗ №173: OCR-сміття: Comutagens — «It is known that B-carotene, vitamins C and E reduce spontancous damages of DNA.…»
+  ✗ №174: OCR-сміття: Enhancers — «The gene for alanine IRNA was synthesized for the first time by H. Khorana in 19…»
+  ✗ №176: OCR-сміття: mhibit — «Infectious discases are treated with antibiotics streptomyein, erythromycin, and…»
+  ✗ №177: варіантів: 4 — «Synthesis of DNA begins from a primer. The primer is:»
+  ✗ №178: OCR-сміття: adenylic, methylguanosine — «All RNA types arc synthesized in the form of RNA precursors that are exposed the…»
+  ✗ №182: відповідь «Opcerator» не збігається рівно з одним варіантом — «In experiment, increase in activity of beta galactosidase afler addition of lact…»
+  ✗ №183: OCR-сміття: Rifamycin — «Rifamycin was prescribed 10 a patient with tuberculosis of lungs, It inhibits en…»
+  ✗ №184: OCR-сміття: ACU, Translaton, UCG, UGC, methioninge — «Translaton begins with an initiation phase, when AUG codon encoding methioninge …»
+  ✗ №185: OCR-сміття: CTP, uTP — «Process of protein biosynthesis is energy-dependent. Specify, what energy-rich s…»
+  ✗ №186: OCR-сміття: polvmerase — «In structure of an operon of DNA of prokaryotes, there is a site to which RNA po…»
+  ✗ №187: OCR-сміття: RNAprotein, символи: ¢ — «The concept about transfer of hereditary information in the dircetion "DNA-RNApr…»
+  ✗ №188: OCR-сміття: bucterium, mMRNA — «Process of transeription occurs in a cell of pathogenic bucterium, What serves u…»
+  ✗ №189: відповідь «¢ Gene mutation Note. This question was » не збігається рівно з одним варіантом — «In some regions of South Africa, there is a spread of sickle-cell anemiy, in whi…»
+  ✗ №191: відповідь «Missense mutation Note. Original questio» не збігається рівно з одним варіантом — «In a genetical laboratory in course of the work with DNA molecules of white rats…»
+  ✗ №192: відповідь «¢ Redundancy Note. In the booklet publis» не збігається рівно з одним варіантом — «When studying features of genctic code, students found that there are amino acid…»
+  ✗ №193: варіантів: 6 — «Owing to violation of safety rules, a worker of chemical compuny underwent toxic…»
+  ✗ №195: варіантів: 6 — «It is known that an operator is responsible for binding of RNA polymerase and in…»
+  ✗ №197: OCR-сміття: Disulfide — «As a result of translation, a lincar protein molecule corresponding to its prima…»
+  ✗ №200: однакові варіанти — «The majority of structural genes of eukaryotes in their structure (DNA fragments…»
+  ✗ №202: варіантів: 6 — «Infectiologists widely apply antibiotics that inhibit synthesis of nucleic acids…»
+  ✗ №203: OCR-сміття: ATG, CGT, CGU, GCA, символи: ¢ — «mRNA synthesis takes place on DNA matrix taking into account the principle of co…»
+  ✗ №204: відповідь «Helicase Note. The phrasc "During cell d» не збігається рівно з одним варіантом — «During ccll division, DNA replication occurs by a signal from a cytoplasm, and a…»
+  ✗ №205: OCR-сміття: dihvdrouracil — «Nowadays about 50 minor bases have been found in the t(RNA structure besides the…»
+  ✗ №206: відповідь «¢ Redundancy Naote. Redundancy is the sa» не збігається рівно з одним варіантом — «Students studied peculiarities of the genetic code and found out that there are …»
+  ✗ №207: відповідь «Rifampicin Note. In the site http://test» не збігається рівно з одним варіантом — «Tuberculosis can be treated by means of combined chemotherapy that includes subs…»
+  ✗ №208: варіантів: 4 — «Nucleolar organizers of human chromosomes 13-15, 21, and 22 contain about 200 cl…»
+  ✗ №209: варіантів: 6 — «A doctor was addressed by a 30-yearold man, There is a probability of a patient …»
+  ✗ №210: варіантів: 3 — «Paticnts with xeroderma pigmentosum are characterized by abnormally high sensiti…»
+  ✗ №211: OCR-сміття: postiranslational — «A process of translation occurs in a cell. When 4 ribosome reaches UAA, UAG or U…»
+  ✗ №212: відповідь «Transversion Note. During exams for stud» не збігається рівно з одним варіантом — «As a result of treatment of viral RNA with mitrous acid, UCA triplet mutated to …»
+  ✗ №213: відповідь «triplets coding for amino acids Note. In» не збігається рівно з одним варіантом — «A large number of different IRNA molccules, which transport amino acids to a rib…»
+  ✗ №214: OCR-сміття: bactenial — «A 28-year-old patient with bactenial pneumonia was administered a course of eryt…»
+  ✗ №215: OCR-сміття: Procaryotic, procaryotic — «Ability to divide is characteristic of procaryotic and cukaryotic cells, Procary…»
+  ✗ №216: однакові варіанти — «Genetic information is stored in DNA but DNA does not participate directly in pr…»
+  ✗ №218: OCR-сміття: Specity — «Patients suffering from Xeroderma pigmentosum have extremely photosensitive skin…»
+  ✗ №220: відповідь «repair Note. Original question was: "In » не збігається рівно з одним варіантом — «In the process of evolution, molecular mechanisms for correction of damaged DNA …»
+  ✗ №221: варіантів: 6 — «A 15-year-old young man complains of general weakness, dizziness, fast fatigue, …»
+  ✗ №223: OCR-сміття: Streptomycein, eucaryvotes, formylmethionyl — «Streptomycein and other aminoglycosides prevent joining of formylmethionyl-IRNA …»
+  ✗ №225: варіантів: 6 — «Antibiotic chloramphenicol (Levomyeetin) was prescribed to a patient. It breaks …»
+  ✗ №227: OCR-сміття: triphosphates — «During DNA replication, one of its chains is synthesized with delay. What define…»
+  ✗ №228: варіантів: 4 — «In a nucleus of eukaryotic cell, the premRNA molecule, which is complementary to…»
+  ✗ №230: OCR-сміття: immunoglobuling — «Formation of a large amount of immunoglobuling with different antigenic specific…»
+  ✗ №231: OCR-сміття: CEPT, символи: ~ — «Under the influence of UV radiation and other factors, changes in DNA structure …»
+  ✗ №232: варіантів: 6 — «A 2-year-old boy who recently emigrated from Somalia is brought to the physician…»
+  ✗ №233: OCR-сміття: Jjugation, Replacing, Supercoiling, misincorporated — «A mutation that causes the loss of the 3-5" exonuclease activity of DNA-dependen…»
+  ✗ №234: варіантів: 6 — «A newly synthesized compound that inhibits telomerase is being tested as a poten…»
+  ✗ №1: OCR-сміття: karvotyping — «Three chromosomes of the 13" pair were revealed at a newborn child with multiple…»
+  ✗ №3: OCR-сміття: roscola — «A healthy woman who had viral roscola during pregnancy gave birth to a deal” bab…»
+  ✗ №4: OCR-сміття: gonadotrophin, meiostis, secx, somatotropin — «A l4-year-old girl lags behind in physical and intellectual development, has sma…»
+  ✗ №6: OCR-сміття: arachnoid, cardiovascufar — «A paticnt has long growth of extremities, extended "arachnoid" fingers, defects …»
+  ✗ №7: варіантів: 0 — «A 15-year-old boy of tall height, with delay of intellectual development and del…»
+  ✗ №8: OCR-сміття: Todraw — «In medical consultation, the family tree of a patient with alkaptonuria is const…»
+  ✗ №9: OCR-сміття: Wite, acholuric, hushand, negafive, posiuve — «In what family there is a high risk of development in a newborn of acholuric jau…»
+  ✗ №11: відповідь «s Mother Rh, fetus Rh' - 1217 =» не збігається рівно з одним варіантом — «A 25-year-old woman is pregnant for the third time; she got to clinic with threa…»
+  ✗ №12: OCR-сміття: символи: * — «Mother's karyotype contains 45 chromosomes, It was established that it 15 associ…»
+  ✗ №13: варіантів: 6 — «"Cat's ery" syndrome — the "mewing” voice timbre — has appeared in a child immed…»
+  ✗ №14: OCR-сміття: gynecomasty — «Narrow shoulders and wide pelvis, underdevelopment of testes, high voice, gyneco…»
+  ✗ №16: варіантів: 4 — «At what discase helerozygotes are resistant to malaria? ¢ Brachydactyly»
+  ✗ №17: OCR-сміття: vogenesis — «The child’s birth is not recommended to a 43-year-old woman because of high prob…»
+  ✗ №22: OCR-сміття: ecars — «Narrow forchead and wide occiput, deformed ecars that are located very low, unde…»
+  ✗ №24: варіантів: 6 — «Mother and father are healthy. In genctic consultation, sex chromatin and karyot…»
+  ✗ №25: OCR-сміття: fanuly, hemophilis — «In a fanuly, a father suffers from hemophilis and daltonism at the same time, Yo…»
+  ✗ №27: OCR-сміття: dommant — «By what method it is possible to diagnose heterozygous carrier state of the path…»
+  ✗ №29: відповідь «45 X%» не збігається рівно з одним варіантом — «A woman with monosomy of the X chromosome addressed to genetic consultation. Dal…»
+  ✗ №31: OCR-сміття: Deccerease — «A child, who is ill with phenylketonuria, suffers from mental retardation. What …»
+  ✗ №33: варіантів: 4 — «What method of genetic examination most likely makes it possible to diagnose She…»
+  ✗ №35: OCR-сміття: wath — «In human, hemophilia is encoded by the recessive gene linked wath the X chromoso…»
+  ✗ №36: варіантів: 4 — «A pregnant woman, who worked at the harmful factory, addressed to genetic consul…»
+  ✗ №37: відповідь «Genetic defect of uric actd metabolism» не збігається рівно з одним варіантом — «A 70-year-old man suffers from gouty arthritis, In his family tree, patients wit…»
+  ✗ №38: OCR-сміття: Aldrich, Wiskott, azoospermia, hypogonadism — «A 20-ycar-old young man with tall stature, asthenic body type, signs of hypogona…»
+  ✗ №39: відповідь «¢ Gene mutation Note. This question has » не збігається рівно з одним варіантом — «One of the forms of rickets is inherited in the autosomal dominant way. This dis…»
+  ✗ №40: OCR-сміття: transtormation, символи: » — «It is known that phenylketonunia arises owing to mutation of the gene, which is …»
+  ✗ №41: відповідь «47, XXY Note. During exams (2009, 2011),» не збігається рівно з одним варіантом — «Medical examination at the military registration and enlistment office revealed …»
+  ✗ №42: OCR-сміття: Ammoaciduria, threemonth — «During the analysis of urine of a threemonth child, the increased amount of homo…»
+  ✗ №43: OCR-сміття: misomy — «Owing to disturbance of meiosis, such types of ova were formed n 2 woman: 22+XX.…»
+  ✗ №45: відповідь «Turner's syndrome Note. In the book “Col» не збігається рівно з одним варіантом — «During analysis of woman's buccal mucosa cpithelium cells, no sex chromatin was …»
+  ✗ №46: OCR-сміття: Longarm, Shortarm — «Parents with suspicion on a chromosomal discase of a child addressed to a medica…»
+  ✗ №47: OCR-сміття: Noinfluence — «During clinical examination of a pregnant woman, an increase in the content of p…»
+  ✗ №48: відповідь «Cytogenctic Note. In the book “Collectio» не збігається рівно з одним варіантом — «An I8-year-old man with asthenic body constitution came 1o & geneticist. He pres…»
+  ✗ №49: OCR-сміття: символи: ¢ — «An [8-year-old girl with complaints of lack of menstruations consulted a doctor.…»
+  ✗ №50: відповідь «iX"X"xPNXY» не збігається рівно з одним варіантом — «A woman with the first blood type and normal blood clotting married a man that i…»
+  ✗ №51: варіантів: 3 — «A 26-year-old man complains of infertility. Objective traits: height of 186 cm, …»
+  ✗ №52: варіантів: 6 — «Phenylketonuria was revealed in a child. What of the listed methods of treatment…»
+  ✗ №54: відповідь «¢ Cytogenetic Naote. Another variant of » не збігається рівно з одним варіантом — «Trisomic, translocation, and mosaic forms of Down's syndrome are known. What met…»
+  ✗ №56: OCR-сміття: Comecous, Reticular, criminalistics, dactyloscopy — «Studying prints of cpidermic ridges of fingers of hands (dactyloscopy) is used i…»
+  ✗ №59: OCR-сміття: melanism — «Choose what of the discases listed below has is based on destruction of normal p…»
+  ✗ №60: OCR-сміття: undeveloped — «Spouses, who after three-year married life had no children, addressed to genetic…»
+  ✗ №61: відповідь «phenylkctonuria Note. In the book “Colle» не збігається рівно з одним варіантом — «A |.5-year-old child has mental and physical lag, decolorizing of skin and hair,…»
+  ✗ №63: OCR-сміття: dactyloscopy, hypoderm, reticular — «Need to carry ot identification of the personality appears periodically in foren…»
+  ✗ №65: OCR-сміття: galactoserma, glycogenosis, porphyna — «A child of 10-month age, whose parents are brunettes, has fair hairs, very light…»
+  ✗ №66: OCR-сміття: Supermale, superciliary — «A young man of tall height, with increased lower jaw and projected superciliary …»
+  ✗ №67: варіантів: 4 — «Father and son in a family are sick with hemophilia A. Mother is healthy. Choose…»
+  ✗ №68: відповідь «Mincrals» не збігається рівно з одним варіантом — «The diagnosis "Konovaloy-Wilson's discase”, which is associated with metabolic d…»
+  ✗ №70: OCR-сміття: символи: ™ — «Hemophilia A s a hereditary discase caused by existence of the pathological gene…»
+  ✗ №71: OCR-сміття: reflexes — «Dyspepsia, excitation, and an increase in muscular tone and tendon reflexes are …»
+  ✗ №72: OCR-сміття: Zygosity — «For studying human heredity, different methods of human genetics are used; among…»
+  ✗ №75: OCR-сміття: eczematous, eyves, uttacks — «A 6-month-old child presents with sharp lag in psychomotor development, uttacks …»
+  ✗ №77: варіантів: 6 — «Men owing to abuse of alcohol can have nondisjunction of sex chromosomes in meio…»
+  ✗ №81: OCR-сміття: genetie — «A man with the problem of sterility appealed to a genetie consultation, During a…»
+  ✗ №82: відповідь «diabctes» не збігається рівно з одним варіантом — «Developing of following discases is associated with genetic factors, Name pathol…»
+  ✗ №83: OCR-сміття: символи: | — «Examination of an |8-year-old girl revealed the following features: hypoplasia o…»
+  ✗ №84: OCR-сміття: hecart, microphthalmos, translocated, символи: ¢ — «A pregnant woman addressed to genctic consultation. Her first child was bom with…»
+  ✗ №85: відповідь «Il (A), Rh+» не збігається рівно з одним варіантом — «A woman with Rh-negative and I11 blood group gave birth to a child with the 1 bl…»
+  ✗ №86: варіантів: 4 — «In a maternity hospital a child with numerous development anomalies of internal …»
+  ✗ №88: варіантів: 3 — «In 1950s in Western Europe, women who had taken thalidomide (soporific) bore a f…»
+  ✗ №90: відповідь «Turner's syndrome Note. In the book "Col» не збігається рівно з одним варіантом — «An |8-year-old girl has body disproportion: wide shoulders, a narrow pelvis, sho…»
+  ✗ №91: OCR-сміття: Hybndization, Swudy — «A girl with the provisional diagnosis of Turner's syndrome came for advice 1o a …»
+  ✗ №92: відповідь «Triple X syndrome Note. In the book “Col» не збігається рівно з одним варіантом — «A 28-year-old female patient consulted a gynecologist about sterility. Examinati…»
+  ✗ №93: відповідь «short arm of chromosome §» не збігається рівно з одним варіантом — «A baby has such pathology: anomaly of the lower jaw and the larynx development a…»
+  ✗ №94: OCR-сміття: Hypophosphatemias, dislocation, oxyproline — «A four-year-old girl presents with dislocation of crystalline lenses, long and s…»
+  ✗ №97: OCR-сміття: символи: @ — «In genetic consultation, it was established that heterozygous carrier mother gav…»
+  ✗ №98: варіантів: 4 — «Lack of B lymphocytes and sharp decrease in amount of immunoglobulins of main cl…»
+  ✗ №99: варіантів: 6 — «There is repeated pregnancy. Mother has O blood type, she is Rh-negative, und bo…»
+  ✗ №101: OCR-сміття: Multifactonal, nonheritable — «Three sons grew up in a family where a father has suffered from hypertensive dis…»
+  ✗ №102: варіантів: 2 — «During determination of a blood type on ABO system, antigens A and B were reveal…»
+  ✗ №103: OCR-сміття: Deposition, materity — «The provisional diagnosis — phenylketonuria — was made to a child in materity ho…»
+  ✗ №105: OCR-сміття: roseola, символи: ¢ — «A healthy woman, who had had viral roseola during pregnancy, gave birth to a bab…»
+  ✗ №107: OCR-сміття: cunuchoidism, eytogenetic, lipopexia — «During the checkup of an 18-year-old boy, some physical and psychical developmen…»
+  ✗ №108: OCR-сміття: символи: *, символи: *« — «The translocation of a site of the 22* chromosome onto the other chromosome is r…»
+  ✗ №109: OCR-сміття: semilethal — «Heterozygous carrier state of a semilethal allele, which has dose effect, was es…»
+  ✗ №110: OCR-сміття: agglutining, fbrinogen, prothrombin — «Rhesus-negative woman with I (O) blood type is pregnant with Rh-positive fetus h…»
+  ✗ №112: OCR-сміття: символи: ™ — «The 22™ human chromosome has different mutant variants — monosomics and trisomie…»
+  ✗ №113: OCR-сміття: HbA, HbAI, HbF — «A patient has a mutation of a gene that is responsible for hemoglobin synthesis.…»
+  ✗ №114: OCR-сміття: символи: | — «During examination of an |8-year-old girl, such features as underdeveloped ovari…»
+  ✗ №116: OCR-сміття: Tyrosinemia, chloric, ketoacid — «During examination of a child, a pediatrician noted lag in physical and intellec…»
+  ✗ №117: OCR-сміття: Sandberg — «A patient is 18 years old. Phenotypically: she has small height, short neck, cpi…»
+  ✗ №118: OCR-сміття: символи: ~ — «A newbomn child had multiple malformations: cleavage of hard palate, cyst of spi…»
+  ✗ №119: OCR-сміття: arachnodactyly — «A patient with a normal Karyotype has some abnormalities of fingers (arachnodact…»
+  ✗ №120: відповідь «Biochemical Note. Terms "cxpress methods» не збігається рівно з одним варіантом — «The first step in diagnosing discases provoked by disorder of metabolism is the …»
+  ✗ №121: відповідь «Patau syndrome Note. There is & mistake » не збігається рівно з одним варіантом — «A baby boy presents with deformations of cerebral and facial cranial parts, micr…»
+  ✗ №122: варіантів: 4 — «1t is known that 0-5% of interphase nucler of man's somatic cells and 60-70% of …»
+  ✗ №124: варіантів: 6 — «What discases can develop if deficiency of enzymes playing a role in digestion o…»
+  ✗ №125: відповідь «Trisomy of the 13" chromosome Note. In t» не збігається рівно з одним варіантом — «Autopsy of a newbom boy revealed polydactylia, microcephaly, cheiloschisis and u…»
+  ✗ №126: OCR-сміття: intemal, символи: ¢ — «A baby was born with abnormalitics of external and intemal organs development. D…»
+  ✗ №127: OCR-сміття: tssues — «What substance is accumulated in tssues of brain and liver and causes their dege…»
+  ✗ №128: відповідь «Turner's syndrome Note. In the book "Col» не збігається рівно з одним варіантом — «As a result of abnormal chromosomes disjunction during meiosis, a sccondary oocy…»
+  ✗ №129: відповідь «Lipids» не збігається рівно з одним варіантом — «In the case of amaurotic idiocy (Tay- Sachs disease), irreversible heavy disturb…»
+  ✗ №130: OCR-сміття: символи: *« — «During the analysis of the buccal mucosa epithelium of a male patient, two Barr …»
+  ✗ №132: OCR-сміття: Mecthionine — «Albinos badly sunbathe — they get burns. Disturbance of metabolism of what amino…»
+  ✗ №133: OCR-сміття: Inmitochondria — «Mucopolysaccharidosis belongs to storage discases. Due to the lack of enzymes, c…»
+  ✗ №134: OCR-сміття: Urticania — «A mother of a child consulted a dermatologist with complaints of existence of da…»
+  ✗ №135: відповідь «Metaphase» не збігається рівно з одним варіантом — «During examination of a baby boy, a pediatrician noticed that the baby's erying …»
+  ✗ №136: OCR-сміття: mammage, символи: ™ — «A woman on the 16™ weck of pregnancy addressed to genetic consultation. By drawi…»
+  ✗ №137: OCR-сміття: Golgt, certam — «Specify the reason of developing of hereditary discases which received the name …»
+  ✗ №139: варіантів: 6 — «A woman worked some time at a factory under harmful working conditions. She gave…»
+  ✗ №140: варіантів: 4 — «During the cytogenctic analysis, a patient was found to have cells with chromoso…»
+  ✗ №141: OCR-сміття: Warching, insuffictent — «Warching a child for 1.5 years, mother began to notice lag in intellectual devel…»
+  ✗ №142: OCR-сміття: Sib — «The genealogical method of human genetics provides collection of information, dr…»
+  ✗ №143: OCR-сміття: FEeological, Immunogenctics, Immunopathology — «There is a direct dependence of rules of inheritance of antigenic specificity an…»
+  ✗ №144: OCR-сміття: concems — «For a number of hereditary discases, which were considered incurable, possibilit…»
+  ✗ №145: OCR-сміття: символи: « — «It is known that molecules only of one type of antibodies are synthesized in cac…»
+  ✗ №146: OCR-сміття: символи: ¢ — «Karyotype of a man is 47 chromosomes; a Barr body is revealed in the nucleus of …»
+  ✗ №147: OCR-сміття: Gencealogical, adrencergic — «Phenylketonuria is an autosomal recessive disease, which is followed by disturba…»
+  ✗ №149: варіантів: 4 — «A 10-ycar-old girl has got shortened extremities, # small skull, a face anomaly,…»
+  ✗ №150: OCR-сміття: ergocalciferol — «Symptoms of rickets are revealed in a child; also, the level of phosphates in th…»
+  ✗ №153: OCR-сміття: palmar — «The dermatoglyphic method is applied to more precise definition of the diagnosis…»
+  ✗ №154: OCR-сміття: hromosome, madce, символи: ¢, символи: ™ — «A 30-year-old woman addressed to genetic consultation; two Barr bodies was estab…»
+  ✗ №155: варіантів: 4 — «A patient has phenylpyruvic acid in the blood and urine. Based on this, the diag…»
+  ✗ №156: OCR-сміття: Iytic — «Mother is Rh-negative. She gave birth to an Rh-positive child with symptoms of h…»
+  ✗ №157: OCR-сміття: xchange, символи: ¢ — «A sick child presents with disturbance of lipid e¢xchange, which is accompanied …»
+  ✗ №158: відповідь «Trisomy of the 21™ chromosome Note. In t» не збігається рівно з одним варіантом — «During examination of a newborn, the diagnosis of Down's syndrome was made. What…»
+  ✗ №159: OCR-сміття: buby — «Coloring of sclerac and mucous membranes is observed in a buby. The urine, which…»
+  ✗ №160: OCR-сміття: transplacental — «Choose the most exact definition of congenital diseases:»
+  ✗ №161: відповідь «Klincfelter's syndrome Note. In a a data» не збігається рівно з одним варіантом — «The male karyotype is 47, XXY. He has endocrine insufficiency: underdevelopment …»
+  ✗ №164: відповідь «deletion of the short arm of the 5™» не збігається рівно з одним варіантом — «"Cat's cry" syndrome is characterized by underdevelopment of laryngeal muscles, …»
+  ✗ №165: OCR-сміття: Agammaglobulinacmia, pertussoid, unpleasant, символи: ¢ — «Spouses with a 9-month-old child who has hypotrophy, but is mentally normally de…»
+  ✗ №167: варіантів: 4 — «A 3-ycar-old child is hospitalized n children's clinic in a serious condition wi…»
+  ✗ №170: відповідь «Patau syndrome Naote. Another variant of» не збігається рівно з одним варіантом — «A boy with splitting of an upper jaw (cleft lip and cleft palate) was bom to a 4…»
+  ✗ №171: OCR-сміття: intolerance, radistion — «A patient with complaints of intolerance of solar radistion consulted a doctor. …»
+  ✗ №172: OCR-сміття: deficien, символи: ¢ — «A 32-year-old man presents with tall stature, gynecomastia, adult woman pattern …»
+  ✗ №174: OCR-сміття: positivity — «A baby, who is the sccond child in a family, had hemolytic discase of the newbom…»
+  ✗ №175: OCR-сміття: intelbgence — «During examination of teenage children in a4 military registration and enlistmen…»
+  ✗ №177: OCR-сміття: ecogenctic, uniovular — «In onc of uniovular twins who lived in different ecological conditions, an ecoge…»
+  ✗ №178: OCR-сміття: returded — «A 15-year-old boy of high growth, mentally returded and with delay of sexual dev…»
+  ✗ №181: OCR-сміття: amenorrhea — «Karyotype of a woman is 47 chromosomes, two Barr bodies are revealed in the nucl…»
+  ✗ №182: відповідь «s Abnormal gamctogencsis» не збігається рівно з одним варіантом — «Healthy parents with unremarkable family history have a child with multiple deve…»
+  ✗ №184: OCR-сміття: Patay, deat — «A woman, who was sick with rubclla during pregnancy, gave birth to a deat child …»
+  ✗ №186: OCR-сміття: ftraits, символи: *« — «Man with karyotype 46,XY has female phenotype with developed external secondary …»
+  ✗ №188: OCR-сміття: mMonosomy, maodifications, risomy, triploidy — «Usage of thalidomide by pregnant women in the 19508 led to the birth of thousand…»
+  ✗ №189: варіантів: 4 — «Underdevelopment of ovaries is observed in a sick woman, and trisomy of the X ch…»
+  ✗ №190: OCR-сміття: Uncacid — «A 15-year-old boy suffers from alkaptonuria, His urine tums black afler settling…»
+  ✗ №191: варіантів: 4 — «During genetic examination of patients with chronic myeloleukema, specific anoma…»
+  ✗ №192: варіантів: 4 — «A 16-year-old young man addressed to a genetic consultation concerning disturban…»
+  ✗ №194: OCR-сміття: Fetotoxic, eftect — «Continuous taking of some drugs before pregnancy increases the risk of giving bi…»
+  ✗ №195: OCR-сміття: inhenited, символи: | — «Examination of a |2-year-old boy with developmental lag revealed achondroplasia:…»
+  ✗ №197: відповідь «Turner's syndrome» не збігається рівно з одним варіантом — «Sex chromosomes of a woman didn't separate and didn't move to the opposite poles…»
+  ✗ №198: OCR-сміття: Turer — «A boy referred to a genetics clinic was found to have one drumstick in blood neu…»
+  ✗ №199: OCR-сміття: pon — «A couple had a child with Down's syndrome. Mother is 42 years old. This discase …»
+  ✗ №200: відповідь «mosaicism Note. During exams in 2010 and» не збігається рівно з одним варіантом — «Cytogenetic examination of a patient with reproductive dystunction revealed norm…»
+  ✗ №201: OCR-сміття: Mectabolism, wvo — «A wvo-year-old child who has impairment of intellectual and physical development…»
+  ✗ №203: OCR-сміття: hypodermice, символи: ¢ — «A 14-year-old boy presents with high growth, cunuchoid proportions of a body, na…»
+  ✗ №204: OCR-сміття: prodromal — «A 35-year-old woman had car accident and got brain concussion. Soon after discha…»
+  ✗ №205: OCR-сміття: myeloleukemia, символи: *, символи: ® — «During examination of a patient, who complains of general weakness and bone pain…»
+  ✗ №206: OCR-сміття: bisphosphate — «Fructosemia is a hereditary discase caused by sharp decrease of the activity of …»
+  ✗ №207: OCR-сміття: neceds — «A newborn child has such symptoms: spasms, vomiting, jaundice, and specific odou…»
+  ✗ №208: OCR-сміття: alloploidy, autopolyploidy, mecans, voung — «High palate, wrong growth of big tecth with defects of tooth enamel was revealed…»
+  ✗ №209: OCR-сміття: conceming — «A pregnant woman for the first time consulted a doctor of genetic consultation c…»
+  ✗ №210: OCR-сміття: Mohr, hypodontia — «Mohr's syndrome is inherited as dominant and is followed by numerous anomalies o…»
+  ✗ №212: відповідь «Teratogenic» не збігається рівно з одним варіантом — «Children with congenital heart discases, deafness and cataract were bom in six w…»
+  ✗ №215: OCR-сміття: inhentance — «There is ichthyosis in the family pedigree. This feature appears in cach generat…»
+  ✗ №217: відповідь «Sex-linked recessive Note. In the book “» не збігається рівно з одним варіантом — «During prophylactic medical examination, i 7-year-old boy was diagnosed with dal…»
+  ✗ №218: OCR-сміття: iliness — «A child with hemophilia — serious recessive iliness, which is linked with sex, w…»
+  ✗ №219: відповідь «Holandric Note. Another similar question» не збігається рівно з одним варіантом — «A proband, his three sons, his brother and father have syndactyly. His sisters a…»
+  ✗ №220: відповідь «Morc often are found in phenotype of men» не збігається рівно з одним варіантом — «It is known that, except autosomal, there is sex-linked inheritance, What is cha…»
+  ✗ №221: відповідь «¢ Autosomal-dominant inheritance Note. I» не збігається рівно з одним варіантом — «After the gencalogy analysis, a genelicist came to the conclusion: a feature is …»
+  ✗ №223: OCR-сміття: keratinized — «Skin of a newbom boy is covered with a thick layer of keratinized scales (ichthy…»
+  ✗ №224: варіантів: 4 — «The pedigree of a family with brachydactyly is characterized by the following: a…»
+  ✗ №227: варіантів: 4 — «The genealogical method of human genetics allows to establish the type of inheri…»
+  ✗ №228: OCR-сміття: phenylpyravic, phenyvlketonunia — «Both a mother and a father are phenotypically healthy, They have a sick baby in …»
+  ✗ №229: відповідь «Recessive, sex-linked Note. In the book » не збігається рівно з одним варіантом — «A couple has a son with hacmophilia. The parents are healthy but the maternal gr…»
+  ✗ №230: варіантів: 4 — «Hypertrichosis is a Y-linked character. A father has hypertrichosis, and a mothe…»
+  ✗ №231: OCR-сміття: inhented — «During the pedigree analysis of a family with such an inherited pathology as tra…»
+  ✗ №233: OCR-сміття: sibs — «Pedigree analysis showed that the proband's disease occurred in cach generation,…»
+  ✗ №234: відповідь «Y-linked Note. In the book “Collection o» не збігається рівно з одним варіантом — «The study of the genealogy of a family with hypertrichosis (hirsutism or pilosis…»
+  ✗ №235: OCR-сміття: hvdrocyanic — «During employment to the chemical and pharmaceutical enterprise, some men who di…»
+  ✗ №236: OCR-сміття: becausce — «Frequency of cardiovascular discases constantly increases in human populations b…»
+  ✗ №238: варіантів: 6 — «In genetic consultation, spouses asked a question about probability of the birth…»
+  ✗ №240: відповідь «Recessive, sex-linked Note. In databasc,» не збігається рівно з одним варіантом — «As a result of prophylactic medical examination, a 7-year-old boy was diagnosed …»
+  ✗ №241: OCR-сміття: Taybi — «A healthy young woman, which father suffers from Taybi syndrome (multiple anomal…»
+  ✗ №242: OCR-сміття: символи: ~ — «During oogenesis, a cell with unbalanced number of chromosomes — 22 chromosomes …»
+  ✗ №243: OCR-сміття: domipant, heterozygotic, stomatologist — «A [6-year-old girl consulted a stomatologist concerning dark enamel of teeth, Wh…»
+  ✗ №244: відповідь «e« Turner's Note. During exam in 2019, s» не збігається рівно з одним варіантом — «A female patient sought medical-genctic consultation. Physical examination revea…»
+  ✗ №245: OCR-сміття: символи: @ — «Hairs grow intensively on edge of auricles of @ man and his son. This phenomenon…»
+  ✗ №247: OCR-сміття: borm, hereditarily — «It is known that in case of related marriages of healthy people, children with h…»
+  ✗ №249: OCR-сміття: heterosomes — «Specify, to what type of mutations it is possible to belong the organism with tr…»
+  ✗ №254: варіантів: 4 — «Children with congenital shortcomings of development are born more often in wome…»
+  ✗ №258: відповідь «Turner's syndrome -1711 =«» не збігається рівно з одним варіантом — «Monosomy X was revealed in a 14-yearold girl. What diagnosis will be made?»
+  ✗ №259: OCR-сміття: Cystinosis, Leucinosis, символи: *« — «Vomiting began in a newbomn child. The laboratory analysis of urine showed the e…»
+  ✗ №260: OCR-сміття: Gaucher, doctorgeneticist — «Parents of a child consulted a doctorgeneticist for more precise definition of t…»
+  ✗ №261: OCR-сміття: символи: ¢ — «The sweat test — mvestigation of the content of chlorine and sodium in sweat — w…»
+  ✗ №262: відповідь «nondisjunction of chromosomes of the 21"» не збігається рівно з одним варіантом — «A patient among somatic cells with normal karyotype has cells with trisomy of th…»
+  ✗ №263: варіантів: 2 — «Specify, what sct of sex chromosomes is present in a woman if the mass of sex ch…»
+  ✗ №264: відповідь «dcletion» не збігається рівно з одним варіантом — «During cxamination of a two-month child, a female pediatrician paid attention th…»
+  ✗ №265: OCR-сміття: dolichocephalic, microstomia — «A newborn boy presents with dolichocephalic skull, microstomia, narrow palpebral…»
+  ✗ №266: OCR-сміття: myotonia — «Myotonic dystrophy is characterized by muscular weakness, myotonia, and cardiac …»
+  ✗ №267: OCR-сміття: dislocation — «Each doctor has to know markers, which are characteristic for hereditary disease…»
+  ✗ №268: OCR-сміття: символи: « — «Urinc of a sick child has specific sweetish odour. It is associated with disturb…»
+  ✗ №269: OCR-сміття: Tyrosinemia, histidase — «In the case of disturbance of metabolism of one of amino acids, a diagnosis is c…»
+  ✗ №270: OCR-сміття: bramn, cirthosis, dystrophic — «What hereditary discase is characterized by association of cirthosis, dystrophic…»
+  ✗ №271: OCR-сміття: autesomes, символи: | — «Karyotype of the female patient with Turner's syndrome is studied. Cell fission …»
+  ✗ №273: OCR-сміття: символи: ™ — «A woman gave birth to two babies. The provisional diagnosis was made to one chil…»
+  ✗ №274: OCR-сміття: Nomass — «By means of a cytogenetic method, the patient’s karyotype with Klinefelter's syn…»
+  ✗ №278: OCR-сміття: meiosts — «During oogenesis (meiosts [) in a woman, an oocyte I with 22 chromosomes and a p…»
+  ✗ №279: OCR-сміття: extemnal — «Scoliosis is a spinal curvaturc. According to scientists, in 60-70 years of the …»
+  ✗ №280: OCR-сміття: refuses — «To a newbom child who refuses food and has periodic vomiting, a diagnosis was ma…»
+  ✗ №284: OCR-сміття: Twinstudy, maxillofacial — «A woman gave birth to a child with pathology of maxillofacial area (cleft lip an…»
+  ✗ №285: варіантів: 4 — «In the cases of metabolic disorders, deviations from normal composition of urine…»
+  ✗ №286: OCR-сміття: microclement — «Konovalov-Wilson's discase is diagnosed in a patient. An increase in what microc…»
+  ✗ №288: немає відповіді — «Disturbance of normal color perception is a recesstve trait linked with the X ch…»
+  ✗ №289: немає відповіді — «The provisional diagnosis — Tumer's syndrome — was made to a girl. Karyotyping i…»
+  ✗ №292: варіантів: 4 — «During medico-genetic counseling, it was revealed that hemophilia skips generati…»
+  ✗ №294: OCR-сміття: infantilism, символи: ¢ — «A 19-year-old girl has such group of clinically revealed traits: low height, sex…»
+  ✗ №295: OCR-сміття: Codominant, inhentance, символи: *» — «An analysis of a gencalogy of a family with cases of teeth anomaly (dark enamel)…»
+  ✗ №297: OCR-сміття: TrisomyY — «A 22-year-old woman consulted a doctor with a complaint of infertility. During e…»
+  ✗ №298: OCR-сміття: deat, символи: # — «A woman, who took alcoholic beverages during pregnancy, gave birth o # deat chil…»
+  ✗ №300: OCR-сміття: Halfof — «Enamel hypoplasia is caused by a dominant gene localized in the X chromosome. Mo…»
+  ✗ №301: OCR-сміття: символи: | — «A |7-year-old young man addressed to genetic consultation concerning deviations …»
+  ✗ №302: варіантів: 6 — «Examination of a 7-ycar-old child revealed the following symptoms: small height,…»
+  ✗ №303: OCR-сміття: tweeth — «Very big tweeth are a Y-linked sign. Mother's teeth are of normal size, und her …»
+  ✗ №304: OCR-сміття: символи: *« — «An S-month-old child has non-closed palate, a number of eye defects, microcephal…»
+  ✗ №305: варіантів: 4 — «A group of students has representatives of different races. One of the students …»
+  ✗ №308: OCR-сміття: Tricho, dento, dysplasias, osteal — «Tricho-dento-osteal syndrome is one of cctodermic dysplasias, which is character…»
+  ✗ №311: OCR-сміття: wath, символи: & — «Mucoviscidosis is shown not in cach generation, women and men inherit & trait wi…»
+  ✗ №312: варіантів: 4 — «A discase, which is caused by a dominant gene localized in the X chromosome, was…»
+  ✗ №314: OCR-сміття: substitutive — «For some hereditary discases that were incurable earlier, possibility of curing …»
+  ✗ №315: OCR-сміття: Acromegaly, cpithclium — «A man consulted a doctor concerning infertility. He has high height, decrease in…»
+  ✗ №316: OCR-сміття: clefi, madification — «A woman was infected with a measles virus during pregnancy. A child was born wit…»
+  ✗ №317: OCR-сміття: TrisomyY — «A man addressed to genetic consultation concerning infertility, In nuclei of the…»
+  ✗ №318: відповідь «phenocopy» не збігається рівно з одним варіантом — «A mother had been taken synthetic hormones during pregnancy, Her daughter was bo…»
+  ✗ №319: OCR-сміття: Immunogenctic, maxillofacial, microstomia — «Parents of a newbomn with damage of the maxillofacial system (micrognathia, micr…»
+  ✗ №321: варіантів: 4 — «In case of alkaptonuria, excess release of homogentisic acid with urine happens.…»
+  ✗ №322: варіантів: 6 — «Amniocentesis revealed two sex chromatin bodies (Barr bodies) in cach cell of th…»
+  ✗ №323: OCR-сміття: gynccomasty, recommendation, символи: @, символи: ¢ — «A man according to the recommendation of an andrologist addressed to the genetic…»
+  ✗ №324: OCR-сміття: Bruton, Etrisomy — «For diagnosing of some chromosomal discases, determination of sexual chromatin i…»
+  ✗ №325: варіантів: 4 — «An individual is characterized by rounded face, broad forchead, mongolian type o…»
+  ✗ №326: OCR-сміття: pattem — «A healthy woman has three sons affected by color blindness who were bom after he…»
+  ✗ №327: OCR-сміття: Fetotoxic, cffcct, petroldiazepines — «Woman accepted tranquilizers from the group of petroldiazepines in the second ha…»
+  ✗ №328: OCR-сміття: dunng — «A child with normal karyotype is diagnosed with cleft lip and hard palate, defec…»
+  ✗ №329: OCR-сміття: diseasc — «A child with encephalopathy was bom 10 young spouses. A doctor established that …»
+  ✗ №330: варіантів: 6 — «A child with multiple malformations was born to healthy parents which heredity i…»
+  ✗ №331: OCR-сміття: sibs — «During an analysis of a family tree of a proband, it was revealed that a trait a…»
+  ✗ №332: OCR-сміття: gonosomes, karvotype — «Determination of X chromatin in somatic cells is used for express diagnostics of…»
+  ✗ №333: OCR-сміття: diseascs — «A doctor found rickets in a child, that was caused by deficiency of vitamin D, b…»
+  ✗ №336: OCR-сміття: amenorrhea, undeveloped, символи: ¢ — «A sixteen-year-old girl presents with height of 139 ¢m, a wing-shaped neck, unde…»
+  ✗ №337: варіантів: 2 — «Vitamin D-resistant rickets is determined by a dominant gene localized in the X …»
+  ✗ №338: немає відповіді — «A woman is diagnosed with Tumer's syndrome (karyotype 45, X0). How many autosoma…»
+  ✗ №340: OCR-сміття: clamidiosis, varability — «Malformations of a fetus can be caused by such discases of mother as rubella, sy…»
+  ✗ №341: OCR-сміття: gonosomes, символи: « — «The diagnosis Klinefelter's syndrome was made to a patient. The karyotype at thi…»
+  ✗ №342: OCR-сміття: hild, символи: ¢ — «A woman with A (Il), Rh-ncgative blood gave birth to a c¢hild with B (III), Rh-p…»
+  ✗ №344: OCR-сміття: spermatozoid — «Nondisjunction of autosomes occurred in 4 woman during meiosis. An ovum with the…»
+  ✗ №345: OCR-сміття: gencetic, символи: « — «A mother of the 2-year-old child, who has lag in physical and intellectual devel…»
+  ✗ №346: відповідь «Mitochondrial» не збігається рівно з одним варіантом — «A patient with Leber’s hereditary optic neuropathy comes for genetic counseling.…»
+  ✗ №1: OCR-сміття: Inboth — «In one population, the part of a recessive allele makes 0.1, in another populati…»
+  ✗ №2: варіантів: 2 — «In the area with a population of 280 000 people, 14 albinos and 9 patients with …»
+  ✗ №5: OCR-сміття: gradvally — «Under the influence of a mutagen the structure of a gene changed and a recessive…»
+  ✗ №6: OCR-сміття: panmixia — «The discase sickle-cell anemia is caused by presence of a recessive gene, People…»
+  ✗ №8: OCR-сміття: incubatory, solation, southem, stramn — «Malanal plasmodium — a causative agent of tertian malaria — has two strains: sou…»
+  ✗ №9: OCR-сміття: символи: | — «In a human population that is closc to ideal population according to their chara…»
+  ✗ №10: відповідь «Higher than in a population Note. In 201» не збігається рівно з одним варіантом — «A married couple came to a genetic counseling. The husband suffers from insulin-…»
+  ✗ №11: відповідь «Isolate» не збігається рівно з одним варіантом — «Mennonite sect that lives in Lancaster (Pennsylvania, USA) is 1400 persons in nu…»
+  ✗ №13: OCR-сміття: Suabilizing — «In the region, which is endemic on the falciparum malaria, a large number of peo…»
+  ✗ №14: OCR-сміття: Outbreeding, marmages, marmiages — «In human populations, the allelic structure of genotypes depends on system of ma…»
+  ✗ №15: варіантів: 6 — «A hereditary discase — sickle-cell anemia, which is inherited on autosomal reces…»
+  ✗ №16: відповідь «Rccessive homozygosity increases» не збігається рівно з одним варіантом — «Closcly related marriages are forbidden. How the genetic structure of population…»
+  ✗ №17: OCR-сміття: deme, intra, символи: { — «In small population of people, which number does not exceed 1500 people, the fre…»
+  ✗ №18: варіантів: 4 — «In a population of inhabitants of Odessa region, a dominant gene of right-handed…»
+  ✗ №19: немає відповіді — «In a population, the part of Rh-positive people is 84%, and Rh-negative is 16%, …»
+  ✗ №20: варіантів: 4 — «In ancient times in Egypt, marriages between relatives of the first degree of re…»
+  ✗ №21: OCR-сміття: символи: ¢ — «A malarial plasmodium — the pathogen of vivax malaria — has two strains: souther…»
+  ✗ №22: OCR-сміття: Suabilizing — «People, who live in different arcas of Earth, differ phenotypically: Negroids, M…»
+  ✗ №23: OCR-сміття: символи: & — «In a population of inhabitants of Odessa region, a dominant gene of the positive…»
+  ✗ №25: OCR-сміття: Haeckel, determunation — «Studying incidence in the Crimean population, doctors-geneticists came to conclu…»
+  ✗ №1: OCR-сміття: символи: ¢ — «As a result of expression of some genome components, embryo cells acquire typica…»
+  ✗ №2: OCR-сміття: Alloimmune — «Multiple sclerosis was revealed in a 72- year-old man. During this disease, reac…»
+  ✗ №3: OCR-сміття: blasmula — «During experiment with a frog blasmula, one blastomere was removed at a stage of…»
+  ✗ №5: OCR-сміття: Lymphoblasts — «In a transplantation centre, a patient has been transplanted a heart, What cells…»
+  ✗ №8: OCR-сміття: ycle, символи: ¢ — «How highlands conditions influence development and passing of life ¢ycle by a ma…»
+  ✗ №9: відповідь «. 6-7 dsys» не збігається рівно з одним варіантом — «At the stage of blastocyst, the beginning of # human embryo implantation into th…»
+  ✗ №10: OCR-сміття: Biocenotic — «Existence of life at all its levels is defined by structure of the lowest level.…»
+  ✗ №11: OCR-сміття: kyphoses, lordoses — «During the postembryonic development of u human, two lordoses and two kyphoses a…»
+  ✗ №13: OCR-сміття: antihistaminic, thymocytes, символи: ¢ — «Skin of a donor was repeatedly transplanted to a 38-year-old woman, but it was r…»
+  ✗ №14: варіантів: 6 — «A tissue slice from a region of chronic stomach uleer was sent to the pathomorph…»
+  ✗ №15: OCR-сміття: Scrosa, Yolksac, fulfils — «At a definite stage of embryogencsis, mother's and fetus's circulatory systems a…»
+  ✗ №16: OCR-сміття: Henbane, Solanaccac, henbane, символи: & — «Knowledge of poisonous plants is necessary for & man because poisonings due 1o t…»
+  ✗ №17: OCR-сміття: Antificial, accurred, autoantibodies — «Autotransplantation of skin was made to a patient after burn. Rejection of a tra…»
+  ✗ №18: варіантів: 6 — «Data of paleoanthropology, which were received by anthropologists owing to longt…»
+  ✗ №19: варіантів: 2 — «In a man, the mature plasma cell lost ability to reproduction and started to sec…»
+  ✗ №20: OCR-сміття: anthropogencsis, gyn, precentral — «In the process of anthropogencsis, a number of changes of skull, throat, and bra…»
+  ✗ №21: варіантів: 6 — «Composition of blood in a man has changed at long stay in highlands conditions. …»
+  ✗ №23: варіантів: 6 — «For studying features of a structure of human body, depending on object for stud…»
+  ✗ №24: OCR-сміття: Anophthalmos, dislocation, символи: *» — «A newborn boy presents with multiple malformations, What of the listed defects h…»
+  ✗ №25: OCR-сміття: charactenstic — «On autopsy of a still-born infant, heart abnormalitics have been revealed: ventr…»
+  ✗ №26: відповідь «Plaguc bactena» не збігається рівно з одним варіантом — «Relationships between organisms, which are connected with food, lead to appearan…»
+  ✗ №28: OCR-сміття: Harmto — «Recently, increase in concentration of CO; in the atmosphere is observed. What b…»
+  ✗ №29: відповідь «Fetoderm» не збігається рівно з одним варіантом — «A newborn child has microcephalia. Doctors consider that this disorder is the re…»
+  ✗ №30: OCR-сміття: immunoglobuling, orgamism, plasmocytes — «When determining process of aging of a human body, weakening of T-system activit…»
+  ✗ №31: відповідь «*« Repuiles» не збігається рівно з одним варіантом — «Defect of the interventricular septum was established at a newborn, In a ventric…»
+  ✗ №37: OCR-сміття: Regenceration, Substitutive — «The part of a liver was removed in a man after trauma. The left part of a liver …»
+  ✗ №38: OCR-сміття: Spemann — «In experimental conditions, the eye bubble was transplanted under skin of ventra…»
+  ✗ №39: OCR-сміття: stemcells — «A large number of mutant cells appeared in a man for one day after radiation. Bu…»
+  ✗ №41: відповідь «Neurula» не збігається рівно з одним варіантом — «In a human cmbryo, the anlage of axis organs has begun. How this development sta…»
+  ✗ №42: OCR-сміття: символи: « — «After radiation by high dose of radiation, the lymphoid system considerably suff…»
+  ✗ №43: OCR-сміття: homy — «A newbomn presents with dry skin covering with a thick layer of homy scales, — i…»
+  ✗ №44: OCR-сміття: bumt, heen, hquidate — «A patient has heen badly bumt; as a result, he has skin defects. To hquidate the…»
+  ✗ №45: OCR-сміття: denucleated, difterentiation, totipotent — «Nuclei of blastula cells were transplanted into denucleated ova of a frog. Norma…»
+  ✗ №46: варіантів: 6 — «There is a theory that mitochondria are descendants of prokaryotic cells that at…»
+  ✗ №47: відповідь «Flderly» не збігається рівно з одним варіантом — «During ontogenesis, some changes in human organism appear: the vital capacity of…»
+  ✗ №48: OCR-сміття: aresult — «As aresult of road accident, a 36-year-old patient got an open fracture of bones…»
+  ✗ №49: OCR-сміття: Rhsystem, cngraftment — «A patient is prepared for operation of kidney transplantation. All try to find a…»
+  ✗ №50: OCR-сміття: Botallo, interatrial, interventricular — «Pulmonary stagnation was revealed in a five-month girl. During examination, conn…»
+  ✗ №51: OCR-сміття: Anencephalia, hemnia — «In experiment, processes of transcription in nuclel of nervous cells were blocke…»
+  ✗ №52: OCR-сміття: doctorpathologist — «During autopsy of a young man who was a driver and died after road accident, a d…»
+  ✗ №53: варіантів: 4 — «A man lived a long time in highlands conditions. What changes will be present in…»
+  ✗ №54: відповідь «Stabilizing» не збігається рівно з одним варіантом — «Human embryos with abnormal number of chromosomes are nonviable in most cases. W…»
+  ✗ №55: OCR-сміття: Monocytes — «The mutant line "nudc" of mice was received in genetic laboratory; it has no thy…»
+  ✗ №56: варіантів: 4 — «Albinism is observed among all classes of vertebrate anmmals, This hereditury pa…»
+  ✗ №58: варіантів: 3 — «A child having a deep mental deficiency with cleft lip, cleft palate and heart d…»
+  ✗ №59: варіантів: 6 — «Rudimental organs are organs that lost their function, but remain in embryonal s…»
+  ✗ №60: OCR-сміття: anabiosis — «During an active physical activity, concentration of carbonic acid in blood of a…»
+  ✗ №61: OCR-сміття: Discretization, lmritability — «At different levels of the organization, adaptation is maintained in biological …»
+  ✗ №62: варіантів: 6 — «A young man of military age is examined in # clinic. Lack of teeth on the lower …»
+  ✗ №63: варіантів: 4 — «Tooth was extracted in a S50-year-old woman, New tissue regenerated on a place o…»
+  ✗ №64: відповідь «Fctoderm» не збігається рівно з одним варіантом — «A boy, whose body is covered with hairs (hypertrichosis), was born to a family, …»
+  ✗ №65: відповідь «Tlymphocytes» не збігається рівно з одним варіантом — «Transplantation of donor skin was made 10 a patient with considerable bums, For …»
+  ✗ №66: OCR-сміття: clefi, strabismus — «At parents who are sick with alcoholism, children are bom dead or have a decp me…»
+  ✗ №67: OCR-сміття: Epiboly — «Gastrulation, or formation of germ layers of an embryo, happens in different way…»
+  ✗ №68: варіантів: 4 — «Choose, what components of primary anlages remain in sexual system of females of…»
+  ✗ №69: варіантів: 4 — «Transplantation of a kidney to a paticent according to vital indications was car…»
+  ✗ №70: OCR-сміття: dysadaptation — «Development of general adaptation syndrome and stress in an organism is followed…»
+  ✗ №71: OCR-сміття: lype — «Representatives of a certain human population have clongated body, height variab…»
+  ✗ №72: варіантів: 6 — «A man has strongly developed musculoskeletal system, large sizes of a thorax, th…»
+  ✗ №73: OCR-сміття: grafied — «In an experimental laboratory, a pig's kidney has been grafied to a cow, What do…»
+  ✗ №74: OCR-сміття: Jost — «Restoration of the Jost organ begins with lysis of tissues adjacent to a wound, …»
+  ✗ №77: OCR-сміття: Resection, difterentiated, intercellular, remaned — «Resection of a kidney was carried out to a man after a trauma, The remaned kidne…»
+  ✗ №78: OCR-сміття: Myotome, bomn, символи: ¢ — «A boy with til part of a backbone was bomn, A doctor explained his parents that …»
+  ✗ №79: варіантів: 6 — «A child with signs of long starvation, owing to what dehydration of an organism …»
+  ✗ №80: OCR-сміття: Epistatic, histocompatibility — «The HLA region (the mam complex of histocompatibility) is located in chromosome …»
+  ✗ №81: OCR-сміття: символи: & — «The anlage of axial organs was disturbed in & human embryo. At what stage of emb…»
+  ✗ №82: OCR-сміття: torm — «In experiment, thymus was cut out in newborn rats. What of the listed changes wi…»
+  ✗ №83: OCR-сміття: Biocenotic, Biospheric — «Dark skin of a man of the equatorial race prevents penctration of ultraviolet ra…»
+  ✗ №84: OCR-сміття: homodont — «In a human organism some abnormalitics, connected with disorder of teeth differe…»
+  ✗ №85: OCR-сміття: Chondrodystrophy, Giantism — «In provinces with the excess content of molybdenum in the environment, synthesis…»
+  ✗ №87: OCR-сміття: Thelpers, Thymocytes — «A kidney was transplanted to a patient in a clinic. What of the listed cells of …»
+  ✗ №88: OCR-сміття: Epitheliocytes, Ervthrocytes, Leucocytes, Myocytes — «In some unicellular organisms, for example, in amoebae, nutrition happens by mea…»
+  ✗ №89: OCR-сміття: Immunostimulants — «In a transplantation center, a 40-year-old patient has been transplanted a kidne…»
+  ✗ №90: OCR-сміття: Argminc — «As a result of radiation by ultraviolet rays, skin of a man darkens that is prot…»
+  ✗ №91: OCR-сміття: Lysozyme, agammaglobulinacmia — «During primary agammaglobulinacmia, the content of immunoglobulins in blood seru…»
+  ✗ №92: OCR-сміття: disarray — «A highly injured person has gradually died. Please choose the indicator of biolo…»
+  ✗ №93: OCR-сміття: Myotome, polythelia — «In a newborn, five pairs of nipples of mammary glands were revealed (polythelia)…»
+  ✗ №94: OCR-сміття: Mectamorphoscs, resection — «Dog tapeworm was found in the liver of a patient of age of 58 years. In this reg…»
+  ✗ №95: OCR-сміття: Biome, Biotope, Ecosphere — «An inspector of forest protection found a forest lake, which is completely fille…»
+  ✗ №97: варіантів: 4 — «In the case of repeated skin transplantation from the same donor, process of rej…»
+  ✗ №98: OCR-сміття: myoglobin — «For people who live in highlands conditions long ago, many adaptations are chara…»
+  ✗ №99: OCR-сміття: Epispadia, Hypospadia, Paraphimosis, Phimosis — «A young man came to a hospital with complaints of disturbed urination. Examinati…»
+  ✗ №100: варіантів: 4 — «How organ's transplantation from one man to another is called? ¢ Allotransplanta…»
+  ✗ №101: OCR-сміття: socioecological — «A human body is influcnced at the same time by different socioecological factors…»
+  ✗ №102: OCR-сміття: Cardiotoxic, Neurotoxic, Toincrease — «Toxic substances, which are present in poison of snakes, have different properti…»
+  ✗ №103: OCR-сміття: Comulagen — «During embryonal development, the process of realization of genetic information …»
+  ✗ №104: OCR-сміття: njected — «For the purpose of myocardium infarction treatment, a patient was njected with e…»
+  ✗ №105: OCR-сміття: Cryptorchidism, Epispadia, Monorchism — «Examination of newborn boy's genitalia revealed a urethral fissure that opens on…»
+  ✗ №106: OCR-сміття: IMMUNOSUPPressors, immunaty, therupy — «A patient in a transplantation centre underwent heart transplantation. The organ…»
+  ✗ №107: OCR-сміття: Docetors, символи: *« — «An alcoholic woman has born a girl with mental and physical developmental lag. D…»
+  ✗ №109: OCR-сміття: Modelling, mechamism — «For more precise definition of the mechamism of development of cheiloschisis and…»
+  ✗ №110: OCR-сміття: Suayer — «Ability to adaptation varies in the wide range, which gives the possibility to d…»
+  ✗ №112: OCR-сміття: embryoblast, lancelet — «In the process of human embryogenesis, a blastocyst starts to form for the 6-7" …»
+  ✗ №114: OCR-сміття: carmed — «Surgical procedure was performed. On the place of section, scar was formed. Spec…»
+  ✗ №115: OCR-сміття: Hyaluronidasc, Ribonuclease — «Fertilization is a process of fusion of male and female gametes therefore a zygo…»
+  ✗ №116: OCR-сміття: loadings — «Ability to adaptation varies in the wide range, which gives the possibility to d…»
+  ✗ №117: OCR-сміття: Antificial, nvestigated — «Scientists nvestigated development of not fertilized ova of a rabbit after their…»
+  ✗ №118: OCR-сміття: Embryenic, Swuble, uniovular — «Birth of two, three, four and even seven uniovular twins in o man 1s associated …»
+  ✗ №119: OCR-сміття: Caroud, branchial, cavi, vena, vertebrata — «In embryogenesis of a man, as well as of vast majority of vertebrata, six pairs …»
+  ✗ №120: OCR-сміття: Humdity — «Strict restriction in stay time at the height over 800 meters above sea level wi…»
+  ✗ №121: OCR-сміття: Oligodactyly, Polyphalangism, символи: & — «A four-year-old girl has three bones in the hand thumb instead of two ones. The …»
+  ✗ №122: OCR-сміття: lsotransplantation — «In applied medicine of Ukraine because of shortage of human donor material, the …»
+  ✗ №124: OCR-сміття: Gurdon, denucleated, inactive — «By means of D. Gurdon's experiments made in 19641966, it was proved that during …»
+  ✗ №125: OCR-сміття: hydronephrosis — «Operation on transplantation of the left kidney owing to its hydronephrosis was …»
+  ✗ №126: OCR-сміття: символи: ¢ — «At a pregnant woman who is sick with toxoplasmosis, process of mesoderm formatio…»
+  ✗ №127: OCR-сміття: adynamia, tredecimguitatus — «Depending on a way of introduction of poison to an organism of the victim, poiso…»
+  ✗ №128: OCR-сміття: reacton, unsuccessful — «A twelve-year-old girl had leukemia and was doomed to death. Searches of donor m…»
+  ✗ №130: OCR-сміття: Epiboly — «At a stage of a late gastrula of human embryo, the third germ layer (mesoderm) i…»
+  ✗ №132: варіантів: 4 — «A two-layer embryo of human embryo in the first phase of gastrulation is formed …»
+  ✗ №133: OCR-сміття: provistonal — «Primordial germ cells arise when sexual glands did not begin development yet. La…»
+  ✗ №135: OCR-сміття: abiotic, lonizing, trophic — «Ecological factors directly or indirectly influence activity of organisms. What …»
+  ✗ №136: OCR-сміття: ecmbryo — «In experiments with development of a toad when an embryo was at a stage of two b…»
+  ✗ №137: OCR-сміття: Amanita, Flyagaric, Inonotus, Russule, abdominalgia, gastrocnemius — «A family came to a hospital with symptoms of poisoning: abdominalgia, strong dia…»
+  ✗ №138: відповідь «¢ Neurul tube Note. During cxam in 2007,» не збігається рівно з одним варіантом — «Examination of a pregnant woman who has been taking alcohol revealed disturbed a…»
+  ✗ №139: варіантів: 4 — «Maldevelopments happening at a zygote stage during prenatal ontogenesis are call…»
+  ✗ №140: відповідь «It gradually increases durning daylight » не збігається рівно з одним варіантом — «It was established that intensity of basal metabolism of a healthy person has a …»
+  ✗ №141: OCR-сміття: cotoderm — «Development of teeth of a person was studied during the embryonic and postembryo…»
+  ✗ №142: OCR-сміття: символи: ¢ — «A newborn child was revealed o have congenital malformations of digestive system…»
+  ✗ №143: OCR-сміття: Epispadias, Paraphimosis, Phimosis — «During examination of external genitals of a boy, full closing of urethra at abo…»
+  ✗ №146: варіантів: 6 — «In human populations, some people have three generations of teeth during their l…»
+  ✗ №149: OCR-сміття: Sudoriferous, somite — «An embryo has signs of disturbed process of dorsal mesoderm segmentation and som…»
+  ✗ №150: OCR-сміття: Meciosis — «During embryogenesis, the epithelial band also known as vestibular plate gives r…»
+  ✗ №151: варіантів: 6 — «It is known that people who permanently live in highland have an increased conce…»
+  ✗ №152: OCR-сміття: Villous, endocrinal, символи: # — «During embryogenesis, trophoblast develops into # rudimentary organ that has end…»
+  ✗ №153: OCR-сміття: Xcenotransplantation — «A 30-year-old patient has undergone keratoplasty in the transplantation centre, …»
+  ✗ №154: OCR-сміття: ncrease — «Rescarch of an organism of the inhabitant of Pamir revealed a high level of base…»
+  ✗ №155: OCR-сміття: Jejunal, diverticulum — «A pediatrician noticed absence of the act of defecation at a newbom child within…»
+  ✗ №156: варіантів: 4 — «Reduction of compact and spongy substances of 4 bone tissue is observed at a per…»
+  ✗ №158: варіантів: 4 — «Irrespective of racial or ethnic origin, the complex of morphological, functiona…»
+  ✗ №159: OCR-сміття: Biotope, Parasitocenosis, Phytocenosis — «Parasitizing of scveral species of parasites in a patient’s body was suspected. …»
+  ✗ №160: OCR-сміття: ecmbryo, lancelet — «An ecmbryo of a lancelet is on one of development stages during which the number…»
+  ✗ №161: варіантів: 4 — «A newbom boy was found to have hydrocephaly. Doctors consider that this malforma…»
+  ✗ №162: OCR-сміття: companison — «Irrespective of their race, the people living in conditions of Arctic climate ha…»
+  ✗ №163: відповідь «Car exhaust fumes» не збігається рівно з одним варіантом — «Ingestion of plants and mushrooms gathered along highways is dangerous due to ri…»
+  ✗ №2: OCR-сміття: Letshmaniasis, microphthalmos — «A woman gave birth 10 a dead child with numerous malformations (incompletely sep…»
+  ✗ №3: OCR-сміття: vagmna, символи: & — «Inflammation of urogenital tracts was revealed in a patient. In & smear from a m…»
+  ✗ №5: варіантів: 4 — «A patient with provisional diagnosis "amebiosis" got to the office of the infect…»
+  ✗ №6: варіантів: 4 — «What protozoan disease one can catch through blood transfusion? ¢ Trichomoniasis»
+  ✗ №7: OCR-сміття: oviform — «In liquid feces of a patient with mucus and blood, large oviform cells were reve…»
+  ✗ №11: варіантів: 6 — «Formed excrements without impurity of mucus and blood from a patient with chroni…»
+  ✗ №13: варіантів: 6 — «Children sick with lambliosis were treated in the gastroenterologic office. Thei…»
+  ✗ №16: варіантів: 4 — «Provisional diagnosis “urogenital trichomonzasis” was made to a patient, For spe…»
+  ✗ №18: OCR-сміття: Atany — «Fever is observed in a patient during one and a half weeks. Attacks of high temp…»
+  ✗ №19: OCR-сміття: Transplacental — «A woman had two spontancous abortions. A doctor revealed toxoplasmosis. What is …»
+  ✗ №20: OCR-сміття: Leishmamia — «A group of Ukrainian biologists caught gerbils in Central Asia. Skin ulcers were…»
+  ✗ №23: OCR-сміття: Intracutancous, Protozoological, icteric, toxoplasmic — «A patient presents with headache and muscle pain; his temperature suddenly incre…»
+  ✗ №25: варіантів: 6 — «A l4-ycar-old child with normal development was hospitalized with the diagnosis …»
+  ✗ №27: відповідь «Merozoite Note. This answer is not good » не збігається рівно з одним варіантом — «A patient has typical symptoms of malaria: chill, heat, and sweating, These atta…»
+  ✗ №28: OCR-сміття: parenteral — «Foreign student who arrived from India addressed 1o a policlinic. Vegetative for…»
+  ✗ №30: OCR-сміття: welloutlined — «A patient presents with inflammation of duodenum and gall bladder. Oval cysts of…»
+  ✗ №31: відповідь «¢ Amchiasis Note. In a database, another» не збігається рівно з одним варіантом — «A patient with a provisional diagnosis of liver abscess was delivered to a surgi…»
+  ✗ №33: OCR-сміття: mvestigated — «A dead child with numerous malformations was born to a woman, What material need…»
+  ✗ №34: OCR-сміття: Balantiditum, ectoplasm, ervthroeytes — «Protozoans, which move by means of protrusions of ectoplasm and had phagocytosed…»
+  ✗ №35: OCR-сміття: axostyle, ccell — «Pear-shaped protozoans of 10-20 microns in size were found in liquid excrements,…»
+  ✗ №36: OCR-сміття: azar, exudate, kala, paticent, sanioscrous — «A paticent has large uleers (10-15 cm) on the lower extremities, which are painf…»
+  ✗ №37: OCR-сміття: Asa, amchbiosis, forma, microflora, minuta — «Existence of Entamoeba histolytica forma minuta was established among intestinal…»
+  ✗ №38: OCR-сміття: blepharoplast, rhabdoid — «Fever, enlargement of spleen and liver are observed in a patient; reduction of e…»
+  ✗ №39: варіантів: 6 — «Armadillos from South America were delivered into a zoo of one of the cities of …»
+  ✗ №40: OCR-сміття: ameha — «A duodenal content smear of a patient with indigestion contains protozoa 10-18 p…»
+  ✗ №41: відповідь «Leishmania major Note. Old Latin pame of» не збігається рівно з одним варіантом — «A group of Ukrainian tourists brought gerbils from Samarkand. At examination of …»
+  ✗ №42: OCR-сміття: aperson, mmvasive, rypanosomosis — «Tsetse fly (Glossina palpalis), which just left a pupa, has sucked blood of a pe…»
+  ✗ №43: варіантів: 4 — «During investigation of a blood smear of a patient with suspicion on malana take…»
+  ✗ №45: відповідь «Entamoeba histolyviica Note. Similar que» не збігається рівно з одним варіантом — «A patient consulted a doctor because of complaints of general weakness, pain in …»
+  ✗ №46: OCR-сміття: UYPanosomosis — «By using in food of insufficiently boiled meat of mammals, it is possible to cat…»
+  ✗ №47: OCR-сміття: Turkmenta, inoculable, tood, символи: *« — «Having returned from Turkmenta, a patient with ulcers on his face came to a doct…»
+  ✗ №49: варіантів: 6 — «Some antelopes were brought to the Kyiv zo0 from Africa. Trypanosoma gambiense w…»
+  ✗ №50: OCR-сміття: inexpediency — «Chronic (asymptomatic) toxoplasmosis was cstablished in a person. Hospitalizatio…»
+  ✗ №51: OCR-сміття: berghei — «Two cases of malaria were revealed in a settlement located near a reservoir, The…»
+  ✗ №52: OCR-сміття: envthrocytes — «As a result of examination, the diagnosis of visceral leishmaniasis was made to …»
+  ✗ №53: відповідь «Amcbiosis» не збігається рівно з одним варіантом — «A patient with heavy disorder of intestines consulted a doctor; liquid excrement…»
+  ✗ №54: відповідь «. cysl» не збігається рівно з одним варіантом — «A worker of a farmyard caught balantidiasis. Choose stage that is invasive for a…»
+  ✗ №56: OCR-сміття: Endogonic — «What stages of life cycle of Toxoplasma oceur in a human body?»
+  ✗ №57: OCR-сміття: Coccidiosis — «Inflammation and enlargement of lymph nodes, ulcers of skin and surrounding tiss…»
+  ✗ №58: варіантів: 6 — «Blood for mvestigation was taken from a patient with malaria in the period of fe…»
+  ✗ №59: OCR-сміття: Grardiasis — «A paticnt complains of gencral weakness, bad appetite, and nausea. Afier examina…»
+  ✗ №60: відповідь «Toxoplasmosis Note. In the book “Colfect» не збігається рівно з одним варіантом — «A woman delivered a dead child with multiple developmental defects. What protozo…»
+  ✗ №61: OCR-сміття: liguid, refngcrator — «A patient with complaints of frequent liguid excrements, pain in stomach, and vo…»
+  ✗ №63: OCR-сміття: duodenpum — «Oval cysts with 24 nuclei and of 10-14 microns in size, and with an envelope tha…»
+  ✗ №64: варіантів: 6 — «A businessman came to India from South America, On examination, a physician foun…»
+  ✗ №66: OCR-сміття: Toanalyze, fymph — «A 42-year-old man with complaints of weakness of muscles, fatigue, drowsiness, a…»
+  ✗ №68: варіантів: 4 — «By means of blood-sicking vectors human can be infected by: . Lamblia»
+  ✗ №69: OCR-сміття: tnchomoniasis — «Duc to birth of a child with numerous malformations (microcephaly, idiocy etc.),…»
+  ✗ №70: відповідь «Agent of tertian malania Note. In the bo» не збігається рівно з одним варіантом — «A patient with attacks of wasting fever and the body temperature rising up to 40…»
+  ✗ №71: OCR-сміття: minuta — «A diagnosis of amebiosis is made in the case of identification in excrement of:»
+  ✗ №74: OCR-сміття: quartan, символи: _ — «What clinical picture can be observed in a patient with quartan malaria (Plasmod…»
+  ✗ №76: OCR-сміття: clln, символи: ﬂ — «Examination of the duodenal contents revealed some pear-shaped protozoa with two…»
+  ✗ №77: OCR-сміття: ecat — «A 25-year-old woman liked to ecat crude livestock products (milk, eggs, meat), W…»
+  ✗ №78: OCR-сміття: Letshmaniasis — «Professional discases most often happen in people of certain profession, What of…»
+  ✗ №79: OCR-сміття: Isospora, diarthea, oviform — «A patient with complaints of increased temperature and diarthea with mucus and b…»
+  ✗ №83: OCR-сміття: exerements — «During microscopy of smear of exerements, cysts with four nucler were revealed. …»
+  ✗ №84: варіантів: 4 — «During microscopic research of native preparation of excrement of a patient whic…»
+  ✗ №86: відповідь «Malana» не збігається рівно з одним варіантом — «Two weeks after blood transfusion, a recipient has developed fever, What protozo…»
+  ✗ №87: відповідь «Blood Note. Another variant of incorrect» не збігається рівно з одним варіантом — «Examination of a patient showed that he had toxoplasmosis, Which material was us…»
+  ✗ №88: варіантів: 6 — «What protozoan discase belongs to natural and focal discases?»
+  ✗ №91: OCR-сміття: facces, символи: « — «Patients applied to a doctor with similar complaints of weakness, pain in the in…»
+  ✗ №93: відповідь «¢ Toxoplasmosis Note. In the book "Colfe» не збігається рівно з одним варіантом — «A woman who had two miscarriages came t0 a maternity welfare centre, Which proto…»
+  ✗ №95: OCR-сміття: символи: ¢ — «During microscopy of smear of human feces, cight-nuclear cysts were revealed. Wh…»
+  ✗ №97: OCR-сміття: Trophozoite, символи: *« — «During examination of a pregnant woman, Trichomonas vaginalis was revealed, In w…»
+  ✗ №98: OCR-сміття: protozoun — «Examination of a man revealed a protozoun discase that affected brain and caused…»
+  ✗ №99: OCR-сміття: complainis — «Patients with complainis of general weakness, pain in intestines, and disorder o…»
+  ✗ №100: OCR-сміття: stomatologic — «Parasitic protozoans were found in cavities of carious teeth, It is determined t…»
+  ✗ №101: відповідь «Dysenteric amocba Note. During exams in » не збігається рівно з одним варіантом — «When doctors of sanitary and epidemiologic station inspect workers of the sphere…»
+  ✗ №102: OCR-сміття: cuuse — «In woman's anamnesis, there were two miscarriages. The third pregnancy ended in …»
+  ✗ №104: OCR-сміття: Gametocyies — «A journalists body temperature has sharply increased in the morning three weeks …»
+  ✗ №106: OCR-сміття: nansea — «A child had nansea, vomiting and pains in right hypochondrium. During investigat…»
+  ✗ №107: OCR-сміття: QOocysts, rophozoites — «Cells of malarial plasmodium, which occupy almost the whole erythrocyte, were fo…»
+  ✗ №109: OCR-сміття: cerchrospinal — «During investigation of the Romanowsky stained smear of cerchrospinal fluid, moo…»
+  ✗ №110: OCR-сміття: Reinfection, Superinfection — «A man, who lived in an endemic focus, had tertian malaria. In one and a half yea…»
+  ✗ №111: OCR-сміття: символи: | — «A patient working at a pig farm complains of paroxysmal abdominal pain, liquid f…»
+  ✗ №112: варіантів: 4 — «Give an example of a natural and focal discase that is caused by flagellates. ¢ …»
+  ✗ №113: варіантів: 6 — «There are free-living and parasitic forms among unicellular organisms. Discases,…»
+  ✗ №114: відповідь «Amcbiosis Note. Another variant of the a» не збігається рівно з одним варіантом — «A patient with complaints of abdominalgia, frequent liquid excrements with impur…»
+  ✗ №115: OCR-сміття: lrypanosome — «Some protozoans form cysts in difficult environments, Specify such animal:»
+  ✗ №117: OCR-сміття: Kassoni — «A pregnant woman has a suspicion on toxoplasmosis. What effective method of diag…»
+  ✗ №119: OCR-сміття: Chilomastix, mesnili — «Cysts of protozoans were revealed in smears of feces of a patient, What types of…»
+  ✗ №120: OCR-сміття: Ciliary, Icishmaniasis — «After sting of sand fly, an ulcer was formed on the face of woman living in Turk…»
+  ✗ №121: OCR-сміття: Toxaplasma, axostyle, flagells, urinogenital, символи: & — «By studying smear from urinogenital tracts of a man under & microscope, u labora…»
+  ✗ №122: відповідь «Toxoplasma» не збігається рівно з одним варіантом — «During three pregnancies, abortions are observed in a woman. By examination, it …»
+  ✗ №124: OCR-сміття: periodontosis — «Protozoans of pear-shaped form that have a body length of 6-13 microns were foun…»
+  ✗ №126: OCR-сміття: Lambhia, difterential, orgamisms, spectes, thom — «A female patient complains of bad dream, reduced working capacity, itch, feeling…»
+  ✗ №127: варіантів: 6 — «Recently the discase toxoplasmosis quite often meets at newboms. What is the rea…»
+  ✗ №128: відповідь «Entamoeba histolyviica Note. "Raspberry » не збігається рівно з одним варіантом — «During microscopic investigation of fresh excrements of a patient with complaint…»
+  ✗ №129: варіантів: 6 — «A woman with complaints of drowsiness, fast fatigue, exhaustion, and fever consu…»
+  ✗ №130: OCR-сміття: Parenteral, distension — «A 25-year-old woman with complaints of liquid excrements, abdominal distension, …»
+  ✗ №131: OCR-сміття: exerements, mecasures — «During examination of workers of cafe, vegetative forms of Balantidium coli were…»
+  ✗ №132: OCR-сміття: periodontosis — «Unicellular organisms of pear-shaped form with 4 flagella were found in deposit …»
+  ✗ №134: OCR-сміття: Commensalism, Ectoparasitism, Endoparasitism, Mutualism, inhabitation, символи: ¢ — «During investigation of smears from an oral cavity of a patient, vegetative form…»
+  ✗ №135: OCR-сміття: Malanial, smeurs — «A lymph node punctate of a patient with suspected protozoal disease was examined…»
+  ✗ №138: варіантів: 6 — «A patient with inflammation symptoms in 4 mouth consulted a stomatologist. Proto…»
+  ✗ №139: варіантів: 4 — «A patient had felt weakness, headache, and periodic temperature increase in 15 d…»
+  ✗ №141: OCR-сміття: Leishmamia, ganihiense — «During the checkup of restaurant workers, doctors often notice asymptomatic para…»
+  ✗ №142: відповідь «¢ Complement-fixation reaction Note. Oth» не збігається рівно з одним варіантом — «Blood for confirmation of the clinical diagnosis "toxoplasmosis” was taken from …»
+  ✗ №144: OCR-сміття: periodontosis — «By microscopic research of scraping of a gum of a 60-year-old woman with heavy f…»
+  ✗ №147: OCR-сміття: amved — «A patient, who has recently amved from an endemic area, has clevated body temper…»
+  ✗ №150: OCR-сміття: asymptomatically, scatlogical — «At scatlogical rescarch, roundish cysts, which have four nuclei as charactenisti…»
+  ✗ №151: OCR-сміття: histolvtica, parodontal, stomatologist — «A patient addressed 1o a stomatologist with symptoms of inflammation of the muco…»
+  ✗ №152: варіантів: 4 — «During sanitary assessment of a pond, where children from a recreation summer ca…»
+  ✗ №1: OCR-сміття: egps — «What is used as diagnostics of trichinosis from listed laboratory examinations?»
+  ✗ №4: OCR-сміття: samitary, tacpiasis — «A samitary station forbade sale of batch of fish infected with plerocercoids. Th…»
+  ✗ №5: OCR-сміття: uncasily, символи: |¢ — «A child uncasily sleeps, gnashes teeth during dream, and scratches perianal arca…»
+  ✗ №6: OCR-сміття: символи: | — «Little mobile red worms of | cm in size are found in feces of a patient with app…»
+  ✗ №8: відповідь «Tacmiasis» не збігається рівно з одним варіантом — «During examination of employees of catering establishment, persons with helminth…»
+  ✗ №10: OCR-сміття: curtatled — «During veterinary and sanitary examination of pork in a market, larvae curtatled…»
+  ✗ №13: OCR-сміття: stdent, символи: ¢ — «A stdent from Yemen presents with edema and pain in the night foot. Whitish clon…»
+  ✗ №16: OCR-сміття: punciure — «During punciure of a liver cyst (a tumor with liquid), small whitish masses in t…»
+  ✗ №19: OCR-сміття: Ascard, Jjections — «During microscopy of excrements, small (30 microns) yellowish oval eggs with thi…»
+  ✗ №20: OCR-сміття: volyulus — «A student from Africa complains of pain in the bottom of an abdomen and during u…»
+  ✗ №21: OCR-сміття: larger — «Long white tape of helminth, which proglottids have width larger than length and…»
+  ✗ №22: OCR-сміття: teniarhynchosis — «Roundish colourless masses with double yellowish envelope and three pairs of hoo…»
+  ✗ №23: варіантів: 6 — «Accidents of opisthorchiasis were revealed in the settlement located on the bank…»
+  ✗ №24: OCR-сміття: yecar, символи: « — «A 26-yecar-old female consulted a doctor about having stool with white flat movi…»
+  ✗ №26: OCR-сміття: abdominalgia — «A sick child periodically has abdominalgia, liquid stool, and nausca. Once a cyl…»
+  ✗ №27: OCR-сміття: Sheare, символи: & — «A 40-year-old woman has symptoms of mechanical jaundice. As it became clear, she…»
+  ✗ №28: варіантів: 6 — «Larvac of helminths were revealed in a student from Africa during microscopy of …»
+  ✗ №29: OCR-сміття: Crawfish, символи: « — «By using meat of what animal human catches trichinosis?»
+  ✗ №30: OCR-сміття: TFascioliasis — «In the case of what discase a patient will be dangerous to people around him?»
+  ✗ №32: OCR-сміття: Ancviostoma, Wuchereria, bancrofti, stomatological — «A patient came to a stomatological department complaining of pain in chewing mus…»
+  ✗ №34: OCR-сміття: символи: *« — «During sanitation inspection of carcasses on meat-processing plant, fascioliasis…»
+  ✗ №35: OCR-сміття: abdominalgia, stdent, символи: € — «A stdent from Yemen presents with abdominalgia and temperature; carly he had itc…»
+  ✗ №36: OCR-сміття: Hyvmenolepis — «Helminth 2 m long was found in feces of a patient after drug treatment. The helm…»
+  ✗ №39: OCR-сміття: distension, nauses — «A 26-year-old female patient complains of weakness, nauses, abdominal distension…»
+  ✗ №40: OCR-сміття: echimococcosis, noticeabie, rostellum, tweniarhynchosis, символи: | — «White segmented helminths | em long are revealed in excrements afier dehelmintiz…»
+  ✗ №41: відповідь «Strongyloidosis» не збігається рівно з одним варіантом — «A patient with complaints of general weakness, headache, nauses, vomiting, and l…»
+  ✗ №42: OCR-сміття: Hhymenolepis — «After expulsion of helminth from intestines, the ovary with two lobes is found i…»
+  ✗ №44: OCR-сміття: символи: ¢ — «White helminth of 4 ¢m, with thick posterior end, is revealed in the vermiform a…»
+  ✗ №45: OCR-сміття: Diphvliobothrium, Taeniarhvnchus — «During veterinary cxamination of pork, fluid-filled cysts resembling rice gram w…»
+  ✗ №46: OCR-сміття: Dicrocelinsis — «A patient presents with weakness, decrease in working capacity, headache, nausea…»
+  ✗ №48: OCR-сміття: Whach — «A pale patient presents with weakness, headache, vertigo, feeling of weight in s…»
+  ✗ №49: OCR-сміття: abdominalgia — «Roundish cggs of 50 microns with colourless oncospheres and threadlike structure…»
+  ✗ №50: OCR-сміття: Tascioliasis — «For prevention of what helminthosis it is necessary to follow rules of personal …»
+  ✗ №51: OCR-сміття: символи: # — «A patient from Eastern Siberia with a complaint of pain in his liver got to # ho…»
+  ✗ №52: OCR-сміття: helminthosts — «A family has a big dog. What helminthosts one can catch from n?»
+  ✗ №53: варіантів: 4 — «Larvac of what cestode can parasitize in human muscles? ¢ Beeftapeworm»
+  ✗ №54: OCR-сміття: cgy, ege, gg, strongyloid, символи: ¢ — «Choose correct life eycle for Opisthorchis felineus:»
+  ✗ №56: OCR-сміття: Acaw, Adog, Apig, Arabbit, Asheep, echinococcosts — «A worker of a live-stock farm was made a provisional diagnosis of echinococcosts…»
+  ✗ №59: відповідь «To assign repeated examination of excrem» не збігається рівно з одним варіантом — «During investigation of excrements of a patient for the existence of helminthic …»
+  ✗ №60: варіантів: 2 — «A patient was treated for anemia. The course of treatment led to relief, but not…»
+  ✗ №61: відповідь «¢ Land reclamation Note. Land reclamatio» не збігається рівно з одним варіантом — «Schistosomes belong to the most widespread tropical helminths, Despite sanitary …»
+  ✗ №62: варіантів: 6 — «During microscopy of cxcrements of a patient who came back to Ukraine from Easte…»
+  ✗ №65: OCR-сміття: Dwarl, icteric, scolices — «Radiological cxamination of a paticnt who has icteric sclerae and skin, pains in…»
+  ✗ №67: відповідь «Diphyliobothriasis Note. In the book “Co» не збігається рівно з одним варіантом — «A female patient consulted a physician about digestive disorder and extended abd…»
+  ✗ №68: відповідь «No any measurcs» не збігається рівно з одним варіантом — «In a family, a father got sick with trichinosis. What preventive measures need t…»
+  ✗ №69: OCR-сміття: Inintestines, Inwater, Onskin, Onsoil, символи: ¢ — «Female of a roundworm has size up to I em, a male is of 0.5 em, They live in the…»
+  ✗ №70: варіантів: 4 — «Owing to non-obscrvance of rules of personal hygiene, some invasive cggs of Asca…»
+  ✗ №71: відповідь «Ascariasis Note. During exam in 2018, in» не збігається рівно з одним варіантом — «A trcatment of a patient with pncumonia didn't relieve his condition. He began c…»
+  ✗ №72: OCR-сміття: basophils, mcrease, monocytes — «During blood test of a patient with parasitic discase (helminthic invasion), we …»
+  ✗ №76: OCR-сміття: lotasis — «Name what helminthoses of the listed below can be the cause of chronic appendici…»
+  ✗ №78: OCR-сміття: Papillomatous, trophic — «Papillomatous outgrowths, trophic ulcers, clephantiasis of the lower extremities…»
+  ✗ №79: OCR-сміття: Catliver — «Wife of a fisherman consulted a pediatrician about her child who has attacks, an…»
+  ✗ №80: OCR-сміття: Dracunculiasis, diarthea, spindleshaped — «A sick child had recurrent diarthea, epigastric pain, nausea, vomiting, Once aft…»
+  ✗ №81: OCR-сміття: символи: ¢ — «A patient with the provisional diagnosis of trichinosis was admitted 10 a hospit…»
+  ✗ №82: відповідь «facultative intermediate host of armed t» не збігається рівно з одним варіантом — «Five clinical forms of cysticercosis are distinguished: epileptic, pseudo tumor,…»
+  ✗ №83: варіантів: 6 — «Larvac of what nematodes migrate through human bloodstreum during their developm…»
+  ✗ №85: OCR-сміття: gastrocnemius, символи: ¢ — «In the spring of 1999, after the use in food of pork without of appropriate vete…»
+  ✗ №86: OCR-сміття: microfilariac, microfilariae, moults, mouthparts — «Adult filariac parasitize in various human organs. Larvac (microfilariac) circul…»
+  ✗ №87: OCR-сміття: hematophagous, символи: ¢ — «What helminth is a hematophagous organism?»
+  ✗ №88: OCR-сміття: Dwarftapeworm, символи: & — «A patient presents with severe indigestion. Ripe and immovable segments of & tap…»
+  ✗ №89: OCR-сміття: Hymenolepts — «Microscopy revealed yellow-brown knobby-coated eges of helminths with a thick wa…»
+  ✗ №90: OCR-сміття: rosctielike — «Proglottids of a apeworm with rosctielike uterus were revealed in feces of a pat…»
+  ✗ №92: варіантів: 4 — «Choose the correct life cycle for Taenia solium:»
+  ✗ №93: варіантів: 4 — «A paticnt is hospitalized in a hospital with complamnts of pains in intestines, …»
+  ✗ №94: OCR-сміття: Stongyloidosis, lcukocytosis, urticania — «A patient with complaints of cutancous itch, urticania, and increased temperatur…»
+  ✗ №95: OCR-сміття: Onchocercosss, lachrymation, retumn — «A paticnt was in long business trip in Sudan. In a month upon retumn, he consult…»
+  ✗ №96: OCR-сміття: символи: *« — «A paticnt with complaints of pain in liver and nausca consulted a doctor, Oval e…»
+  ✗ №97: варіантів: 6 — «During three weeks, a female patient presents with frequent diartheas, which oft…»
+  ✗ №98: OCR-сміття: beel — «How a person catches echinococcosis?»
+  ✗ №99: варіантів: 4 — «What of the listed helminthoses are contagious for human? ¢ Hymenolepiasis, opis…»
+  ✗ №100: OCR-сміття: parasitising, символи: *« — «A [0-year-old child complains of weakness, nausea, irritability. Helminths of wh…»
+  ✗ №102: OCR-сміття: doesn, символи: ¢ — «A child doesn't sleep well; sometimes he scratches the area around anus, After e…»
+  ✗ №103: OCR-сміття: Dinty, Dty — «During examination, a patient was diagnosed with opisthorchiasis. With what food…»
+  ✗ №104: варіантів: 4 — «A father bought some pork at a market. What discase muy the members of his famil…»
+  ✗ №105: OCR-сміття: Ancvliestoma, Dwart — «During microscopy of scraping from perianal folds, colourless cggs having the sh…»
+  ✗ №107: OCR-сміття: Ancviostoma, wrichivrus — «During an operation, white helminths 40 mm long with a thin filiform anterior pa…»
+  ✗ №110: відповідь «Taenia solium Note. In the book “"Collec» не збігається рівно з одним варіантом — «After dissection of a woman's dead body larvae of helminths — cysticerct were fo…»
+  ✗ №111: OCR-сміття: символи: *« — «A patient with complaints of headache and convulsive attacks got to the therapeu…»
+  ✗ №112: OCR-сміття: символи: *« — «This nematode is characterized by direct development without migration, Eggs nee…»
+  ✗ №114: OCR-сміття: edematy, символи: | — «|8 patients in a serious condition (high temperature, edematy of the face and ne…»
+  ✗ №116: OCR-сміття: pamn, vellow — «A patient came to a doctor complaining of allergy and epigastric pamn. Oval-shap…»
+  ✗ №117: OCR-сміття: Fuasciola, Nematoda — «Larvac of roundworms (Nematoda) have been found in the sputum of a patient with …»
+  ✗ №118: OCR-сміття: символи: *« — «Two days after consumption of smoked pork a patient got face and eyelid edemata,…»
+  ✗ №119: OCR-сміття: Ascard — «In some days after the use of smoked pork, a patient had edemata of the face and…»
+  ✗ №121: OCR-сміття: radiologic, serologic — «A 35-year-old man was taken to a hospital, He failed to see with one of his eyes…»
+  ✗ №125: OCR-сміття: Filanasis, Tentasis, complaming, cycelids — «A group of men applied o a doctor complaming of rising temperature, headache, sw…»
+  ✗ №126: OCR-сміття: filana, filaria, helmmth, mucrofilariac — «It is known that larvac of some helminths, which are causative agents of transmi…»
+  ✗ №127: OCR-сміття: Tentasis — «A guide of scientific expedition in India was native who always was with his dog…»
+  ✗ №129: OCR-сміття: Enterobiux, dncylostoma, heiminth, parasitises — «A 10-year-old child complains of weakness, nausea, irritability. Helminths of wh…»
+  ✗ №132: OCR-сміття: autoreinfection — «Why drugs dissolving proglottids or causing vomiting as well as manipulations, w…»
+  ✗ №134: варіантів: 4 — «What is invasive stage of Echinococcus granulosus?»
+  ✗ №135: OCR-сміття: anemin, символи: * — «A group of miners with complaints of weight loss, headache, apathy, darkening in…»
+  ✗ №136: варіантів: 6 — «A paticnt presents with severe indigestion. Ripe and immovable segments of & tap…»
+  ✗ №137: OCR-сміття: fluidfilled, heaning — «Name a parasite, development of fluidfilled cysts of which in 4 human body can l…»
+  ✗ №139: OCR-сміття: Taenmiarhvnchus, wichiurus — «In life cycle of parasites, the unique phenomenon s a free-living stage of the d…»
+  ✗ №140: OCR-сміття: diverticula — «Cardinal difference of Echinococcus multilocularis from a dog tapeworm is the sh…»
+  ✗ №141: OCR-сміття: символи: *» — «Over 10 years, a patient suffers from edemata of the lower extremities with thei…»
+  ✗ №143: варіантів: 6 — «By contact with a dog, a man can catch echinococeosis. What is decisive in diagn…»
+  ✗ №144: OCR-сміття: Eastemn, pneumontia — «A tourist who was staying in Eastemn Asia had been hospitalized to the therapeut…»
+  ✗ №145: OCR-сміття: Bilharziasis, centrifugation, символи: ¢ — «A patient with suspicion on a vencreal discase, because he had severe pains duri…»
+  ✗ №146: OCR-сміття: Hydatid, sclerotized — «When opening a liver of a dead person, mass in the form of roundish bubble with …»
+  ✗ №147: OCR-сміття: ggs, parenchyma, символи: ¢ — «Choose typical features of flat worms:»
+  ✗ №148: OCR-сміття: символи: ™ — «Patients from onc family were admitted to u hospital. Clinical symptoms of a dis…»
+  ✗ №151: OCR-сміття: Wuchereria, bancrofii — «What intermediate host is present in the life eycle of Wuchereria bancrofii?»
+  ✗ №152: OCR-сміття: necropsy — «During necropsy, over 200 small helminths of 4-13 mm in size, which have two suc…»
+  ✗ №154: OCR-сміття: символи: ¢ — «In the perianal folds of a S-year-old girl, her mother found some white "worms” …»
+  ✗ №155: відповідь «Adolescaria Note. During exam in 2011, t» не збігається рівно з одним варіантом — «A male patient has fever and enanthesis. As u result of examination involving se…»
+  ✗ №156: варіантів: 4 — «A |5-ycar-old girl was taken to a hospital with inflammation of vermiform append…»
+  ✗ №157: OCR-сміття: Scatologic, Trichinellosis, mmer — «A mmer consulted a physician with complaints of general weakness, abdominal pain…»
+  ✗ №158: OCR-сміття: beefl — «A patient with complaints of disorders of digestion and defecation, nausea, and …»
+  ✗ №159: OCR-сміття: Dirofilariasis — «Fever, rash on skin, itch, and inflammation of lymph nodes are observed i a pers…»
+  ✗ №161: відповідь «Molluscs» не збігається рівно з одним варіантом — «A patient with fever, joint pain, nausca, vomiting, diarrhea, and spleen enlarge…»
+  ✗ №162: відповідь «Strongyloidosis» не збігається рівно з одним варіантом — «Disorders of digestion and nervous system, affected skin, allergic rash, and cou…»
+  ✗ №163: OCR-сміття: Polessia — «In onc of Polessia’ regions, there was an outbreak of helminthiasis manifested b…»
+  ✗ №164: OCR-сміття: Buftalo, Chrysops — «A patient with complaints of edemata of eyelids and conjunctiva, severe pain in …»
+  ✗ №165: OCR-сміття: dyspnes, mmpurity, tnip — «A patient came to a clinic with complaints of pain in breast, dyspnes, weakness,…»
+  ✗ №166: OCR-сміття: Nanophyetiasis, символи: ¢ — «During additional examination, small asymmetric eggs 26-30 microns long, having …»
+  ✗ №167: OCR-сміття: Cestodiascs, Filariases, lymphadenitis, mediastinum, символи: &, символи: ¢ — «A woman who came back from India consulted a hospital with complaints of a stron…»
+  ✗ №168: OCR-сміття: egus, niver — «A paticnt who arrived from Egypt has complaints of pain in the bottom of an abdo…»
+  ✗ №170: варіантів: 4 — «On the African continent numerous cases of diseases caused by round worms — fila…»
+  ✗ №171: варіантів: 6 — «After examination by means of serological reactions, the diagnosis "opisthorchia…»
+  ✗ №172: OCR-сміття: metagonimiasis — «During examination, the diagnosis "metagonimiasis” is made to a patient. What is…»
+  ✗ №173: OCR-сміття: carch, nanophyctiasis — «During examination, nanophyctiasis was revealed in the foreign citizen, In what …»
+  ✗ №174: OCR-сміття: strecam — «What is the sequence of developmental stages of Trichinella in the human body fr…»
+  ✗ №175: OCR-сміття: Dicrocelinsis, Opssthorchiasis, unusual — «Koreans got used crustaceans for culinary processing in such manner that is unus…»
+  ✗ №176: OCR-сміття: ecach, infectiologist — «A foreign female student with complaints of feeling of heaviness in her lower ab…»
+  ✗ №177: OCR-сміття: Nuusea — «It is known that in the case of opisthorchiasis and diphyllobothriasis, the inva…»
+  ✗ №178: OCR-сміття: nasopharynx — «What sequence of developmental stages of an ascarid from the moment of an invasi…»
+  ✗ №179: варіантів: 6 — «Schistosomiases are serious helminthic discases that are widespread in Africa, A…»
+  ✗ №180: OCR-сміття: popliteal — «A journalist worked in India for a long time, After a while and after arrival of…»
+  ✗ №181: варіантів: 4 — «Being in Africa, a person noticed that he has blood in urine. During laboratory …»
+  ✗ №182: OCR-сміття: Specity — «During autopsy of a died person, a pathologist found larvae mn tissues of brain.…»
+  ✗ №184: OCR-сміття: reservairs — «Opisthorchiasis is a discase caused by cat liver (Siberian) fluke. Opisthorchias…»
+  ✗ №185: OCR-сміття: Cestodiases, Filarases, Nematodoses — «Flukes belong to the phylum Flat worms. All flukes are parasitic organisms. Dise…»
+  ✗ №186: OCR-сміття: Unnary — «Penctration of helminths into a human body can occur in different ways. What of …»
+  ✗ №188: OCR-сміття: Amecrican, Trichinellu — «A woman complains of headache, muscle pain during swallowing, chewing and rotati…»
+  ✗ №189: варіантів: 4 — «Intestinal obstruction, small appetite, nausea, vomiting, and anemia were reveal…»
+  ✗ №190: відповідь «Tacmiasis» не збігається рівно з одним варіантом — «A tcenage girl complains of general weakness, disorders of digestion, and diarrh…»
+  ✗ №191: OCR-сміття: Coprology — «Coprology cxamination of patient's feces revealed small operculated cggs. It is …»
+  ✗ №192: OCR-сміття: llipsoidal, символи: ¢ — «A child has complaints of headache, disorder of digestion, general weakness, and…»
+  ✗ №194: OCR-сміття: unrcgulated, whe — «In the unrcgulated market, a woman bought a liver of cattle and did not notice t…»
+  ✗ №195: OCR-сміття: Percutancous, intraocular — «In Ukraine, discases caused by roundworms filariae often occur. A patient with h…»
+  ✗ №196: OCR-сміття: trichivrus — «During a scason of maturing and gathering strawberry, all family became ill with…»
+  ✗ №198: OCR-сміття: Bithynia, Bulinus, Galba, Melamia, Zebrinag — «Geographical distribution of opisthorchiasis coincides with an area of a fresh-w…»
+  ✗ №199: OCR-сміття: carch — «During cxamination, a foreign citizen was found to have loiasis, In what way he …»
+  ✗ №201: відповідь «Atnight» не збігається рівно з одним варіантом — «A patient suffered from clephantiasis more than 10 years; this discase is caused…»
+  ✗ №203: OCR-сміття: dned, tond, westermani — «A patient with complaints of temperature increase and pain in the right hypochon…»
+  ✗ №204: OCR-сміття: westermani — «Manifestations of chronic hepatitis and pancreatitis with periodic exacerbations…»
+  ✗ №205: OCR-сміття: Dwarl — «During dehelmintization of a patient, helminth up to 2 meters long was excreted …»
+  ✗ №206: OCR-сміття: Necatoriasis, barrelshaped, liguid, nausen — «A patient consulted with a complaint of general weakness, headache, nausen, and …»
+  ✗ №208: відповідь «Buffalo gnats Note. Buffalo gnats arc bl» не збігається рівно з одним варіантом — «A person presents with irritation of skin — itch, rashes, depigmentation, and in…»
+  ✗ №209: OCR-сміття: Ancyvlostoma — «During microscopy of scrape of anal mucosa of a child, asymmetric colorless cggs…»
+  ✗ №210: OCR-сміття: Taemiarhynchosis — «A shepherd who has tended sheep together with dogs consulted a doctor about pain…»
+  ✗ №211: OCR-сміття: impassability, multitocularis — «A patient was revealed 1o have intestinal impassability, bad appetite, nausea, a…»
+  ✗ №212: OCR-сміття: Taenmarhynchosis, depressed — «A patient within three years was treated without any result about considerable d…»
+  ✗ №213: варіантів: 6 — «A patient has been preliminarily diagnosed with paragonimiasis. This discase is …»
+  ✗ №214: OCR-сміття: uncasily, символи: ¢ — «Mother with a child consulted a pediatrician; she has found on child's linen sma…»
+  ✗ №216: OCR-сміття: Tacnmarhynchosis — «A patient with complaints of pain in eyes and partial loss of sight addressed to…»
+  ✗ №220: OCR-сміття: CIvoirs, res, theuse — «The provisional diagnosis was made to a patient: paragonimiasis, This disease is…»
+  ✗ №222: OCR-сміття: Dicrococliosis, Opsthorchiasis — «A fisherman caught fish from the river, slightly roasted it on a fire and ate, a…»
+  ✗ №223: OCR-сміття: Beeltapeworm — «In case of some helminthiases, an affected person can detect helminth himself be…»
+  ✗ №225: відповідь «Diphyliobothriasis» не збігається рівно з одним варіантом — «Malignant anemia was found in a patient. Therapy by intramuscular inoculation of…»
+  ✗ №226: відповідь «autoinvasion Note. Another variant of in» не збігається рівно з одним варіантом — «A concerned mother addressed a pediatrician with complaints of her child sufferi…»
+  ✗ №227: OCR-сміття: Dicrocoeliosis, nfection — «A patient with complaints of weakness, nausea, and anemia addressed to a doctor.…»
+  ✗ №228: OCR-сміття: Hyvmenolepis — «Fragments of helminth were found in feces of a patient after drug treatment, The…»
+  ✗ №229: відповідь «Pork tapeworm infection Naote. Pork tape» не збігається рівно з одним варіантом — «During dehelmintization, a 3.5-meterlong tapeworm was excreted from the patient'…»
+  ✗ №231: варіантів: 6 — «Eggs of liver fluke are found in patient's excrements; however, a doctor did not…»
+  ✗ №232: OCR-сміття: символи: ‘ — «A patient with the provisional diagnosis ‘diphyllobothriosis' came to a hospital…»
+  ✗ №233: варіантів: 4 — «A man came to hospital in a severe condition: facial edemas, myalgia, high tempe…»
+  ✗ №234: OCR-сміття: Ahveococcus — «Cases of infection with Ahveococcus became frequent among dwellers of the taiga …»
+  ✗ №1: OCR-сміття: nonsegmented, protonephridia — «What is a characteristic of arthropods?»
+  ✗ №3: варіантів: 6 — «A geologist who is in the center of springsummer encephalitis has found on his b…»
+  ✗ №5: відповідь «s Plaguc» не збігається рівно з одним варіантом — «Blood-sicking jumping insccts that are small (2-3 mm) and flattened laterally ar…»
+  ✗ №6: OCR-сміття: scabiel — «A patient came to a doctor complaining of itching between fingers and on the abd…»
+  ✗ №7: OCR-сміття: Phthirtasis, символи: | — «On the head of a worker of a livestock farm, big wound with necrotic tissue is p…»
+  ✗ №10: OCR-сміття: occumn — «Infection of human with epidemic typhus occumn’»
+  ✗ №11: відповідь «Wohlfalrtia» не збігається рівно з одним варіантом — «A woman consulted a doctor with complaints of suppuration on hairy part of the h…»
+  ✗ №12: відповідь «causative agents of this discasc are» не збігається рівно з одним варіантом — «In blood of a person on whom pubic louss parasitize, spirochetes — causative age…»
+  ✗ №13: відповідь «Scabics Note. During exam in 2006, incor» не збігається рівно з одним варіантом — «A paticnt complains of skin itch, especially between fingers, in inguinal crease…»
+  ✗ №14: варіантів: 6 — «What medical importance Kissing bug Triatoma has?»
+  ✗ №15: варіантів: 4 — «Children from Kindergarten went to the country in summer. There were many bird's…»
+  ✗ №16: OCR-сміття: Simuliten, des, символи: é — «In some regions of the world, the cases of malaria became more frequent. What in…»
+  ✗ №17: відповідь «scabies» не збігається рівно з одним варіантом — «During microscopy of material from centers of lesion of a patient suffering from…»
+  ✗ №18: OCR-сміття: Solpugids — «What arthropods are poisonous for human?»
+  ✗ №20: OCR-сміття: inscets, setue — «Grey inscets measuring 1-1.2 mm with a short wide body covered with setue were o…»
+  ✗ №21: OCR-сміття: thermophilic — «Typhoid fly has great epidemiological value in distribution of intestinal diseas…»
+  ✗ №22: OCR-сміття: dorsoventral — «A paticnt with scratches on the head came to a hospital. During examination inse…»
+  ✗ №24: OCR-сміття: символи: & — «A patient, who was in business trip in Brazil for long time, got to & hospital. …»
+  ✗ №25: відповідь «Sand flics» не збігається рівно з одним варіантом — «In the Crimea, papatact fever is distributed (temperature 40°, pains in muscle, …»
+  ✗ №26: OCR-сміття: mecans — «After cxamination, a patient was diagnosed with Russian spring-summer encephalit…»
+  ✗ №27: варіантів: 6 — «What insects are capable to distribute cutancous and visceral leishmaniases?»
+  ✗ №28: OCR-сміття: Sarcopies, nuttall, pisewalled, символи: # — «A 40-year-old man who lives in a pisewalled house came 1o # laboratory, He found…»
+  ✗ №29: OCR-сміття: anthropods, incisures — «Grey anthropods measuring 3 mm in length with three pairs of legs were found on …»
+  ✗ №30: OCR-сміття: Eggsof, Eggsofitch, cctoparasites — «In laboratories of research institute owing to insufficient disinfection of rese…»
+  ✗ №31: OCR-сміття: tch — «A patient who came to reception complains of itch between fingers. A doctor made…»
+  ✗ №32: відповідь «Wohlfahrtia fly Note. During the exam in» не збігається рівно з одним варіантом — «A doctor revealed tissues injury on patient's scalp with localized suppurations …»
+  ✗ №33: OCR-сміття: dorsoventral — «During cxamination, spots of blue color with a steel shade and traces of scratch…»
+  ✗ №34: відповідь «Head louse Naote. Another variant of inc» не збігається рівно з одним варіантом — «A child complained of itching in occipital and temporal parts of the head. After…»
+  ✗ №35: варіантів: 4 — «There are many arthropods that are mechanical and specific vectors of causative …»
+  ✗ №36: OCR-сміття: Itrch, символи: *» — «What of the listed ticks is capable to transmit causative agents of tularemia?»
+  ✗ №37: OCR-сміття: hemolymph, rickettsia — «Spirochetes and rickettsia are accumulated in different parts of a louse's body.…»
+  ✗ №38: OCR-сміття: Jtch, wormlike — «A patient came to a dermatologist complaining of ulcers which appeared on his fa…»
+  ✗ №39: OCR-сміття: papule — «A crimson papule has appeared on the face of a student who came back from Turkme…»
+  ✗ №41: відповідь «sand flics» не збігається рівно з одним варіантом — «Rodents are reservoirs of causative agents of leishmaniases — discases that are …»
+  ✗ №42: відповідь «Wohlfalrtia» не збігається рівно з одним варіантом — «A homeless person with wounds on the head 1s hospitalized in city policlinie, Du…»
+  ✗ №43: OCR-сміття: causalive, rickettsial — «In laboratorics of rickettsial discases, volunteers as source of food for louses…»
+  ✗ №44: OCR-сміття: intolerable — «Littered, uncleaned cellars and attics often serve as habitats of homeless cats.…»
+  ✗ №45: OCR-сміття: символи: *« — «During routine inspection of schoolchildren, a doctor has found white bright egg…»
+  ✗ №46: OCR-сміття: cxtremitics — «A paticnt has acne and inflammatory alterations on facial skin. Microscopic exam…»
+  ✗ №47: варіантів: 4 — «What arthropods suck blood? ¢ Ticks of the family Ixodidac»
+  ✗ №49: варіантів: 4 — «During examination of a patient who lived in Central Asia, the diagnosis — tickb…»
+  ✗ №50: OCR-сміття: Karakurte, Solpugid — «While on holiday in the countryside, a boy found a spider with following morphol…»
+  ✗ №52: OCR-сміття: Latyshev, Parasitologist, символи: ¢ — «Parasitologist M. 1. Latyshev for the first time carried out successful attempt …»
+  ✗ №53: варіантів: 6 — «A young man has following symptoms: purulent acne on the face; wrinkled, hyperem…»
+  ✗ №54: OCR-сміття: assoctated, disaster, символи: ¢ — «In the region where natural disaster (tsunami) took place, a threat of outbreak …»
+  ✗ №55: OCR-сміття: Percutancous, Peroral — «A man who returned from spring research expedition has weakness, nausea, sleep d…»
+  ✗ №56: OCR-сміття: Bruccllosis — «There are causative agents of invasive discases among ticks. What of discases li…»
+  ✗ №58: OCR-сміття: Tsetsefly — «Some of insects can parasitize cither at imaginal or at larval stage of developm…»
+  ✗ №59: відповідь «Wohlfakrtia magnifica» не збігається рівно з одним варіантом — «A paticnt presents with open facial wound with undermined edges; tissue necrosis…»
+  ✗ №60: OCR-сміття: Siphonaptera, amimal, invertebrate, solpugids, символи: ¢ — «During expedition to Central Asia, students found an invertebrate animal 7 ¢m lo…»
+  ✗ №61: OCR-сміття: encephalits, erythema, hemiparesis — «A pensioner, who did not happen in taiga but often worked for himself at dacha, …»
+  ✗ №62: OCR-сміття: inscets — «In armpits of a patient, small (1-1.5 mm), dorsoventrally flattened, wingless, b…»
+  ✗ №63: OCR-сміття: Blauella, retuned — «Mother of a boy who had recently retuned from a summer camp found some small whi…»
+  ✗ №64: OCR-сміття: Wuchcereriasis, botflies — «A patient with complaints of disorder of digestion, weakness, vomiting, pains in…»
+  ✗ №65: OCR-сміття: ectoparasites — «On medical examination, insccts of 2- 3 mm in size of gray color with deep cuts …»
+  ✗ №67: OCR-сміття: fleca — «Among insccts that can be in housing constantly or temporarily, specific and mec…»
+  ✗ №68: відповідь «¢ Pubic louse Note. Another variant of i» не збігається рівно з одним варіантом — «Medical examination of some youths revealed in their axillary regions grey insec…»
+  ✗ №69: OCR-сміття: Culiseia — «According to the data of WHO, about 250 millions of an Earth population fall il …»
+  ✗ №70: відповідь «taiga tick Naote. During cxam for studen» не збігається рівно з одним варіантом — «After thorough cxamination, a patient who bhad returned from Central Asia to Ukr…»
+  ✗ №71: OCR-сміття: Sarcoptidosis, pamn, papules, tch, unpleasant — «Workers consulted a hospital on the fact that they found parasites of gray color…»
+  ✗ №72: відповідь «Sand flics» не збігається рівно з одним варіантом — «A man lives in the arca of dermal leishmaniasis distribution. He hasn't been ino…»
+  ✗ №73: OCR-сміття: Tsetsefly — «In the South and Central America, a certain species of trypanosomes, which is 4 …»
+  ✗ №74: OCR-сміття: lich, scutum — «A woman with complaints of skin itching and puffiness of eyelids addressed to an…»
+  ✗ №75: відповідь «Wohlfalrtia» не збігається рівно з одним варіантом — «A woman with a child, having a gangrenous wound on the head, addressed to a hosp…»
+  ✗ №1: OCR-сміття: символи: ¢ — «During examination of a patient, a doctor found small ulcers with rough edges on…»
+  ✗ №6: відповідь «s teratogenesis» не збігається рівно з одним варіантом — «A woman, who was infected with toxoplasmosis during pregnancy, has bom a child w…»
+  ✗ №8: OCR-сміття: acrvous, cechinococcosis, indurations — «All hollow organs of a patient are dilated, the traces reminding stings with ind…»
+  ✗ №9: OCR-сміття: Ascaniasis, accumulative, unconsciousness — «A patient, who arrived 10 months ago from the Asian country where he worked at b…»
+  ✗ №10: OCR-сміття: Dicrocehasts, favourite — «A local who never left his favourite dog was a guide of scientific expedition ac…»
+  ✗ №11: OCR-сміття: neryous — «A paticnt consulted a doctor concerning increasing signs of lesion of the centra…»
+  ✗ №13: OCR-сміття: lissuC, muedical, mylasis, phthinasis — «A shepherd with head wounds consulted the village muedical assistant’s point. Du…»
+  ✗ №15: OCR-сміття: foetus — «Toxoplasmosis is diagnosed for a pregnant woman. It is known that it can lead to…»
+  ✗ №17: варіантів: 4 — «What species belongs to Arachnoidea?»
+  ✗ №19: OCR-сміття: Botflics, leishmantasis, символи: *« — «A man is in the center of dermatotropic leishmantasis. Immunization against this…»
+  ✗ №20: OCR-сміття: Hirudin, символи: & — «Medicinal leech, which cats blood of fishes, frogs, and mammals and can feed on …»
+  ✗ №22: OCR-сміття: символи: | — «A mother with a |2-year-old child consulted gastroenterologist with complaints o…»
+  ✗ №25: OCR-сміття: Elliptocytosis, Pemicious — «Malignant ancmia was found in a paticnt. Therapy by intramuscular inoculation of…»
+
+[книжка] — 0
+
+[проф. спрямування ТНМУ] — 0
+
+ПІДСУМОК:
+  bio-tnmu-book    1160  Медична біологія — ТНМУ (практикум і пре-крок)
+  bio-tnmu-ct        36  Медична біологія — ТНМУ (банк Центру тестування)
+  bio-tnmu-prof      30  Медична біологія — ТНМУ (банк професійного спрямування)
+  bio-knmu-uk       132  Медична біологія — бази Крок (ХНМУ, укр.)
+  bio-knmu-en        79  Медична біологія — бази Крок (ХНМУ, англ.)
+  bio-onmedu        486  Медична біологія — бази Крок (ОНМедУ, розділи 1–3)
+  bio-sumdu-en      376  Медична біологія — бази Крок (СумДУ, англ.)
+  РАЗОМ біологія: 2299

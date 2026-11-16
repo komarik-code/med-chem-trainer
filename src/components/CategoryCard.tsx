@@ -1,8 +1,8 @@
-import { ChevronRight, FlaskConical, Play } from 'lucide-react'
+import { ChevronRight, Dna, FlaskConical, Play } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import type { Category, ProgressData } from '../lib/types'
 import { aggregate, percent, questionsWord } from '../lib/stats'
-import { splitTitle } from '../lib/titles'
+import { isBiology, splitTitle } from '../lib/titles'
 import { Card, ProgressBar } from './ui'
 
 export function CategoryCard({ category, progress, index }: { category: Category; progress: ProgressData; index: number }) {
@@ -16,7 +16,7 @@ export function CategoryCard({ category, progress, index }: { category: Category
     <Card className="p-4 animate-in">
       <button type="button" onClick={() => nav(`/category/${category.id}`)} className="flex w-full items-start gap-3 text-left">
         <div className="grid size-12 shrink-0 place-items-center rounded-2xl" style={{ background: `${hue}1a`, color: hue }}>
-          <FlaskConical className="size-6" />
+          {isBiology(category.title) ? <Dna className="size-6" /> : <FlaskConical className="size-6" />}
         </div>
         <div className="min-w-0 flex-1">
           {subject && <div className="text-xs font-medium text-ink-3">{subject}</div>}

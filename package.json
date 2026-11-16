@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "convert": "python3 scripts/convert.py",
-    "verify": "python3 scripts/verify.py"
+    "verify": "python3 scripts/verify.py",
+    "convert:bio": "python3 scripts/convert_bio.py"
   },
   "dependencies": {
     "lucide-react": "^1.67.0",

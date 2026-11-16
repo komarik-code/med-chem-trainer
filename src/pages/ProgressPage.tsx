@@ -83,7 +83,10 @@ export function ProgressPage() {
           return (
             <div key={c.id} className="p-4">
               <div className="flex items-baseline justify-between gap-2">
-                <span className="font-semibold">{splitTitle(c.title).main}</span>
+                <span>
+                  <span className="block text-xs font-medium text-ink-3">{splitTitle(c.title).subject}</span>
+                  <span className="font-semibold">{splitTitle(c.title).main}</span>
+                </span>
                 <span className="text-sm text-ink-3 tabular-nums">
                   {ca.seen}/{ca.total}
                 </span>

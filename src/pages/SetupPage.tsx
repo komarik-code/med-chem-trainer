@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { Fragment, useMemo, useState } from 'react'
 import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Play, Sparkles } from 'lucide-react'
 import { useQuizData } from '../lib/data'
@@ -55,13 +55,18 @@ export function SetupPage() {
 
       <SectionTitle>Тема</SectionTitle>
       <div className="flex flex-col gap-2">
-        {[null, ...data.categories.map((c) => c.id)].map((id) => {
+        {[null, ...data.categories.map((c) => c.id)].map((id, idx) => {
           const c = id ? data.categories.find((x) => x.id === id)! : null
           const n = countFor(id)
           const selected = cat === id
+          const subject = c ? splitTitle(c.title).subject : ''
+          const prev = idx > 1 ? splitTitle(data.categories[idx - 2].title).subject : null
           return (
+            <Fragment key={id ?? 'all'}>
+            {c && subject !== prev && (
+              <div className="mt-3 px-1 text-xs font-semibold tracking-wide text-ink-3 uppercase">{subject}</div>
+            )}
             <button
-              key={id ?? 'all'}
               type="button"
               onClick={() => setCat(id)}
               aria-pressed={selected}
@@ -74,6 +79,7 @@ export function SetupPage() {
               <span className="min-w-0 flex-1 font-semibold">{c ? splitTitle(c.title).main : 'Усі теми разом'}</span>
               <span className="shrink-0 text-sm text-ink-3 tabular-nums">{n}</span>
             </button>
+            </Fragment>
           )
         })}
       </div>

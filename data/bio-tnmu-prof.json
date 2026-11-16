@@ -1,0 +1,937 @@
+{
+ "id": "bio-tnmu-prof",
+ "title": "Медична біологія — ТНМУ (банк професійного спрямування)",
+ "description": "База кафедри ТНМУ, англ.",
+ "questions": [
+  {
+   "id": "bio-tnmu-prof-a630d0d43c",
+   "number": 1,
+   "text": "A man, his son, and his daughter have no premolars. The same anomaly was observed in the patrilineal grandfather. What pattern of inheritance is likely in this anomaly ?",
+   "options": [
+    {
+     "id": "A",
+     "html": "X-linked recessive"
+    },
+    {
+     "id": "B",
+     "html": "Y-linked"
+    },
+    {
+     "id": "C",
+     "html": "X-linked dominant"
+    },
+    {
+     "id": "D",
+     "html": "Autosomal dominant"
+    },
+    {
+     "id": "E",
+     "html": "Autosomal recessive"
+    }
+   ],
+   "correct": [
+    "D"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-52c93df017",
+   "number": 2,
+   "text": "Detailed examination of the karyotype of a person with Down syndrome detects two populations of somatic cells – normal cells and cells with trisomy 21. Name this genetic phenomenon:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Phenocopy"
+    },
+    {
+     "id": "B",
+     "html": "Polyploidy"
+    },
+    {
+     "id": "C",
+     "html": "Genocopy"
+    },
+    {
+     "id": "D",
+     "html": "Mosaicism"
+    },
+    {
+     "id": "E",
+     "html": "Modification"
+    }
+   ],
+   "correct": [
+    "D"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-1b97b729da",
+   "number": 3,
+   "text": "A 1,5-year-old child presents with delayed physical and mental development, skin and hair lightening, and low catecholamine levels in blood. If several drops of 5 % trichloroacetic iron solution are added into fresh urine of the patient, it colors olivegreen. What pathology of amino acid metabolism can be characterized by these changes ?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Phenylketonuria"
+    },
+    {
+     "id": "B",
+     "html": "Albinism"
+    },
+    {
+     "id": "C",
+     "html": "Alkaptonuria"
+    },
+    {
+     "id": "D",
+     "html": "Tyrosinosis"
+    },
+    {
+     "id": "E",
+     "html": "Xanthinuria"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-9f4b070e4a",
+   "number": 4,
+   "text": "A 2-year-old child presents with marked delay in psychomotor development, vision and hearing deterioration, marked enlargement of the liver and spleen. The child is diagnosed with hereditary Niemann-Pick disease. What genetic defect is the cause of this disease?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Sphingomyelinase deficiency"
+    },
+    {
+     "id": "B",
+     "html": "Glucose -6-phosphatase deficiency"
+    },
+    {
+     "id": "C",
+     "html": "Xanthine oxidase deficiency"
+    },
+    {
+     "id": "D",
+     "html": "Acid lipase deficiency"
+    },
+    {
+     "id": "E",
+     "html": "Amylo-1,6-glucosidase deficiency"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-64d9b8daca",
+   "number": 5,
+   "text": "A patient consulted an urologist about pain during urination. Analysis of his urine taken in the daytime revealed eggs with a characteristic sharp point. It is known from the anamnesis that the patient has recently returned from Australia. What is the most likely diagnosis?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Japanese schistosomiasis"
+    },
+    {
+     "id": "B",
+     "html": "Intestinal schistosomiasis"
+    },
+    {
+     "id": "C",
+     "html": "Opisthorchiasis"
+    },
+    {
+     "id": "D",
+     "html": "Dicroceliasis."
+    },
+    {
+     "id": "E",
+     "html": "Urogenital schistosomiasis"
+    }
+   ],
+   "correct": [
+    "E"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-ac388ea5fe",
+   "number": 6,
+   "text": "A young woman, a foreign student from Tehran, has made an appointment with the urologist. She complains of the sensation of heaviness in her lower abdomen and a small amount of blood being excreted with urine at the end of each urination. Microscopy of urine detects the presence of parasite eggs, approximately 140х70 micron in size, with a terminal spike. What diagnosis can be made by the infectious diseases specialist?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Schistosomiasis"
+    },
+    {
+     "id": "B",
+     "html": "Opisthorchiasis"
+    },
+    {
+     "id": "C",
+     "html": "Dicroceliasis"
+    },
+    {
+     "id": "D",
+     "html": "Paragonimiasis"
+    },
+    {
+     "id": "E",
+     "html": "Fascioliasis"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-cf6d52062b",
+   "number": 7,
+   "text": "In the perianal folds of a 5-year-old girl mother found white worms causing itch and anxiety, and took them to the laboratory. The study revealed white filamentlike helminths 0,5-1 cm long, with pointed, sometimes twisted, ends. What diagnosis can be made?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Enterobiasis"
+    },
+    {
+     "id": "B",
+     "html": "Difilobotriosis"
+    },
+    {
+     "id": "C",
+     "html": "Teniasis"
+    },
+    {
+     "id": "D",
+     "html": "Ascariasis"
+    },
+    {
+     "id": "E",
+     "html": "Opisthorchiasis"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-68306180c8",
+   "number": 8,
+   "text": "In the vermiform appendix there was found a white helminth, 40 mm long with thin filiform forward end. Ecscrements contained oval eggs with plugs at the poles. Determine the kind of helminth:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Whipworm"
+    },
+    {
+     "id": "B",
+     "html": "Seatworm"
+    },
+    {
+     "id": "C",
+     "html": "Ascarid"
+    },
+    {
+     "id": "D",
+     "html": "Hookworm"
+    },
+    {
+     "id": "E",
+     "html": "Threadworm"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-813921ae1e",
+   "number": 9,
+   "text": "A man has worked in an African country for 3 years. A month after his return to Ukraine he consulted an ophthalmologist and complained about eye ache, eyelid edema, lacrimation and temporary visual impairment. Underneath the eye conjunctiva the doctor revealed helminthes 30-50 mm long with elongated filiform body. What diagnosis might be suspected?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Trichocephaliasis"
+    },
+    {
+     "id": "B",
+     "html": "Diphyllobothriasis"
+    },
+    {
+     "id": "C",
+     "html": "Filiariasis"
+    },
+    {
+     "id": "D",
+     "html": "Ascaridiasis"
+    },
+    {
+     "id": "E",
+     "html": "Enterobiasis"
+    }
+   ],
+   "correct": [
+    "C"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-f70f20572e",
+   "number": 10,
+   "text": "A patient complains of skin itch, especially between fingers, in the inguinal creases, on the lower abdomen. Examination of these regions revealed there some small vesicles. Laboratory diagnostics allowed to establish that this condition had been caused by a representative of Arthropoda. Specify the disease caused by this arthropod:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Scabies"
+    },
+    {
+     "id": "B",
+     "html": "Demodicosis"
+    },
+    {
+     "id": "C",
+     "html": "Myiasis"
+    },
+    {
+     "id": "D",
+     "html": "Pediculosis"
+    },
+    {
+     "id": "E",
+     "html": "Dermatotropic leishmaniasis"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-676dd5427e",
+   "number": 11,
+   "text": "A sick man with high temperature and a lot of tiny wounds on the body has been admitted to the hospital. Lice have been found in the folds of his clothing. What disease can be suspected in the patient?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Plague"
+    },
+    {
+     "id": "B",
+     "html": "Malaria"
+    },
+    {
+     "id": "C",
+     "html": "Tularemia"
+    },
+    {
+     "id": "D",
+     "html": "Scabies"
+    },
+    {
+     "id": "E",
+     "html": "Epidemic typhys"
+    }
+   ],
+   "correct": [
+    "E"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-c4acfea878",
+   "number": 12,
+   "text": "For the purpose of myocardium infarction, treatment a patient was injected with embryonal stem cells derived from this patient by means of therapeutic cloning. What transplantation type is it?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Alotransplantation"
+    },
+    {
+     "id": "B",
+     "html": "Sotransplantation"
+    },
+    {
+     "id": "C",
+     "html": "Heterotransplantation"
+    },
+    {
+     "id": "D",
+     "html": "Autotransplantation"
+    },
+    {
+     "id": "E",
+     "html": "Xenotransplantation"
+    }
+   ],
+   "correct": [
+    "D"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-092f8612a0",
+   "number": 13,
+   "text": "A newborn child has microcephalia. Doctors believe that it is the result of mother’s taking actinomycin D during pregnancy. What embryonal leaf was influenced by this teratogen?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Ectoderm"
+    },
+    {
+     "id": "B",
+     "html": "All leaves"
+    },
+    {
+     "id": "C",
+     "html": "Entoderm"
+    },
+    {
+     "id": "D",
+     "html": "Mesoderm"
+    },
+    {
+     "id": "E",
+     "html": "Entoderm and mesoderm"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-0a560c6e30",
+   "number": 14,
+   "text": "Examination of uterine cavity revealed an embryonated ovum that wasn’t attached to the endometrium. The embryo is at the following stage of development:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Blastocyst"
+    },
+    {
+     "id": "B",
+     "html": "Zygote"
+    },
+    {
+     "id": "C",
+     "html": "Morula"
+    },
+    {
+     "id": "D",
+     "html": "Gastrula"
+    },
+    {
+     "id": "E",
+     "html": "Neurula"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-741a2f4c85",
+   "number": 15,
+   "text": "An embryo has a disturbed development of blood-vascular system caused by a teratogenic factor. This disturbance occurred in the following germ layer:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Mesoderm"
+    },
+    {
+     "id": "B",
+     "html": "Entoderm"
+    },
+    {
+     "id": "C",
+     "html": "Exoderm"
+    },
+    {
+     "id": "D",
+     "html": "Ento- and mesoderm"
+    },
+    {
+     "id": "E",
+     "html": "Ento- and ectoderm"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-2de1ec6473",
+   "number": 16,
+   "text": "As a result of a development anomaly a newborn has malformation of major salivary glands. This anomaly is caused by the damage of the following embryonal structure:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Ectoderm"
+    },
+    {
+     "id": "B",
+     "html": "Splanchnotom"
+    },
+    {
+     "id": "C",
+     "html": "Somites"
+    },
+    {
+     "id": "D",
+     "html": "Entoderm"
+    },
+    {
+     "id": "E",
+     "html": "Mesenchyme"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-e17e2352ba",
+   "number": 17,
+   "text": "Microspecimen of a child’s finger skin reveals subnormal development of epidermis. What embryonic leaf was damaged in course of development?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Ectoderm"
+    },
+    {
+     "id": "B",
+     "html": "Mesoderm"
+    },
+    {
+     "id": "C",
+     "html": "Entoderm"
+    },
+    {
+     "id": "D",
+     "html": "Mesenchyma"
+    },
+    {
+     "id": "E",
+     "html": "Ectomesenchyma"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-31fc07afa2",
+   "number": 18,
+   "text": "A physician collects the patient’s history of the post-embryonic period of ontogenesis from birth to puberty. In this case we are talking about:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Juvenile period"
+    },
+    {
+     "id": "B",
+     "html": "The first period of adulthood"
+    },
+    {
+     "id": "C",
+     "html": "Senium"
+    },
+    {
+     "id": "D",
+     "html": "The second period of adulthood"
+    },
+    {
+     "id": "E",
+     "html": "Advanced age"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-fd92077831",
+   "number": 19,
+   "text": "A 30-year-old patient has undergone keratoplasty in the transplantation center, cornea has been taken fron a donor, who died in a road accident. What kind of transplantation was performed?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Allotransplantation"
+    },
+    {
+     "id": "B",
+     "html": "Autotransplantation"
+    },
+    {
+     "id": "C",
+     "html": "Xenotransplantation"
+    },
+    {
+     "id": "D",
+     "html": "Explantation"
+    },
+    {
+     "id": "E",
+     "html": "Heterotransplantation"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-9a5e5e0b12",
+   "number": 20,
+   "text": "Ontogenesis is the process of the realization of individual genetic information of a zygote under certain environmental conditions. Cleavage is a series of successive mitotic zygote division. What is formed as a result of cleavage?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Blastula"
+    },
+    {
+     "id": "B",
+     "html": "Zygote"
+    },
+    {
+     "id": "C",
+     "html": "Trophablast"
+    },
+    {
+     "id": "D",
+     "html": "Gastrula"
+    },
+    {
+     "id": "E",
+     "html": "Neyrula"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-a1b8845ec4",
+   "number": 21,
+   "text": "During human development in period of the first two weeks embryo becomes multicellular organism due to some molecular mechanisms and the differentiation of cells into endoderm, mesoderm and ectoderm. Which of the following processes is involved in the formation of the three germ layers?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Gastrulation"
+    },
+    {
+     "id": "B",
+     "html": "Cleavage"
+    },
+    {
+     "id": "C",
+     "html": "Fertilization"
+    },
+    {
+     "id": "D",
+     "html": "Neurulation"
+    },
+    {
+     "id": "E",
+     "html": "Invagination"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-6857adbde2",
+   "number": 22,
+   "text": "When the fertilized egg has completed its travel through the fallopian tube and adheres to the lining of the uterus, implantation starts. When does implantation begin?",
+   "options": [
+    {
+     "id": "A",
+     "html": "About 7th days after fertilization"
+    },
+    {
+     "id": "B",
+     "html": "About the 1st day after fertilization"
+    },
+    {
+     "id": "C",
+     "html": "About 3rd days after fertilization"
+    },
+    {
+     "id": "D",
+     "html": "About 12th days after fertilization"
+    },
+    {
+     "id": "E",
+     "html": "About 14th days after fertilization"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-8f23512dd6",
+   "number": 23,
+   "text": "During human development in period of the first week, zygote undergoes rapid cell cycles with no significant growth. This period of the cleavage ends with the formation of the blastula. When does the two-cell stage of cleavage begin?",
+   "options": [
+    {
+     "id": "A",
+     "html": "30 hours after fertilization"
+    },
+    {
+     "id": "B",
+     "html": "Immediately after fertilization"
+    },
+    {
+     "id": "C",
+     "html": "3 hours after fertilization"
+    },
+    {
+     "id": "D",
+     "html": "3 days after fertilization"
+    },
+    {
+     "id": "E",
+     "html": "Immediately after implantation"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-aa4d9dfd14",
+   "number": 24,
+   "text": "During embryogenesis in period of cleavage the zygotes of many species undergo rapid cell cycles, producing a cluster of cells the same size as the original zygote. Blastomeres form a compact mass called the morula. How many blastomers does morula have?",
+   "options": [
+    {
+     "id": "A",
+     "html": "12-16"
+    },
+    {
+     "id": "B",
+     "html": "1-8"
+    },
+    {
+     "id": "C",
+     "html": "2-8"
+    },
+    {
+     "id": "D",
+     "html": "64-99"
+    },
+    {
+     "id": "E",
+     "html": "64-107"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-def93fddd1",
+   "number": 25,
+   "text": "Human embryogenesis is the process of cell division and cellular differentiation of the human embryo that occurs during early stages of development. During the stage of the fertilization a single-celled zygote with full genetic material creates. Which of the following statements concerning development of the zygote is correct?",
+   "options": [
+    {
+     "id": "A",
+     "html": "At about 7th days, the blastocyst implants on the endometrium"
+    },
+    {
+     "id": "B",
+     "html": "The zygote has 23 chromosomes"
+    },
+    {
+     "id": "C",
+     "html": "The zygote implants into the endometrial layer of the uterus"
+    },
+    {
+     "id": "D",
+     "html": "The zygote undergoes several meiotic divisions to form the blastula"
+    },
+    {
+     "id": "E",
+     "html": "The inner cell mass attaches to the endometrial layer"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-509b2380f9",
+   "number": 26,
+   "text": "An infant developed darkened sclerae, mucosa, and auricles. The urine becomes dark, when exposed to the air. Blood and urine contain homogentisic acid. What is the most likely disease in this case?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Alkaptonuria"
+    },
+    {
+     "id": "B",
+     "html": "Porphyria"
+    },
+    {
+     "id": "C",
+     "html": "Albinism"
+    },
+    {
+     "id": "D",
+     "html": "Cystinuria"
+    },
+    {
+     "id": "E",
+     "html": "Hemolytic anemia"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-73240f0de3",
+   "number": 27,
+   "text": "The synthesis rates of DNA, RNA, and necessary proteins are decreased in the cells of a human body and mitotic activity is insignificant. These changes most likely correspond with the following ontogenetic period:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Old age"
+    },
+    {
+     "id": "B",
+     "html": "Biological death"
+    },
+    {
+     "id": "C",
+     "html": "Adolescence"
+    },
+    {
+     "id": "D",
+     "html": "Clinical death"
+    },
+    {
+     "id": "E",
+     "html": "Young age"
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-5d1184f921",
+   "number": 28,
+   "text": "Mother of a newborn has made an appointment with a neonatologist. The neonatologist determined that the child has brain maldevelopments. What has likely been damaged in the process of embryonic development?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Telomer"
+    },
+    {
+     "id": "B",
+     "html": "Endoderm"
+    },
+    {
+     "id": "C",
+     "html": "Mesenchyme"
+    },
+    {
+     "id": "D",
+     "html": "Ectoderm"
+    },
+    {
+     "id": "E",
+     "html": "Mesoderm"
+    }
+   ],
+   "correct": [
+    "D"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-e658de4f04",
+   "number": 29,
+   "text": "Because of a trauma, a patient developed a skin defect. To remove the defect, the surgeons replaced this patch of skin with a skin patch taken from other body part of the same patient. What type of transplantation is it?",
+   "options": [
+    {
+     "id": "A",
+     "html": "Xenotransplantation"
+    },
+    {
+     "id": "B",
+     "html": "Explantation"
+    },
+    {
+     "id": "C",
+     "html": "Autotransplantation"
+    },
+    {
+     "id": "D",
+     "html": "Allotransplantation"
+    },
+    {
+     "id": "E",
+     "html": "Homotransplantation"
+    }
+   ],
+   "correct": [
+    "C"
+   ],
+   "multiple": false
+  },
+  {
+   "id": "bio-tnmu-prof-05e2cf322a",
+   "number": 30,
+   "text": "In the microslide of a human embryo obtained from a spontaneous miscarriage, an embryonic shield is visible and has two cellular layers: endo- and ectoderm. This embryo was at the following developmental stage:",
+   "options": [
+    {
+     "id": "A",
+     "html": "Progenesis"
+    },
+    {
+     "id": "B",
+     "html": "Organogenesis"
+    },
+    {
+     "id": "C",
+     "html": "Histogenesis"
+    },
+    {
+     "id": "D",
+     "html": "Gastrulation"
+    },
+    {
+     "id": "E",
+     "html": "Neurulation"
+    }
+   ],
+   "correct": [
+    "D"
+   ],
+   "multiple": false
+  }
+ ]
+}

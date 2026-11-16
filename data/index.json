@@ -1,0 +1,74 @@
+{
+ "categories": [
+  {
+   "id": "6901",
+   "title": "Медична хімія (самостійна робота)",
+   "description": "1 курс мед; 2 нтн мед",
+   "count": 54,
+   "file": "data/6901.json"
+  },
+  {
+   "id": "6902",
+   "title": "Медична хімія (тести)",
+   "description": "1 курс мед; 2 нтн мед",
+   "count": 422,
+   "file": "data/6902.json"
+  },
+  {
+   "id": "6934",
+   "title": "Медична хімія (ситуаційні задачі)",
+   "description": "1 курс мед; 2 нтн мед",
+   "count": 409,
+   "file": "data/6934.json"
+  },
+  {
+   "id": "bio-tnmu-book",
+   "title": "Медична біологія — ТНМУ (практикум і пре-крок)",
+   "description": "Лабораторний практикум ТНМУ, заняття 1–13, + база пре-кроку кафедри",
+   "count": 1160,
+   "file": "data/bio-tnmu-book.json"
+  },
+  {
+   "id": "bio-tnmu-ct",
+   "title": "Медична біологія — ТНМУ (банк Центру тестування)",
+   "description": "База кафедри ТНМУ, укр.",
+   "count": 36,
+   "file": "data/bio-tnmu-ct.json"
+  },
+  {
+   "id": "bio-tnmu-prof",
+   "title": "Медична біологія — ТНМУ (банк професійного спрямування)",
+   "description": "База кафедри ТНМУ, англ.",
+   "count": 30,
+   "file": "data/bio-tnmu-prof.json"
+  },
+  {
+   "id": "bio-knmu-uk",
+   "title": "Медична біологія — бази Крок (ХНМУ, укр.)",
+   "description": "Збірник Крок-1 ХНМУ",
+   "count": 132,
+   "file": "data/bio-knmu-uk.json"
+  },
+  {
+   "id": "bio-knmu-en",
+   "title": "Медична біологія — бази Крок (ХНМУ, англ.)",
+   "description": "Krok-1 test base ХНМУ 2016–2017",
+   "count": 79,
+   "file": "data/bio-knmu-en.json"
+  },
+  {
+   "id": "bio-onmedu",
+   "title": "Медична біологія — бази Крок (ОНМедУ, розділи 1–3)",
+   "description": "Тести Крок ОНМедУ",
+   "count": 486,
+   "file": "data/bio-onmedu.json"
+  },
+  {
+   "id": "bio-sumdu-en",
+   "title": "Медична біологія — бази Крок (СумДУ, англ.)",
+   "description": "Test Items on Medical Biology Krok-1 (2001–2019)",
+   "count": 376,
+   "file": "data/bio-sumdu-en.json"
+  }
+ ]
+}
